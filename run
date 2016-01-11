@@ -1,0 +1,16 @@
+#!/bin/bash
+
+cd /mx/guide/
+./guide.out &
+
+cd /mx/authenticate
+./authenticate.out &
+
+cd /mx/management
+./management.out &
+
+cd /mx/management
+./proxy &
+
+cd /mx/acac
+./acac.out &

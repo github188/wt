@@ -1,0 +1,13 @@
+#!/bin/bash
+
+cd /mx/sguide/
+./sguide.out &
+
+cd /mx/sauthenticate
+./sauthenticate.out &
+
+cd /mx/gac
+./gac.out &
+
+cd /mx/boss
+./boss.out &

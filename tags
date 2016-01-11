@@ -1,0 +1,1592 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACACDIR	Rules.mk	/^ACACDIR=$(WTDIR)\/acac$/;"	m
+ACAC_DEPEND	acac/Makefile	/^ACAC_DEPEND=main.o router.o server_mutual.o$/;"	m
+ACAC_SOURCE	acac/Makefile	/^ACAC_SOURCE=main.c router.c server_mutual.c$/;"	m
+ACAC_TARGET	acac/Makefile	/^ACAC_TARGET=acac.out$/;"	m
+AC_CMD_CTRLCMD	pub/header.h	488;"	d
+AC_CMD_CTRLCMD_ACK	pub/header.h	489;"	d
+AC_CMD_DOWNLOAD_APINFO	pub/header.h	486;"	d
+AC_CMD_DOWNLOAD_APINFO_ACK	pub/header.h	487;"	d
+AC_CMD_LOGIN	pub/header.h	482;"	d
+AC_CMD_LOGIN_ACK	pub/header.h	483;"	d
+AC_CMD_MAX	pub/header.h	494;"	d
+AC_CMD_PROXY_QUEST	pub/header.h	490;"	d
+AC_CMD_PROXY_QUEST_ACK	pub/header.h	491;"	d
+AC_CMD_UPLOAD_ACINFO	pub/header.h	492;"	d
+AC_CMD_UPLOAD_ACINFO_ACK	pub/header.h	493;"	d
+AC_CMD_UPLOAD_APINFO	pub/header.h	484;"	d
+AC_CMD_UPLOAD_APINFO_ACK	pub/header.h	485;"	d
+AC_CONF_FLAG_base	pub/header.h	/^	AC_CONF_FLAG_base=1,			\/\/ 表示ap信息的base_info有修改$/;"	e	enum:__anon3
+AC_CONF_FLAG_dhcp	pub/header.h	/^	AC_CONF_FLAG_dhcp=2,			\/\/ 表示ap信息的dhcp_info有修改$/;"	e	enum:__anon3
+AC_CONF_FLAG_wifi_base	pub/header.h	/^	AC_CONF_FLAG_wifi_base=4,		\/\/ 表示ap信息的wifi_base_info有修改$/;"	e	enum:__anon3
+AC_CONF_FLAG_wifi_wds	pub/header.h	/^	AC_CONF_FLAG_wifi_wds=8,		\/\/ 表示ap信息的wifi_wds_info有修改$/;"	e	enum:__anon3
+AC_HEADER_H	acac/acac_header.h	7;"	d
+AC_HEADER_H	gac/gac_header.h	7;"	d
+AC_HEADER_H	management/ac_header.h	7;"	d
+AC_HEADER_H	stmp/stmp_header.h	7;"	d
+AC_LOGIN_BLACK	pub/header.h	/^	AC_LOGIN_BLACK		=0xA0,  \/\/ 随机ID 错误，非法使用$/;"	e	enum:ac_login_state
+AC_LOGIN_ERRPWD	pub/header.h	/^	AC_LOGIN_ERRPWD		=0x03,  \/\/ 密码错误$/;"	e	enum:ac_login_state
+AC_LOGIN_ILLEGAL	pub/header.h	/^	AC_LOGIN_ILLEGAL	=0x05,  \/\/ 随机ID 错误，非法使用$/;"	e	enum:ac_login_state
+AC_LOGIN_LOGGED	pub/header.h	/^	AC_LOGIN_LOGGED		=0x04,  \/\/ 账号已登录$/;"	e	enum:ac_login_state
+AC_LOGIN_LOGINOK	pub/header.h	/^	AC_LOGIN_LOGINOK	=0x07,  \/\/ 登陆成功$/;"	e	enum:ac_login_state
+AC_LOGIN_NOUSER	pub/header.h	/^	AC_LOGIN_NOUSER		=0x02,  \/\/ 没有该用户$/;"	e	enum:ac_login_state
+AG_CONN_FAIL_ERR	pub/header.h	293;"	d
+AG_CONN_FAIL_ISOK	pub/header.h	291;"	d
+AG_CONN_FAIL_NONE	pub/header.h	290;"	d
+AG_CONN_FAIL_SQL	pub/header.h	292;"	d
+AG_CONN_FAIL_TIME	pub/header.h	289;"	d
+AG_CONN_SUCC	pub/header.h	288;"	d
+AG_HEAD_HEAD	pub/header.h	272;"	d
+AG_PASS	pub/header.h	271;"	d
+AUTHENTICATEDIR	Rules.mk	/^AUTHENTICATEDIR=$(WTDIR)\/authenticate$/;"	m
+AUTHENTICATE_ADDR	sguide/guide_header.h	12;"	d
+AUTHENTICATE_DEPEND	authenticate/Makefile	/^AUTHENTICATE_DEPEND=main.o router.o utils.o exec_sql.o order.o packets_io.o server_mutual.o time_task.o$/;"	m
+AUTHENTICATE_SOURCE	authenticate/Makefile	/^AUTHENTICATE_SOURCE=main.c router.c utils.c exec_sql.c order.c packets_io.c server_mutual.c time_task.c$/;"	m
+AUTHENTICATE_TARGET	authenticate/Makefile	/^AUTHENTICATE_TARGET=authenticate.out$/;"	m
+AUTH_HEADER_H	authenticate/auth_header.h	7;"	d
+AUTH_HEADER_H	sauthenticate/sauth_header.h	7;"	d
+BG_BOSS_ADDR	pub/header.h	357;"	d
+BG_HEAD_HEAD	pub/header.h	356;"	d
+BG_HEAD_VER	pub/header.h	354;"	d
+BG_HEAD_VER_1	pub/header.h	355;"	d
+BG_NUM_FLAG_TOTAL	pub/header.h	386;"	d
+BG_NUM_FLAG_TYPE	pub/header.h	387;"	d
+BG_PORT	pub/header.h	359;"	d
+BG_ROUTER_ADD	pub/header.h	470;"	d
+BG_ROUTER_DEL	pub/header.h	471;"	d
+BIN_DIR	Rules.mk	/^BIN_DIR=\/mx$/;"	m
+BOSSDIR	Rules.mk	/^BOSSDIR=$(WTDIR)\/boss$/;"	m
+BOSS_DEBUG	guide/ss.c	9;"	d	file:
+BOSS_DEPEND	boss/Makefile	/^BOSS_DEPEND=main.o guide.o server_mutual.o time_task.o list_guide.o$/;"	m
+BOSS_HEADER_H	boss/boss_header.h	7;"	d
+BOSS_PROCESS_THREAD	guide/ss.c	/^void* BOSS_PROCESS_THREAD(void* fd)$/;"	f
+BOSS_SOCKFD	guide/ss.c	/^static int		BOSS_SOCKFD;						\/\/ 与boss连接的BOSS_SOCKFD$/;"	v	file:
+BOSS_SOURCE	boss/Makefile	/^BOSS_SOURCE=main.c guide.c server_mutual.c time_task.c list_guide.c$/;"	m
+BOSS_TARGET	boss/Makefile	/^BOSS_TARGET=boss.out$/;"	m
+BUFFERS	authenticate/utils.c	79;"	d	file:
+CACHED	authenticate/utils.c	80;"	d	file:
+CC	Rules.mk	/^CC=gcc$/;"	m
+CONFIG_FILE_NAME	pub/header.h	16;"	d
+CONN_BOSS	guide/ss.c	/^int CONN_BOSS()$/;"	f
+CThread_pool	pub/pool.c	/^} CThread_pool;$/;"	t	typeref:struct:__anon4	file:
+CThread_worker	pub/pool.c	/^} CThread_worker;$/;"	t	typeref:struct:worker	file:
+DAILY_REPORT_THREAD	guide/time_task.c	/^void* DAILY_REPORT_THREAD(void *fd)$/;"	f
+DNS_WHITE_URL_SIZE	authenticate/auth_header.h	14;"	d
+ERROR_NONE	pub/header.h	/^	ERROR_NONE			=0x01,  \/\/ 未知错误$/;"	e	enum:ac_login_state
+F	pub/encode.c	85;"	d	file:
+FF	pub/encode.c	93;"	d	file:
+G	pub/encode.c	86;"	d	file:
+GACDIR	Rules.mk	/^GACDIR=$(WTDIR)\/gac$/;"	m
+GAC_DEPEND	gac/Makefile	/^GAC_DEPEND=main.o router.o$/;"	m
+GAC_ID	gac/gac_header.h	12;"	d
+GAC_SOURCE	gac/Makefile	/^GAC_SOURCE=main.c router.c$/;"	m
+GAC_TARGET	gac/Makefile	/^GAC_TARGET=gac.out$/;"	m
+GET_MD5	pub/encode.c	/^void GET_MD5(char *in, unsigned int len, char *out)$/;"	f
+GET_MD5	pub/encode.c	14;"	d	file:
+GET_SHANGHU_SHEBEI_TYPE_TIME	boss/time_task.c	8;"	d	file:
+GG	pub/encode.c	94;"	d	file:
+GG_MAX_SIZE	authenticate/auth_header.h	15;"	d
+GUIDEDIR	Rules.mk	/^GUIDEDIR=$(WTDIR)\/guide$/;"	m
+GUIDE_DEBUG	boss/guide.c	8;"	d	file:
+GUIDE_DEPEND	guide/Makefile	/^GUIDE_DEPEND=main.o router_guide.o server_mutual.o time_task.o ss.o rts.o$/;"	m
+GUIDE_HEADER_H	guide/guide_header.h	7;"	d
+GUIDE_HEADER_H	sguide/guide_header.h	7;"	d
+GUIDE_SOURCE	guide/Makefile	/^GUIDE_SOURCE=main.c router_guide.c server_mutual.c time_task.c ss.c rts.c$/;"	m
+GUIDE_TARGET	guide/Makefile	/^GUIDE_TARGET=guide.out$/;"	m
+GUIDE_URL_LEN	sauthenticate/sauth_header.h	12;"	d
+H	pub/encode.c	87;"	d	file:
+HH	pub/encode.c	95;"	d	file:
+HT_BSSCoexistence	authenticate/auth_header.h	/^	unsigned char HT_BSSCoexistence;		\/\/频道模式1:单频,0:双频$/;"	m	struct:wifi_base_conf_msg_st
+HT_BW	authenticate/auth_header.h	/^	unsigned char HT_BW;					\/\/带宽1:20\/40MHz,0:20MHz$/;"	m	struct:wifi_base_conf_msg_st
+HT_EXTCHA	authenticate/auth_header.h	/^	unsigned char HT_EXTCHA;				\/\/扩展频道,仅带宽为20\/40MHz时有效$/;"	m	struct:wifi_base_conf_msg_st
+I	pub/encode.c	88;"	d	file:
+II	pub/encode.c	96;"	d	file:
+INCLUDE	Rules.mk	/^INCLUDE=-I$(PUBDIR)$/;"	m
+INIT_LIST_HEAD	pub/list.h	/^static inline void INIT_LIST_HEAD(struct list_head *list)$/;"	f
+INVALID_DATA_CLEAN_THREAD	guide/time_task.c	/^void* INVALID_DATA_CLEAN_THREAD(void *fd)$/;"	f
+IS_CONN_BOSS	guide/guide_header.h	12;"	d
+LIST_HEAD	pub/list.h	22;"	d
+LIST_HEAD_INIT	pub/list.h	20;"	d
+LOGS_MAX_SIZE	pub/header.h	11;"	d
+LOG_LAST_TO_LOG_THREAD	guide/time_task.c	/^void* LOG_LAST_TO_LOG_THREAD(void *fd)$/;"	f
+LOG_METASTASIS_THREAD	guide/time_task.c	/^void* LOG_METASTASIS_THREAD(void *fd)$/;"	f
+LY_BIT_CODE	pub/encode.c	/^void LY_BIT_CODE(char *buf, unsigned int len, int flag)$/;"	f
+LY_BIT_CODE	pub/encode.c	13;"	d	file:
+LY_BYTE_CODE	pub/encode.c	/^int LY_BYTE_CODE(char* version, char* buf, unsigned int len, int flag)$/;"	f
+LY_BYTE_CODE	pub/encode.c	12;"	d	file:
+MAKE	Rules.mk	/^MAKE=make$/;"	m
+MANAGEMENTDIR	Rules.mk	/^MANAGEMENTDIR=$(WTDIR)\/management$/;"	m
+MANAGEMENT_DEPEND	management/Makefile	/^MANAGEMENT_DEPEND=main.o server_mutual.o router.o$/;"	m
+MANAGEMENT_SOURCE	management/Makefile	/^MANAGEMENT_SOURCE=main.c server_mutual.c router.c$/;"	m
+MANAGEMENT_TARGET	management/Makefile	/^MANAGEMENT_TARGET=management.out$/;"	m
+MAX_EPOLL_NUM	pub/header.h	14;"	d
+MD5_MSG_RESOLOVE	pub/encode.c	/^int MD5_MSG_RESOLOVE(char* version, char* md5_msg, int md5_len, char *msg, int *len)$/;"	f
+MEMFREE	authenticate/utils.c	78;"	d	file:
+MONDAY	guide/time_task.c	1154;"	d	file:
+ODBCLIB	Rules.mk	/^ODBCLIB=-lodbc$/;"	m
+ONCE_METASTASIS_LOG_NUM	guide/time_task.c	382;"	d	file:
+PASS_ARRAY	pub/encode.c	/^char PASS_ARRAY[6][10] = {$/;"	v
+PASS_ARRAY	pub/encode.c	10;"	d	file:
+PMKCachePeriod	authenticate/auth_header.h	/^	unsigned short	PMKCachePeriod;			\/\/PMK缓存周期(网络字节序)$/;"	m	struct:wpa_key_st
+PMKCachePeriod	pub/header.h	/^	unsigned short	PMKCachePeriod;			\/\/PMK缓存周期(网络字节序)$/;"	m	struct:ac_wpa_key_st
+PP	pub/encode.c	91;"	d	file:
+PRINT_USER_LOG	pub/header.h	20;"	d
+PROBEDIR	Rules.mk	/^PROBEDIR=$(WTDIR)\/probe$/;"	m
+PROBE_DEPEND	probe/Makefile	/^PROBE_DEPEND=probe.o$/;"	m
+PROBE_SOURCE	probe/Makefile	/^PROBE_SOURCE=probe.c$/;"	m
+PROBE_TARGET	probe/Makefile	/^PROBE_TARGET=probe.out$/;"	m
+PROFRAM_VERSION	pub/header.h	9;"	d
+PTHREADLIB	Rules.mk	/^PTHREADLIB=-lpthread -lm$/;"	m
+PUBDIR	Rules.mk	/^PUBDIR=$(WTDIR)\/pub$/;"	m
+PUBLIC_DEPEND	Rules.mk	/^PUBLIC_DEPEND=$(PUBDIR)\/*.o$/;"	m
+PreAuthentication	authenticate/auth_header.h	/^	unsigned short	PreAuthentication;		\/\/预认证0:关闭1:打开(网络字节序)$/;"	m	struct:wpa_key_st
+PreAuthentication	pub/header.h	/^	unsigned short	PreAuthentication;		\/\/预认证0:关闭1:打开(网络字节序)$/;"	m	struct:ac_wpa_key_st
+RECV_BOSS_DATA	guide/ss.c	/^int RECV_BOSS_DATA(int *len, unsigned int recv_time)$/;"	f
+RECV_CANUSE_NUM	guide/ss.c	/^int RECV_CANUSE_NUM(int len)$/;"	f
+RECV_ROUTER	guide/ss.c	/^int RECV_ROUTER(int len)$/;"	f
+RESERVE_DAYS	guide/time_task.c	383;"	d	file:
+RL	pub/encode.c	89;"	d	file:
+ROUTER_DEBUG	acac/router.c	9;"	d	file:
+ROUTER_DEBUG	gac/router.c	9;"	d	file:
+ROUTER_DEBUG	management/router.c	9;"	d	file:
+ROUTER_MSG_DEBUG	authenticate/auth_header.h	12;"	d
+RTS_ADD	guide/rts.c	/^void RTS_ADD(char* name, unsigned int num)$/;"	f
+RTS_CLEAN	guide/rts.c	/^void RTS_CLEAN()$/;"	f
+RTS_NUM_PROCESS	guide/rts.c	/^int RTS_NUM_PROCESS(char* name, unsigned int curr_num)$/;"	f
+SAUTHENTICATEDIR	Rules.mk	/^SAUTHENTICATEDIR=$(WTDIR)\/sauthenticate$/;"	m
+SAUTHENTICATE_DEPEND	sauthenticate/Makefile	/^SAUTHENTICATE_DEPEND=main.o router.o guide_list.o server_mutual.o$/;"	m
+SAUTHENTICATE_SOURCE	sauthenticate/Makefile	/^SAUTHENTICATE_SOURCE=main.c router.c guide_list.c server_mutual.c$/;"	m
+SAUTHENTICATE_TARGET	sauthenticate/Makefile	/^SAUTHENTICATE_TARGET=sauthenticate.out$/;"	m
+SEND_BASIS_SN	guide/ss.c	/^int SEND_BASIS_SN(int php_sockfd)$/;"	f
+SEND_BOSSS_MSG_OF_MD5	pub/encode.c	/^int SEND_BOSSS_MSG_OF_MD5(char* version, int sockfd, char* buf, int len)$/;"	f
+SEND_DAILY_REPORT	guide/ss.c	/^int SEND_DAILY_REPORT()$/;"	f
+SEND_HEART	guide/ss.c	/^int SEND_HEART()$/;"	f
+SEND_RTS	guide/ss.c	/^int SEND_RTS()$/;"	f
+SEND_SHANGHU	guide/ss.c	/^int SEND_SHANGHU()$/;"	f
+SEND_SHANGHU_PART	guide/ss.c	/^int SEND_SHANGHU_PART(char* buf, int num)$/;"	f
+SERVER_MUTUAL_DEBUG	acac/server_mutual.c	9;"	d	file:
+SERVER_MUTUAL_DEBUG	authenticate/server_mutual.c	9;"	d	file:
+SERVER_MUTUAL_DEBUG	guide/server_mutual.c	8;"	d	file:
+SERVER_MUTUAL_DEBUG	management/server_mutual.c	9;"	d	file:
+SGUIDEDIR	Rules.mk	/^SGUIDEDIR=$(WTDIR)\/sguide$/;"	m
+SGUIDE_DEPEND	sguide/Makefile	/^SGUIDE_DEPEND=main.o router_guide.o$/;"	m
+SGUIDE_SOURCE	sguide/Makefile	/^SGUIDE_SOURCE=main.c router_guide.c$/;"	m
+SGUIDE_TARGET	sguide/Makefile	/^SGUIDE_TARGET=sguide.out$/;"	m
+SHANGHU_ONCE_NUM	pub/header.h	360;"	d
+SN_HOUSE_NUM	boss/server_mutual.c	8;"	d	file:
+SOCK_STAT_ADD	acac/acac_header.h	12;"	d
+SOCK_STAT_ADD	gac/gac_header.h	14;"	d
+SOCK_STAT_ADD	management/ac_header.h	12;"	d
+SOCK_STAT_ADD	pub/header.h	22;"	d
+SOCK_STAT_ADDED	acac/acac_header.h	13;"	d
+SOCK_STAT_ADDED	gac/gac_header.h	15;"	d
+SOCK_STAT_ADDED	management/ac_header.h	13;"	d
+SOCK_STAT_ADDED	pub/header.h	23;"	d
+SOCK_STAT_DEL	acac/acac_header.h	14;"	d
+SOCK_STAT_DEL	gac/gac_header.h	16;"	d
+SOCK_STAT_DEL	management/ac_header.h	14;"	d
+SOCK_STAT_DEL	pub/header.h	24;"	d
+SOURCE	pub/Makefile	/^SOURCE=utils.c sql.c net.c logs.c ini.c pool.c cJSON.c ac_utils.c encode.c order.c$/;"	m
+STATISCITS_DEBUG	guide/time_task.c	8;"	d	file:
+STATISTICS_THREAD	guide/time_task.c	/^void* STATISTICS_THREAD(void *fd)$/;"	f
+STMPDIR	Rules.mk	/^STMPDIR=$(WTDIR)\/stmp$/;"	m
+STMP_DEPEND	stmp/Makefile	/^STMP_DEPEND=main.o base64.o http.o email.o$/;"	m
+STMP_SOURCE	stmp/Makefile	/^STMP_SOURCE=main.c base64.c http.c email.c$/;"	m
+STMP_TARGET	stmp/Makefile	/^STMP_TARGET=stmp.out$/;"	m
+SWAPCACHED	authenticate/utils.c	81;"	d	file:
+TESTDIR	Rules.mk	/^TESTDIR=$(WTDIR)\/test$/;"	m
+TEST_DEPEND	test/Makefile	/^TEST_DEPEND=main.o$/;"	m
+TEST_SOURCE	test/Makefile	/^TEST_SOURCE=main.c$/;"	m
+TEST_TARGET	test/Makefile	/^TEST_TARGET=test.out$/;"	m
+TFREE_DEBUG	boss/time_task.c	198;"	d	file:
+TFREE_DEBUG	guide/time_task.c	110;"	d	file:
+TFREE_THREAD	guide/time_task.c	/^void* TFREE_THREAD(void *fd)$/;"	f
+TOTAL	authenticate/utils.c	77;"	d	file:
+Timestamp	probe/probe.c	/^	unsigned int         Timestamp;		\/\/ 时间戳 ，暂时不用, 网络序$/;"	m	struct:wifi_monitor_data_head	file:
+USB_SIMPLE_CACHE_OPT_ADD	authenticate/auth_header.h	398;"	d
+USB_SIMPLE_CACHE_OPT_DEL	authenticate/auth_header.h	400;"	d
+USB_SIMPLE_CACHE_OPT_DEL_ALL	authenticate/auth_header.h	401;"	d
+USB_SIMPLE_CACHE_OPT_GET_LIST	authenticate/auth_header.h	402;"	d
+USB_SIMPLE_CACHE_OPT_MOD	authenticate/auth_header.h	399;"	d
+USER_CAN_MANYOU	authenticate/auth_header.h	27;"	d
+USER_ID_ONLINE	authenticate/auth_header.h	18;"	d
+USER_ID_SCANSQL	authenticate/auth_header.h	19;"	d
+USER_ID_TAKEOUT	authenticate/auth_header.h	20;"	d
+USER_ID_TIMEOUT	authenticate/auth_header.h	21;"	d
+USER_IN_WHITE	authenticate/auth_header.h	26;"	d
+USER_MAC	authenticate/auth_header.h	31;"	d
+USER_MAC_REN	authenticate/auth_header.h	32;"	d
+USER_NEED_AUTH	authenticate/auth_header.h	25;"	d
+USER_SHANG	authenticate/auth_header.h	28;"	d
+USER_SHANG_OPEN	authenticate/auth_header.h	29;"	d
+USER_SHANG_OPEN_REN	authenticate/auth_header.h	30;"	d
+USER_SQL_ERROR	authenticate/auth_header.h	24;"	d
+VERSION_ARRAY	pub/encode.c	/^const char* VERSION_ARRAY[1] = {"5.1.17"};$/;"	v
+VERSION_ARRAY	pub/encode.c	9;"	d	file:
+WHITE_DEBUG	authenticate/order.c	51;"	d	file:
+WIRELESS_DEBUG	authenticate/exec_sql.c	773;"	d	file:
+WRITE_LOG	pub/header.h	12;"	d
+WTDIR	Rules.mk	/^WTDIR=$(CURDIR)$/;"	m
+WT_HEADER_H	pub/header.h	7;"	d
+WT_SQL_ERROR	pub/header.h	18;"	d
+_LINUX_LIST_H	pub/list.h	2;"	d
+__list_add	pub/list.h	/^static inline void __list_add(struct list_head *new,$/;"	f
+__list_del	pub/list.h	/^static inline void __list_del(struct list_head * prev, struct list_head * next)$/;"	f
+__u16	pub/header.h	/^typedef unsigned short __u16;$/;"	t
+__u32	pub/header.h	/^typedef unsigned int __u32;$/;"	t
+__u8	pub/header.h	/^typedef unsigned char __u8;$/;"	t
+ac_ap_base_conf_st	pub/header.h	/^struct ac_ap_base_conf_st$/;"	s
+ac_ap_conf_st	pub/header.h	/^struct ac_ap_conf_st$/;"	s
+ac_ap_dhcp_conf_st	pub/header.h	/^struct ac_ap_dhcp_conf_st$/;"	s
+ac_ap_user_st	pub/header.h	/^struct ac_ap_user_st$/;"	s
+ac_ap_wifi_base_conf_st	pub/header.h	/^struct ac_ap_wifi_base_conf_st$/;"	s
+ac_ap_wifi_base_list_st	pub/header.h	/^struct ac_ap_wifi_base_list_st$/;"	s
+ac_ap_wifi_wds_conf_st	pub/header.h	/^struct ac_ap_wifi_wds_conf_st$/;"	s
+ac_ap_wifi_wds_list_st	pub/header.h	/^struct ac_ap_wifi_wds_list_st$/;"	s
+ac_base_info_st	pub/header.h	/^struct ac_base_info_st$/;"	s
+ac_change	authenticate/server_mutual.c	/^void* ac_change(void* arg, wt_sql_handle* handle)$/;"	f
+ac_head_st	pub/header.h	/^typedef struct ac_head_st$/;"	s
+ac_head_st	pub/header.h	/^}ac_head_st;\/\/36字节$/;"	t	typeref:struct:ac_head_st
+ac_id	pub/header.h	/^	__u32 ac_id;			\/\/ 控制设备的deviceID$/;"	m	struct:ac_proxy_st
+ac_login_st	pub/header.h	/^typedef struct ac_login_st$/;"	s
+ac_login_st	pub/header.h	/^}ac_login_st;$/;"	t	typeref:struct:ac_login_st
+ac_login_state	pub/header.h	/^enum ac_login_state{$/;"	g
+ac_process_fun	acac/router.c	/^void* ac_process_fun(void *fd, wt_sql_handle *handle)$/;"	f
+ac_process_fun	gac/router.c	/^void* ac_process_fun(void *fd, wt_sql_handle *handle)$/;"	f
+ac_process_fun	management/router.c	/^void* ac_process_fun(void *fd, wt_sql_handle *handle)$/;"	f
+ac_proxy_st	pub/header.h	/^typedef struct ac_proxy_st$/;"	s
+ac_proxy_st	pub/header.h	/^}ac_proxy_st;$/;"	t	typeref:struct:ac_proxy_st
+ac_start	acac/main.c	/^int ac_start()$/;"	f
+ac_start	gac/main.c	/^int ac_start()$/;"	f
+ac_start	management/main.c	/^int ac_start()$/;"	f
+ac_state_st	pub/header.h	/^typedef struct ac_state_st$/;"	s
+ac_state_st	pub/header.h	/^}ac_state_st;$/;"	t	typeref:struct:ac_state_st
+ac_wep_key_st	pub/header.h	/^struct ac_wep_key_st$/;"	s
+ac_wpa_key_st	pub/header.h	/^struct ac_wpa_key_st$/;"	s
+accept_thread	acac/router.c	/^void* accept_thread(void* fd)$/;"	f
+accept_thread	gac/router.c	/^void* accept_thread(void* fd)$/;"	f
+accept_thread	management/router.c	/^void* accept_thread(void* fd)$/;"	f
+act	authenticate/auth_header.h	/^	unsigned char act[4];			\/\/ 控制方式字符串"0" 允许 "1"阻止$/;"	m	struct:mx_app_filter_st
+addr	pub/header.h	/^	__u8  addr[128];				\/\/ 设备地址$/;"	m	struct:ac_base_info_st
+addr	pub/header.h	/^	unsigned char  addr[30];		\/\/ 集中管理服务器地址	$/;"	m	struct:addr_set_st
+addr_set_st	pub/header.h	/^typedef struct addr_set_st$/;"	s
+addr_set_st	pub/header.h	/^}addr_set_st;$/;"	t	typeref:struct:addr_set_st
+address	authenticate/auth_header.h	/^	unsigned char  address[64];			\/\/ 服务器地址, 网络序, 功能未开启时, 此值为"system nonsupport wifi_monitor, wifi_monitor did not open!!"$/;"	m	struct:monitor_set_st
+address	pub/header.h	/^		char			address[256];$/;"	m	struct:bg_shanghu_msg::bg_shanghu_node
+ag_ac_change	pub/header.h	/^	ag_ac_change,					\/\/18 ac修改$/;"	e	enum:ag_enum
+ag_authenticate	pub/header.h	/^	ag_authenticate,				\/\/1 认证服务器连接$/;"	e	enum:ag_enum
+ag_authenticate_res	pub/header.h	/^	ag_authenticate_res,			\/\/2 认证服务器连接返回$/;"	e	enum:ag_enum
+ag_enum	pub/header.h	/^enum ag_enum$/;"	g
+ag_get_stat_report	pub/header.h	/^	ag_get_stat_report,				\/\/5 获取状态报告$/;"	e	enum:ag_enum
+ag_gg_change	pub/header.h	/^	ag_gg_change,					\/\/8 富媒体更改$/;"	e	enum:ag_enum
+ag_mac_online	pub/header.h	/^	ag_mac_online,					\/\/19 mac上线 允许上网$/;"	e	enum:ag_enum
+ag_mac_takeout	pub/header.h	/^	ag_mac_takeout,					\/\/18 mac踢出$/;"	e	enum:ag_enum
+ag_max	pub/header.h	/^	ag_max,$/;"	e	enum:ag_enum
+ag_msg_conn	pub/header.h	/^typedef struct ag_msg_conn{$/;"	s
+ag_msg_conn	pub/header.h	/^}ag_msg_conn;$/;"	t	typeref:struct:ag_msg_conn
+ag_msg_conn_res	pub/header.h	/^typedef struct ag_msg_conn_res{$/;"	s
+ag_msg_conn_res	pub/header.h	/^}ag_msg_conn_res;$/;"	t	typeref:struct:ag_msg_conn_res
+ag_msg_head	pub/header.h	/^typedef struct ag_msg_head{$/;"	s
+ag_msg_head	pub/header.h	/^}ag_msg_head;$/;"	t	typeref:struct:ag_msg_head
+ag_msg_mac	pub/header.h	/^typedef struct ag_msg_mac{$/;"	s
+ag_msg_mac	pub/header.h	/^}ag_msg_mac;$/;"	t	typeref:struct:ag_msg_mac
+ag_msg_router	pub/header.h	/^typedef struct ag_msg_router{$/;"	s
+ag_msg_router	pub/header.h	/^}ag_msg_router;$/;"	t	typeref:struct:ag_msg_router
+ag_msg_stat	pub/header.h	/^typedef struct ag_msg_stat{$/;"	s
+ag_msg_stat	pub/header.h	/^}ag_msg_stat;$/;"	t	typeref:struct:ag_msg_stat
+ag_other_change	pub/header.h	/^	ag_other_change,				\/\/10 其他参数更改$/;"	e	enum:ag_enum
+ag_router_cache	pub/header.h	/^	ag_router_cache,				\/\/13 修改内存缓存$/;"	e	enum:ag_enum
+ag_router_cacheusb	pub/header.h	/^	ag_router_cacheusb,				\/\/14 修改usb缓存$/;"	e	enum:ag_enum
+ag_router_disconn	pub/header.h	/^	ag_router_disconn,				\/\/12 重新连接$/;"	e	enum:ag_enum
+ag_router_keyword	pub/header.h	/^	ag_router_keyword,				\/\/16 修改过滤关键词$/;"	e	enum:ag_enum
+ag_router_restart	pub/header.h	/^	ag_router_restart,				\/\/17 重启$/;"	e	enum:ag_enum
+ag_router_update	pub/header.h	/^	ag_router_update,				\/\/11 设备升级$/;"	e	enum:ag_enum
+ag_router_wireless	pub/header.h	/^	ag_router_wireless,				\/\/15 修改无线$/;"	e	enum:ag_enum
+ag_stat_report	pub/header.h	/^	ag_stat_report,					\/\/6 状态报告$/;"	e	enum:ag_enum
+ag_third	pub/header.h	/^	ag_third,						\/\/3 第三方程序连接$/;"	e	enum:ag_enum
+ag_third_res	pub/header.h	/^	ag_third_res,					\/\/4 第三方程序连接返回$/;"	e	enum:ag_enum
+ag_unknow	pub/header.h	/^	ag_unknow = 0,$/;"	e	enum:ag_enum
+ag_upurl_change	pub/header.h	/^	ag_upurl_change,                \/\/9 升級地址更改$/;"	e	enum:ag_enum
+ag_white_change	pub/header.h	/^	ag_white_change,				\/\/7 白名单更改$/;"	e	enum:ag_enum
+age	probe/probe.c	/^	unsigned int   age;				\/\/ 该报文是多久前（毫秒）探测到的, 网终序$/;"	m	struct:wifi_monitor_client_st	file:
+ap	pub/header.h	/^	struct ac_ap_conf_st ap[0];		\/\/ count个ap的数据$/;"	m	struct:ac_state_st	typeref:struct:ac_state_st::ac_ap_conf_st
+ap_bssid	pub/header.h	/^	__u8  ap_bssid[6];		\/\/ 设备的MAC$/;"	m	struct:ac_ap_base_conf_st
+ap_id	pub/header.h	/^	__u32 ap_id;			\/\/ 控制设备下面的AP的device_id$/;"	m	struct:ac_proxy_st
+ap_info	pub/header.h	/^	__u8  ap_info[32];		\/\/ 另它信息$/;"	m	struct:ac_ap_base_conf_st
+ap_mac	probe/probe.c	/^	unsigned char        ap_mac[6];		\/\/ ap的mac地址$/;"	m	struct:wifi_monitor_data_head	file:
+ap_mode	pub/header.h	/^	__u8 ap_mode;			\/\/ AP模式0:普通AP模式,2:桥接模式3:中继模式4:自学习模式$/;"	m	struct:ac_ap_base_conf_st
+ap_name	pub/header.h	/^	__u8  ap_name[32];		\/\/ 设备标识(数字英文中文)$/;"	m	struct:ac_ap_base_conf_st
+ap_num	pub/header.h	/^		unsigned int	ap_num;$/;"	m	struct:bg_shanghu_msg::bg_shanghu_node
+ap_online_num	pub/header.h	/^	unsigned int	ap_online_num;$/;"	m	struct:bg_heart_msg
+ap_power	pub/header.h	/^	__u8 ap_power;			\/\/ 发射功率(1-100)$/;"	m	struct:ac_ap_base_conf_st
+ap_total_num	pub/header.h	/^	unsigned int	ap_total_num;$/;"	m	struct:bg_heart_msg
+ap_total_num	pub/header.h	/^	unsigned int ap_total_num;$/;"	m	struct:bg_daily_msg
+ap_version	pub/header.h	/^	__u8  ap_version[32];	\/\/ AP 版本信息$/;"	m	struct:ac_ap_base_conf_st
+ap_yo_num	pub/header.h	/^	unsigned int ap_yo_num;$/;"	m	struct:bg_daily_msg
+arg	pub/pool.c	/^    void			*arg;						\/\/ 回调函数的参数$/;"	m	struct:worker	file:
+assoc_mac	probe/probe.c	/^	unsigned char  assoc_mac[6];	\/\/ 终端关联上的AP的mac，如非关联，即填0$/;"	m	struct:wifi_monitor_client_st	file:
+atime	pub/header.h	/^	__u8  atime[50];		\/\/ 系统启动到现在的时间（以秒为单位）$/;"	m	struct:ac_ap_base_conf_st
+auth_addr	authenticate/auth_header.h	/^	__u8 auth_addr[ 0 ];			\/\/ 认证服务器发来的跳转地址或是路由器回复操作失败的原因 若没有指定跳转地址，则使用struct cer_msg_st::def_redirect$/;"	m	struct:user_msg_st
+auth_code	guide/guide_header.h	/^	unsigned int auth_code;$/;"	m	struct:authenticate_node
+auth_code	pub/header.h	/^	unsigned int auth_code;				\/\/ 认证服务器代码$/;"	m	struct:ag_msg_conn_res
+auth_conn_process	guide/server_mutual.c	/^void* auth_conn_process(void *fd){$/;"	f
+auth_conn_thread	guide/server_mutual.c	/^void* auth_conn_thread(void *fd){$/;"	f
+auth_epoll_thread	guide/server_mutual.c	/^void* auth_epoll_thread(void *fd)$/;"	f
+auth_len	authenticate/auth_header.h	/^	__u16 auth_len;					\/\/ auth_addr 域的长度$/;"	m	struct:user_msg_st
+auth_packet_process	guide/server_mutual.c	/^void auth_packet_process(int sockfd)$/;"	f
+auth_sql_repair	authenticate/main.c	/^int auth_sql_repair(unsigned int auth_code)$/;"	f
+auth_srv	pub/header.h	/^	__u8	auth_srv[64];			\/\/ 认证服务器地址,比如: www.auth_srv.com:8080$/;"	m	struct:cer_msg_st
+auth_stat_refresh_thread	guide/server_mutual.c	/^void* auth_stat_refresh_thread(void* fd)$/;"	f
+auth_time	authenticate/auth_header.h	/^	__u32 auth_time;				\/\/ 免重复认证的时间，单位分  默认没活动时候 删除主机时间 传0 默认是10s$/;"	m	struct:user_msg_st
+authenticate_list_err	guide/server_mutual.c	/^void inline authenticate_list_err(int sockfd){$/;"	f
+authenticate_node	guide/guide_header.h	/^typedef struct authenticate_node{$/;"	s
+authenticate_node	guide/guide_header.h	/^}authenticate_node;$/;"	t	typeref:struct:authenticate_node
+authenticate_process	authenticate/router.c	/^void* authenticate_process(void *fd, wt_sql_handle *handle)$/;"	f
+authenticate_process	sauthenticate/router.c	/^void* authenticate_process(void *fd)$/;"	f
+authenticate_stat	guide/guide_header.h	/^typedef struct authenticate_stat{$/;"	s
+authenticate_stat	guide/guide_header.h	/^}authenticate_stat;$/;"	t	typeref:struct:authenticate_stat
+auto_upgrade_config_failed	authenticate/auth_header.h	/^	auto_upgrade_config_failed,		\/\/1 操作失败$/;"	e	enum:auto_upgrade_result_type
+auto_upgrade_config_suss	authenticate/auth_header.h	/^	auto_upgrade_config_suss,		\/\/2 操作成功$/;"	e	enum:auto_upgrade_result_type
+auto_upgrade_failed	authenticate/auth_header.h	/^	auto_upgrade_failed,			\/\/3 升级失败$/;"	e	enum:auto_upgrade_result_type
+auto_upgrade_max	authenticate/auth_header.h	/^	auto_upgrade_max,$/;"	e	enum:auto_upgrade_result_type
+auto_upgrade_msg_st	authenticate/auth_header.h	/^typedef struct auto_upgrade_msg_st$/;"	s
+auto_upgrade_msg_st	authenticate/auth_header.h	/^}auto_upgrade_msg_st;$/;"	t	typeref:struct:auto_upgrade_msg_st
+auto_upgrade_result_st	authenticate/auth_header.h	/^typedef struct auto_upgrade_result_st$/;"	s
+auto_upgrade_result_st	authenticate/auth_header.h	/^}auto_upgrade_result_st;$/;"	t	typeref:struct:auto_upgrade_result_st
+auto_upgrade_result_type	authenticate/auth_header.h	/^enum auto_upgrade_result_type$/;"	g
+auto_upgrade_suss	authenticate/auth_header.h	/^	auto_upgrade_suss,				\/\/4 升级成功$/;"	e	enum:auto_upgrade_result_type
+auto_upgrade_unknow	authenticate/auth_header.h	/^	auto_upgrade_unknow = 0,$/;"	e	enum:auto_upgrade_result_type
+balanced	authenticate/auth_header.h	/^	unsigned char balanced;					\/\/暂不使用, 保留$/;"	m	struct:wifi_base_list_st
+balanced	pub/header.h	/^	__u8 balanced:4;		\/\/ 均衡权值,0:关闭1:用户数,2:信号强度,3:流量$/;"	m	struct:ac_ap_wifi_base_list_st
+base64_encode	stmp/base64.c	/^int base64_encode(unsigned char* pBase64, int nLen, char* pOutBuf, int nBufSize)$/;"	f
+base64_table	stmp/base64.c	/^static char base64_table[64] =$/;"	v	file:
+base_info	pub/header.h	/^	struct ac_ap_base_conf_st		base_info;			\/\/ AP基本信息$/;"	m	struct:ac_ap_conf_st	typeref:struct:ac_ap_conf_st::ac_ap_base_conf_st
+baseinfo	pub/header.h	/^	struct ac_base_info_st	baseinfo;	\/\/ 客户端与服务端同步$/;"	m	struct:ac_login_st	typeref:struct:ac_login_st::ac_base_info_st
+basis_sn_process	boss/guide.c	/^int basis_sn_process(char* version, unsigned int *userid, bg_conn_msg* msg, guide_node *node, wt_sql_handle* handle)$/;"	f
+bg_canuse_num	pub/header.h	/^	bg_canuse_num,			\/\/2 服务器连接返回 设备数量下发$/;"	e	enum:bg_enum
+bg_conn_msg	pub/header.h	/^typedef struct bg_conn_msg$/;"	s
+bg_conn_msg	pub/header.h	/^}bg_conn_msg;$/;"	t	typeref:struct:bg_conn_msg
+bg_daily_msg	pub/header.h	/^typedef struct bg_daily_msg$/;"	s
+bg_daily_msg	pub/header.h	/^}bg_daily_msg;$/;"	t	typeref:struct:bg_daily_msg
+bg_daily_report	pub/header.h	/^	bg_daily_report,		\/\/8 日报表$/;"	e	enum:bg_enum
+bg_enum	pub/header.h	/^enum bg_enum$/;"	g
+bg_get_shanghu	pub/header.h	/^	bg_get_shanghu,			\/\/6 获取商户$/;"	e	enum:bg_enum
+bg_get_shebei_type	pub/header.h	/^	bg_get_shebei_type,		\/\/4 获取设备类型$/;"	e	enum:bg_enum
+bg_get_sn	pub/header.h	/^	bg_get_sn,				\/\/9 获取sn号$/;"	e	enum:bg_enum
+bg_guide	pub/header.h	/^	bg_guide,				\/\/1 服务器连接 && 发送平台信息 尤其是sn号$/;"	e	enum:bg_enum
+bg_heart	pub/header.h	/^	bg_heart,				\/\/3 心跳$/;"	e	enum:bg_enum
+bg_heart_msg	pub/header.h	/^typedef struct bg_heart_msg$/;"	s
+bg_heart_msg	pub/header.h	/^}bg_heart_msg;$/;"	t	typeref:struct:bg_heart_msg
+bg_max	pub/header.h	/^	bg_max,$/;"	e	enum:bg_enum
+bg_msg_head	pub/header.h	/^typedef struct bg_msg_head$/;"	s
+bg_msg_head	pub/header.h	/^}bg_msg_head;$/;"	t	typeref:struct:bg_msg_head
+bg_msg_rt_num	pub/header.h	/^	struct bg_msg_rt_num{$/;"	s	struct:bg_num_msg
+bg_num_msg	pub/header.h	/^typedef struct bg_num_msg$/;"	s
+bg_num_msg	pub/header.h	/^}bg_num_msg;$/;"	t	typeref:struct:bg_num_msg
+bg_router	pub/header.h	/^	bg_router,				\/\/10 设备操作$/;"	e	enum:bg_enum
+bg_router_msg	pub/header.h	/^typedef struct bg_router_msg$/;"	s
+bg_router_msg	pub/header.h	/^}bg_router_msg;$/;"	t	typeref:struct:bg_router_msg
+bg_rt_node	pub/header.h	/^	struct bg_rt_node$/;"	s	struct:bg_rts_msg
+bg_rts_msg	pub/header.h	/^typedef struct bg_rts_msg$/;"	s
+bg_rts_msg	pub/header.h	/^}bg_rts_msg;$/;"	t	typeref:struct:bg_rts_msg
+bg_shanghu	pub/header.h	/^	bg_shanghu,				\/\/7 商户上报$/;"	e	enum:bg_enum
+bg_shanghu_msg	pub/header.h	/^typedef struct bg_shanghu_msg$/;"	s
+bg_shanghu_msg	pub/header.h	/^}bg_shanghu_msg;$/;"	t	typeref:struct:bg_shanghu_msg
+bg_shanghu_node	pub/header.h	/^	struct bg_shanghu_node$/;"	s	struct:bg_shanghu_msg
+bg_shebei_type	pub/header.h	/^	bg_shebei_type,			\/\/5 设备类型 设备类型上报$/;"	e	enum:bg_enum
+bg_unknow	pub/header.h	/^	bg_unknow = 0,$/;"	e	enum:bg_enum
+big_little16	pub/utils.c	/^void inline big_little16(__u16 *num)$/;"	f
+big_little32	pub/utils.c	/^void inline big_little32(__u32 *num)$/;"	f
+big_little_stat_ap	pub/ac_utils.c	/^void inline big_little_stat_ap(ac_state_st *msg)$/;"	f
+block	authenticate/auth_header.h	/^	unsigned char block[4];				\/\/ 弹出警告提示字符串, "0" 关闭, "1" 开启$/;"	m	struct:web_keyword_st
+buf	probe/probe.c	/^	char *buf;			\/\/ 存储地址$/;"	m	struct:message	file:
+buffers_mem	guide/guide_header.h	/^	unsigned int buffers_mem;$/;"	m	struct:authenticate_node
+buffers_mem	guide/guide_header.h	/^	unsigned int buffers_mem;$/;"	m	struct:authenticate_stat
+buffers_mem	pub/header.h	/^	unsigned int buffers_mem;$/;"	m	struct:ag_msg_stat
+cJSON	pub/cJSON.h	/^typedef struct cJSON {$/;"	s
+cJSON	pub/cJSON.h	/^} cJSON;$/;"	t	typeref:struct:cJSON
+cJSON_AddFalseToObject	pub/cJSON.h	121;"	d
+cJSON_AddItemReferenceToArray	pub/cJSON.c	/^void	cJSON_AddItemReferenceToArray(cJSON *array, cJSON *item)						{cJSON_AddItemToArray(array,create_reference(item));}$/;"	f
+cJSON_AddItemReferenceToObject	pub/cJSON.c	/^void	cJSON_AddItemReferenceToObject(cJSON *object,const char *string,cJSON *item)	{cJSON_AddItemToObject(object,string,create_reference(item));}$/;"	f
+cJSON_AddItemToArray	pub/cJSON.c	/^void   cJSON_AddItemToArray(cJSON *array, cJSON *item)						{cJSON *c=array->child;if (!item) return; if (!c) {array->child=item;} else {while (c && c->next) c=c->next; suffix_object(c,item);}}$/;"	f
+cJSON_AddItemToObject	pub/cJSON.c	/^void   cJSON_AddItemToObject(cJSON *object,const char *string,cJSON *item)	{if (!item) return; if (item->string) cJSON_free(item->string);item->string=cJSON_strdup(string);cJSON_AddItemToArray(object,item);}$/;"	f
+cJSON_AddNullToObject	pub/cJSON.h	119;"	d
+cJSON_AddNumberToObject	pub/cJSON.h	122;"	d
+cJSON_AddStringToObject	pub/cJSON.h	123;"	d
+cJSON_AddTrueToObject	pub/cJSON.h	120;"	d
+cJSON_Array	pub/cJSON.h	39;"	d
+cJSON_CreateArray	pub/cJSON.c	/^cJSON *cJSON_CreateArray()						{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_Array;return item;}$/;"	f
+cJSON_CreateBool	pub/cJSON.c	/^cJSON *cJSON_CreateBool(int b)					{cJSON *item=cJSON_New_Item();if(item)item->type=b?cJSON_True:cJSON_False;return item;}$/;"	f
+cJSON_CreateDoubleArray	pub/cJSON.c	/^cJSON *cJSON_CreateDoubleArray(double *numbers,int count)		{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateFalse	pub/cJSON.c	/^cJSON *cJSON_CreateFalse()						{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_False;return item;}$/;"	f
+cJSON_CreateFloatArray	pub/cJSON.c	/^cJSON *cJSON_CreateFloatArray(float *numbers,int count)			{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateIntArray	pub/cJSON.c	/^cJSON *cJSON_CreateIntArray(int *numbers,int count)				{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateNull	pub/cJSON.c	/^cJSON *cJSON_CreateNull()						{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_NULL;return item;}$/;"	f
+cJSON_CreateNumber	pub/cJSON.c	/^cJSON *cJSON_CreateNumber(double num)			{cJSON *item=cJSON_New_Item();if(item){item->type=cJSON_Number;item->valuedouble=num;item->valueint=(int)num;}return item;}$/;"	f
+cJSON_CreateObject	pub/cJSON.c	/^cJSON *cJSON_CreateObject()						{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_Object;return item;}$/;"	f
+cJSON_CreateString	pub/cJSON.c	/^cJSON *cJSON_CreateString(const char *string)	{cJSON *item=cJSON_New_Item();if(item){item->type=cJSON_String;item->valuestring=cJSON_strdup(string);}return item;}$/;"	f
+cJSON_CreateStringArray	pub/cJSON.c	/^cJSON *cJSON_CreateStringArray(const char **strings,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateString(strings[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateTrue	pub/cJSON.c	/^cJSON *cJSON_CreateTrue()						{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_True;return item;}$/;"	f
+cJSON_Delete	pub/cJSON.c	/^void cJSON_Delete(cJSON *c)$/;"	f
+cJSON_DeleteItemFromArray	pub/cJSON.c	/^void   cJSON_DeleteItemFromArray(cJSON *array,int which)			{cJSON_Delete(cJSON_DetachItemFromArray(array,which));}$/;"	f
+cJSON_DeleteItemFromObject	pub/cJSON.c	/^void   cJSON_DeleteItemFromObject(cJSON *object,const char *string) {cJSON_Delete(cJSON_DetachItemFromObject(object,string));}$/;"	f
+cJSON_DetachItemFromArray	pub/cJSON.c	/^cJSON *cJSON_DetachItemFromArray(cJSON *array,int which)			{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) return 0;$/;"	f
+cJSON_DetachItemFromObject	pub/cJSON.c	/^cJSON *cJSON_DetachItemFromObject(cJSON *object,const char *string) {int i=0;cJSON *c=object->child;while (c && cJSON_strcasecmp(c->string,string)) i++,c=c->next;if (c) return cJSON_DetachItemFromArray(object,i);return 0;}$/;"	f
+cJSON_False	pub/cJSON.h	34;"	d
+cJSON_GetArrayItem	pub/cJSON.c	/^cJSON *cJSON_GetArrayItem(cJSON *array,int item)				{cJSON *c=array->child;  while (c && item>0) item--,c=c->next; return c;}$/;"	f
+cJSON_GetArraySize	pub/cJSON.c	/^int    cJSON_GetArraySize(cJSON *array)							{cJSON *c=array->child;int i=0;while(c)i++,c=c->next;return i;}$/;"	f
+cJSON_GetErrorPtr	pub/cJSON.c	/^const char *cJSON_GetErrorPtr() {return ep;}$/;"	f
+cJSON_GetObjectItem	pub/cJSON.c	/^cJSON *cJSON_GetObjectItem(cJSON *object,const char *string)	{cJSON *c=object->child; while (c && cJSON_strcasecmp(c->string,string)) c=c->next; return c;}$/;"	f
+cJSON_Hooks	pub/cJSON.h	/^typedef struct cJSON_Hooks {$/;"	s
+cJSON_Hooks	pub/cJSON.h	/^} cJSON_Hooks;$/;"	t	typeref:struct:cJSON_Hooks
+cJSON_InitHooks	pub/cJSON.c	/^void cJSON_InitHooks(cJSON_Hooks* hooks)$/;"	f
+cJSON_IsReference	pub/cJSON.h	42;"	d
+cJSON_NULL	pub/cJSON.h	36;"	d
+cJSON_New_Item	pub/cJSON.c	/^static cJSON *cJSON_New_Item()$/;"	f	file:
+cJSON_Number	pub/cJSON.h	37;"	d
+cJSON_Object	pub/cJSON.h	40;"	d
+cJSON_Parse	pub/cJSON.c	/^cJSON *cJSON_Parse(const char *value)$/;"	f
+cJSON_Print	pub/cJSON.c	/^char *cJSON_Print(cJSON *item)				{return print_value(item,0,1);}$/;"	f
+cJSON_PrintUnformatted	pub/cJSON.c	/^char *cJSON_PrintUnformatted(cJSON *item)	{return print_value(item,0,0);}$/;"	f
+cJSON_ReplaceItemInArray	pub/cJSON.c	/^void   cJSON_ReplaceItemInArray(cJSON *array,int which,cJSON *newitem)		{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) return;$/;"	f
+cJSON_ReplaceItemInObject	pub/cJSON.c	/^void   cJSON_ReplaceItemInObject(cJSON *object,const char *string,cJSON *newitem){int i=0;cJSON *c=object->child;while(c && cJSON_strcasecmp(c->string,string))i++,c=c->next;if(c){newitem->string=cJSON_strdup(string);cJSON_ReplaceItemInArray(object,i,newitem);}}$/;"	f
+cJSON_String	pub/cJSON.h	38;"	d
+cJSON_True	pub/cJSON.h	35;"	d
+cJSON__h	pub/cJSON.h	24;"	d
+cJSON_free	pub/cJSON.c	/^static void (*cJSON_free)(void *ptr) = free;$/;"	v	file:
+cJSON_malloc	pub/cJSON.c	/^static void *(*cJSON_malloc)(size_t sz) = malloc;$/;"	v	file:
+cJSON_strcasecmp	pub/cJSON.c	/^static int cJSON_strcasecmp(const char *s1,const char *s2)$/;"	f	file:
+cJSON_strdup	pub/cJSON.c	/^static char* cJSON_strdup(const char* str)$/;"	f	file:
+cached_mem	guide/guide_header.h	/^	unsigned int cached_mem;$/;"	m	struct:authenticate_node
+cached_mem	guide/guide_header.h	/^	unsigned int cached_mem;$/;"	m	struct:authenticate_stat
+cached_mem	pub/header.h	/^	unsigned int cached_mem;$/;"	m	struct:ag_msg_stat
+categories	authenticate/auth_header.h	/^	char				categories[128];$/;"	m	struct:simple_gg2_node
+cer_msg_st	pub/header.h	/^typedef struct cer_msg_st$/;"	s
+cer_msg_st	pub/header.h	/^}cer_msg_st;$/;"	t	typeref:struct:cer_msg_st
+cgv_authenticate_port	authenticate/main.c	/^unsigned int	cgv_authenticate_port;							\/\/ 认证端口,开放给设备的$/;"	v
+cgv_authenticate_port	sauthenticate/main.c	/^unsigned int	cgv_authenticate_port;							\/\/ 认证端口,开放给设备的$/;"	v
+cgv_authenticate_port	sguide/main.c	/^int	cgv_authenticate_port;				\/\/ 认证服务器开放给设备的端口$/;"	v
+cgv_gac_interval	gac/main.c	/^int		cgv_gac_interval;$/;"	v
+cgv_gac_port	gac/main.c	/^int		cgv_gac_port;$/;"	v
+cgv_guide_port	guide/main.c	/^int	 cgv_guide_port;					\/\/ 引导服务器开放给设备的端口$/;"	v
+cgv_guide_port	sguide/main.c	/^int	cgv_guide_port;						\/\/ 引导服务器开放给设备的端口$/;"	v
+cgv_monitor_port	probe/probe.c	/^int		cgv_monitor_port;$/;"	v
+cgv_platform_port	acac/main.c	/^int		cgv_platform_port;$/;"	v
+cgv_platform_port	boss/main.c	/^int	 cgv_platform_port;					\/\/ 开放给平台的端口$/;"	v
+cgv_platform_port	guide/main.c	/^int	 cgv_platform_port;					\/\/ 开放给平台的端口$/;"	v
+cgv_platform_port	management/main.c	/^int		cgv_platform_port;$/;"	v
+cgv_platform_port	sauthenticate/main.c	/^unsigned int		cgv_platform_port;							\/\/ 平台端口,开放给平台的$/;"	v
+cgv_proxy_addr	acac/main.c	/^char	cgv_proxy_addr[32];$/;"	v
+cgv_proxy_addr	management/main.c	/^char	cgv_proxy_addr[32];$/;"	v
+cgv_proxy_port	acac/main.c	/^int		cgv_proxy_port;$/;"	v
+cgv_proxy_port	management/main.c	/^int		cgv_proxy_port;$/;"	v
+cgv_report_addr	authenticate/main.c	/^char			cgv_report_addr[32];							\/\/ 运行状态报告地址,即引导服务器地址$/;"	v
+cgv_report_interval	guide/main.c	/^int  cgv_report_interval;				\/\/ 引导服务器与认证的状态报告报文间隔$/;"	v
+cgv_report_port	authenticate/main.c	/^unsigned int	cgv_report_port;								\/\/ 运行状态报告端口,即引导服务器开放给认证服务器的端口$/;"	v
+cgv_report_port	guide/main.c	/^int  cgv_report_port;					\/\/ 引导服务器开放给认证服务器的状态报告端口$/;"	v
+cgv_sql_name	acac/main.c	/^char	cgv_sql_name[32];$/;"	v
+cgv_sql_name	authenticate/main.c	/^char			cgv_sql_name[32];								\/\/ 数据库名$/;"	v
+cgv_sql_name	boss/main.c	/^char cgv_sql_name[32];					\/\/ sql name$/;"	v
+cgv_sql_name	gac/main.c	/^char	cgv_sql_name[32];$/;"	v
+cgv_sql_name	guide/main.c	/^char cgv_sql_name[32];					\/\/ sql name$/;"	v
+cgv_sql_name	management/main.c	/^char	cgv_sql_name[32];$/;"	v
+cgv_sql_name	probe/probe.c	/^char	cgv_sql_name[32];$/;"	v
+cgv_sql_name	sauthenticate/main.c	/^char			cgv_sql_name[32];								\/\/ 数据库名$/;"	v
+cgv_sql_name	sguide/main.c	/^char cgv_sql_name[32];					\/\/ sql name$/;"	v
+cgv_sql_name	stmp/main.c	/^char	cgv_sql_name[32];$/;"	v
+cgv_sql_name	test/main.c	/^char			cgv_sql_name[32];								\/\/ 数据库名$/;"	v
+cgv_sql_pass	acac/main.c	/^char	cgv_sql_pass[32];$/;"	v
+cgv_sql_pass	authenticate/main.c	/^char			cgv_sql_pass[32];								\/\/ 数据库登陆密码$/;"	v
+cgv_sql_pass	boss/main.c	/^char cgv_sql_pass[32];					\/\/ sql password$/;"	v
+cgv_sql_pass	gac/main.c	/^char	cgv_sql_pass[32];$/;"	v
+cgv_sql_pass	guide/main.c	/^char cgv_sql_pass[32];					\/\/ sql password$/;"	v
+cgv_sql_pass	management/main.c	/^char	cgv_sql_pass[32];$/;"	v
+cgv_sql_pass	probe/probe.c	/^char	cgv_sql_pass[32];$/;"	v
+cgv_sql_pass	sauthenticate/main.c	/^char			cgv_sql_pass[32];								\/\/ 数据库登陆密码$/;"	v
+cgv_sql_pass	sguide/main.c	/^char cgv_sql_pass[32];					\/\/ sql password$/;"	v
+cgv_sql_pass	stmp/main.c	/^char	cgv_sql_pass[32];$/;"	v
+cgv_sql_pass	test/main.c	/^char			cgv_sql_pass[32];								\/\/ 数据库登陆密码$/;"	v
+cgv_sql_user	acac/main.c	/^char	cgv_sql_user[32];$/;"	v
+cgv_sql_user	authenticate/main.c	/^char			cgv_sql_user[32];								\/\/ 数据库登陆用户名$/;"	v
+cgv_sql_user	boss/main.c	/^char cgv_sql_user[32];					\/\/ sql user$/;"	v
+cgv_sql_user	gac/main.c	/^char	cgv_sql_user[32];$/;"	v
+cgv_sql_user	guide/main.c	/^char cgv_sql_user[32];					\/\/ sql user$/;"	v
+cgv_sql_user	management/main.c	/^char	cgv_sql_user[32];$/;"	v
+cgv_sql_user	probe/probe.c	/^char	cgv_sql_user[32];$/;"	v
+cgv_sql_user	sauthenticate/main.c	/^char			cgv_sql_user[32];								\/\/ 数据库登陆用户名$/;"	v
+cgv_sql_user	sguide/main.c	/^char cgv_sql_user[32];					\/\/ sql user$/;"	v
+cgv_sql_user	stmp/main.c	/^char	cgv_sql_user[32];$/;"	v
+cgv_sql_user	test/main.c	/^char			cgv_sql_user[32];								\/\/ 数据库登陆用户名$/;"	v
+cgv_third_port	guide/main.c	/^int  cgv_third_port;					\/\/ 开放给第三方程序的监听接口$/;"	v
+change_gg	authenticate/server_mutual.c	/^void* change_gg(void* arg, wt_sql_handle* handle)$/;"	f
+change_other	authenticate/server_mutual.c	/^void* change_other(void* arg, wt_sql_handle* handle)$/;"	f
+change_upurl	authenticate/server_mutual.c	/^void* change_upurl(void* arg, wt_sql_handle* handle)$/;"	f
+change_white	authenticate/server_mutual.c	/^void* change_white(void* arg, wt_sql_handle* handle)$/;"	f
+channel	probe/probe.c	/^	unsigned char  channel;			\/\/ 信道$/;"	m	struct:wifi_monitor_client_st	file:
+channel	pub/header.h	/^	__u8 channel;								\/\/ 频道$/;"	m	struct:ac_ap_wifi_base_conf_st
+char2x	authenticate/utils.c	/^static int char2x(const char ch){$/;"	f	file:
+child	pub/cJSON.h	/^	struct cJSON *child;		\/* An array or object item will have a child pointer pointing to a chain of the items in the array\/object. *\/$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
+cmd	authenticate/auth_header.h	/^	__u8 cmd;						\/\/ 分别参考: enum user_cmd_req_type, enum user_cmd_init_type$/;"	m	struct:user_msg_st
+cmdID	pub/header.h	/^	unsigned char	cmdID;			\/\/ 命令号，参考上述宏定义。$/;"	m	struct:ac_head_st
+cnt	authenticate/auth_header.h	/^	unsigned int cnt;					\/\/ 规则条数, 最大16条$/;"	m	struct:simple_gg2_head_st
+code_convert	pub/utils.c	/^int code_convert(char *from_charset, char *to_charset, char *inbuf, size_t inlen, char *outbuf, size_t outlen)$/;"	f
+codeurl	authenticate/auth_header.h	/^	char	codeurl[128];					\/\/ 固件地址$/;"	m	struct:upgrade_addr
+company_addr	pub/header.h	/^	char	company_addr[256];$/;"	m	struct:bg_conn_msg
+company_name	pub/header.h	/^	char	company_name[128];$/;"	m	struct:bg_conn_msg
+conn_guide	authenticate/server_mutual.c	/^int conn_guide()$/;"	f
+conn_handle	pub/header.h	/^	SQLHDBC		conn_handle;					\/\/ Handle connection 连接句柄$/;"	m	struct:wt_sql_handle
+conn_res	pub/header.h	/^	unsigned int conn_res;				\/\/ 回复代码$/;"	m	struct:ag_msg_conn_res
+cont	pub/header.h	/^	__u8  cont[32];					\/\/ 联系人$/;"	m	struct:ac_base_info_st
+count	pub/header.h	/^	__u32   count;						\/\/ ap个数$/;"	m	struct:ac_state_st
+cpu_usage	guide/guide_header.h	/^	unsigned int cpu_usage;					\/\/cpu使用率$/;"	m	struct:authenticate_node
+cpu_usage	guide/guide_header.h	/^	unsigned int cpu_usage;					\/\/cpu使用率$/;"	m	struct:authenticate_stat
+cpu_usage	pub/header.h	/^	unsigned int cpu_usage;$/;"	m	struct:ag_msg_stat
+crc	pub/header.h	/^	__u32	crc;					\/\/ 校验和,全包检验$/;"	m	struct:msg_head_st
+create_reference	pub/cJSON.c	/^static cJSON *create_reference(cJSON *item) {cJSON *ref=cJSON_New_Item();if (!ref) return 0;memcpy(ref,item,sizeof(cJSON));ref->string=0;ref->type|=cJSON_IsReference;ref->next=ref->prev=0;return ref;}$/;"	f	file:
+create_time	pub/header.h	/^	__u32 create_time;			\/\/ 创建时间，只是客户端为AC时才使用，表示AC刚识到AP的时间戳$/;"	m	struct:ac_ap_user_st
+cs_type	pub/header.h	/^	__u16	cs_type;				\/\/ 场所类型,取值参考enum cs_type, 如,酒店、药店、小区等等$/;"	m	struct:cer_msg_st
+ct_max	pub/header.h	/^	__u32 ct_max;			\/\/ 连接数容量$/;"	m	struct:ac_ap_base_conf_st
+ct_num	pub/header.h	/^	__u32 ct_num;			\/\/ 当前连接数	$/;"	m	struct:ac_ap_base_conf_st
+ctrlURL	pub/header.h	/^	__u8  ctrlURL[512];		\/\/ 控制服务端地址URL，如:www.aaa.com$/;"	m	struct:ac_proxy_st
+cur_queue_size	guide/guide_header.h	/^	unsigned int cur_queue_size;			\/\/ 等待队列中的任务数目$/;"	m	struct:authenticate_stat
+cur_queue_size	guide/guide_header.h	/^	unsigned int cur_queue_size;			\/\/未处理报文数$/;"	m	struct:authenticate_node
+cur_queue_size	pub/header.h	/^	unsigned int cur_queue_size;			\/\/ 等待队列中的任务数目$/;"	m	struct:ag_msg_stat
+cur_queue_size	pub/pool.c	/^	unsigned int	cur_queue_size;			\/\/ 等待队列中的任务数目$/;"	m	struct:__anon4	file:
+curr_num	pub/header.h	/^		unsigned int	curr_num;$/;"	m	struct:bg_rts_msg::bg_rt_node
+dailiid	acac/acac_header.h	/^	unsigned int		dailiid;					\/\/ 代理id$/;"	m	struct:sock_list
+dailiid	authenticate/auth_header.h	/^	__u32				dailiid;			\/\/ 代理id$/;"	m	struct:sock_list
+daily_report_process	boss/guide.c	/^int daily_report_process(int sockfd, bg_daily_msg *msg, wt_sql_handle* handle)$/;"	f
+data	authenticate/auth_header.h	/^	__u8  data[0];										\/\/ 回复内容$/;"	m	struct:result_msg_st
+data	authenticate/auth_header.h	/^	__u8  data[0];										\/\/ 数据内容 依次存放 js dns$/;"	m	struct:simple_gg_msg_st
+data	authenticate/auth_header.h	/^	unsigned char  data[0];								\/\/ 升级地址$/;"	m	struct:auto_upgrade_result_st
+data	authenticate/auth_header.h	/^	unsigned char  data[0];								\/\/ 回复内容$/;"	m	struct:simple_cache_result_msg_st
+data	authenticate/auth_header.h	/^	unsigned char data[0];				\/\/ js_len 长度JS内容 后接DNS $/;"	m	struct:simple_gg2_st
+data	authenticate/auth_header.h	/^	unsigned char data[0];				\/\/ 数据struct wt_simple_gg_rule_st$/;"	m	struct:simple_gg2_head_st
+data	probe/probe.c	/^	unsigned char        data[0];		\/\/ 客户端数据, num个struct wifi_client_st$/;"	m	struct:wifi_monitor_data_head	file:
+data	pub/header.h	/^	unsigned char	data[0];		\/\/ 数据指针$/;"	m	struct:ac_head_st
+data_len	authenticate/auth_header.h	/^	__u32 data_len;										\/\/ 数据长度 为js_len + dns_cnt$/;"	m	struct:simple_gg_msg_st
+data_len	authenticate/auth_header.h	/^	unsigned int  data_len;				\/\/ dns_len + js_len $/;"	m	struct:simple_gg2_st
+data_len	authenticate/auth_header.h	/^	unsigned int data_len;				\/\/ 数据长度, 暂时未使用$/;"	m	struct:simple_gg2_head_st
+datalen	pub/header.h	/^	unsigned int	datalen;		\/\/ 数据长度，包含数据头长度 $/;"	m	struct:ac_head_st
+def	authenticate/auth_header.h	/^	unsigned char def[4];				\/\/ 控制状态字符串, "1" 关闭, "0" 开启$/;"	m	struct:web_keyword_st
+def_redirect	pub/header.h	/^	__u8	def_redirect[128];		\/\/ 服务器提供的默认跳转地址,在struct user_cmd_req_type 中没有指定跳转地址时使用$/;"	m	struct:cer_msg_st
+defaultkey	authenticate/auth_header.h	/^	unsigned char defaultkey; \/*1-4 用*\/$/;"	m	struct:wep_key_st
+defaultkey	pub/header.h	/^	unsigned char defaultkey; \/*1-4 用*\/$/;"	m	struct:ac_wep_key_st
+destroy_ini	pub/ini.c	/^void destroy_ini(int fd)$/;"	f
+dev_name	pub/header.h	/^	__u8	dev_name[32];			\/\/ 设备标识$/;"	m	struct:cer_msg_st
+deviceID	pub/header.h	/^	__u32	deviceID;					\/\/ 设备ID (唯一性，0..需要服务器生成后返回,其他..)$/;"	m	struct:ac_login_st
+deviceID	pub/header.h	/^	__u32	deviceID;					\/\/ 设备ID$/;"	m	struct:ac_state_st
+deviceID	pub/header.h	/^	unsigned int	deviceID;		\/\/ 路由器ID，唯一性$/;"	m	struct:ac_head_st
+deviceName	pub/header.h	/^	__u8    deviceName[64];				\/\/ 路由器名称	$/;"	m	struct:ac_login_st
+devicePWD	pub/header.h	/^	__u8    devicePWD[32];				\/\/ 设备密码$/;"	m	struct:ac_login_st
+device_id	pub/header.h	/^	__u32							device_id;			\/\/ AP设备的device ID,唯一性 (网络字节序)$/;"	m	struct:ac_ap_conf_st
+device_type	acac/acac_header.h	/^	unsigned int		device_type;				\/\/ 1为AC，2为无线路由，3为不带无线路由$/;"	m	struct:sock_list
+device_type	management/ac_header.h	/^	unsigned int		device_type;				\/\/ 1为AC，2为无线路由，3为不带无线路由$/;"	m	struct:sock_list
+device_type	pub/header.h	/^	unsigned int	device_type;	\/\/ 1为AC，2为无线路由，3为不带无线路由	$/;"	m	struct:ac_head_st
+dhcp_info	pub/header.h	/^	struct ac_ap_dhcp_conf_st		dhcp_info;			\/\/ AP的DHCP信息$/;"	m	struct:ac_ap_conf_st	typeref:struct:ac_ap_conf_st::ac_ap_dhcp_conf_st
+dinate	pub/header.h	/^	__u8  dinate[32];				\/\/ 设备坐标$/;"	m	struct:ac_base_info_st
+dir	authenticate/auth_header.h	/^	unsigned char  dir[512];			\/\/ 需要获文件目录, USB 的绝对路径,  如: \/wifi\/1 \/wifi\/1\/2 $/;"	m	struct:usb_file_get_st
+dns	pub/header.h	/^	__u32 dns[2];			\/\/ DNS地址(网络字节序)$/;"	m	struct:ac_ap_dhcp_conf_st
+dns_cnt	authenticate/auth_header.h	/^	__u32 dns_cnt;										\/\/ 传入的DNS长度 网络序列$/;"	m	struct:simple_gg_msg_st
+dns_len	authenticate/auth_header.h	/^	unsigned int  dns_len;				\/\/ DNS 个数,   多个以逗号',' 分隔,  > 0 && < 1020$/;"	m	struct:simple_gg2_st
+domain	authenticate/auth_header.h	/^	unsigned char domain[63];	\/\/ 域名\/IP, $/;"	m	struct:domain_redirect_st
+domain_len	authenticate/auth_header.h	/^	unsigned char domain_len;	\/\/ 域名长度, 不能大于63, 否则出错$/;"	m	struct:domain_redirect_st
+domain_redirect_st	authenticate/auth_header.h	/^typedef struct domain_redirect_st$/;"	s
+domain_redirect_st	authenticate/auth_header.h	/^}domain_redirect_st;$/;"	t	typeref:struct:domain_redirect_st
+driver_code	pub/header.h	/^		char			driver_code[32];$/;"	m	struct:bg_rts_msg::bg_rt_node
+en	authenticate/auth_header.h	/^	__u32 en;											\/\/ 功能开启状态 0:关闭 1:开启 网络序$/;"	m	struct:simple_gg_msg_st
+en	authenticate/auth_header.h	/^	unsigned char en[4];				\/\/ 字符串 "1" 启用,  "0"禁用 $/;"	m	struct:web_keyword_st
+en	authenticate/auth_header.h	/^	unsigned char en[4];			\/\/ 状态,  字符串"0", 禁用, "1", 启用$/;"	m	struct:mx_app_filter_st
+en	authenticate/auth_header.h	/^	unsigned char en[4];			\/\/ 状态,  字符串"0", 禁用, "1", 启用$/;"	m	struct:url_redirect_st
+en	authenticate/auth_header.h	/^	unsigned int en;					\/\/ 开关, 0, 关, 非0 开$/;"	m	struct:simple_gg2_head_st
+enable	authenticate/auth_header.h	/^	unsigned int enable;		\/\/ 状态开关, 1, 为开启, 其它为关闭, 网络序$/;"	m	struct:third_user_qos_msg_st
+enable	authenticate/auth_header.h	/^	unsigned short  enable;				\/\/ 状态开关, 1, 开启, 0, 关闭$/;"	m	struct:weixin_share_set_st
+enable	pub/header.h	/^	__u32 enable;			\/\/ 78 开启,非78 为关闭$/;"	m	struct:ac_proxy_st
+enable	pub/header.h	/^	__u8  enable;			\/\/ 开关0:关闭,1:普通设置,2:高级设置$/;"	m	struct:ac_ap_dhcp_conf_st
+enable	pub/header.h	/^	__u8 enable;								\/\/ 无线开关1:开启,0:关闭$/;"	m	struct:ac_ap_wifi_base_conf_st
+encrypt_type	authenticate/auth_header.h	/^	unsigned char	encrypt_type;			\/\/1:TKIP,2:AES,0:TKIP\/AES$/;"	m	struct:wpa_key_st
+encrypt_type	authenticate/auth_header.h	/^	unsigned char encrypt_type; \/*0:NONE,1:WEP*\/$/;"	m	struct:wep_key_st
+encrypt_type	pub/header.h	/^	__u8 encrypt_type;			\/\/ 加密类型，0:NONE,1:WEP,2:TKIP,3:AES$/;"	m	struct:ac_ap_wifi_wds_list_st
+encrypt_type	pub/header.h	/^	unsigned char	encrypt_type;			\/\/1:TKIP,2:AES,0:TKIP\/AES$/;"	m	struct:ac_wpa_key_st
+encrypt_type	pub/header.h	/^	unsigned char encrypt_type; \/*0:NONE,1:WEP*\/$/;"	m	struct:ac_wep_key_st
+end_ipaddr	pub/header.h	/^	__u32 end_ipaddr;		\/\/ 结束IP地址(网络字节序)$/;"	m	struct:ac_ap_dhcp_conf_st
+env_handle	pub/header.h	/^	SQLHENV		env_handle;						\/\/ Handle ODBC environment 环境句柄$/;"	m	struct:wt_sql_handle
+ep	pub/cJSON.c	/^static const char *ep;$/;"	v	file:
+epoll_thread	acac/router.c	/^void* epoll_thread(void *fd)$/;"	f
+epoll_thread	gac/router.c	/^void* epoll_thread(void *fd)$/;"	f
+epoll_thread	management/router.c	/^void* epoll_thread(void *fd)$/;"	f
+err_msg	pub/header.h	/^	char		err_msg[200];$/;"	m	struct:wt_sql_handle
+exp_ip	authenticate/auth_header.h	/^	unsigned int exp_ip[0];		\/\/ 以整形表示的例外IP 的数组，网络序$/;"	m	struct:third_user_qos_msg_st
+exp_ip_num	authenticate/auth_header.h	/^	unsigned int exp_ip_num;	\/\/ 控制例外的IP 个数, 网络序$/;"	m	struct:third_user_qos_msg_st
+firstByteMark	pub/cJSON.c	/^static const unsigned char firstByteMark[7] = { 0x00, 0x00, 0xC0, 0xE0, 0xF0, 0xF8, 0xFC };$/;"	v	file:
+flag	probe/probe.c	/^	unsigned char        flag;			\/\/ 保留，目前不用$/;"	m	struct:wifi_monitor_data_head	file:
+flag	probe/probe.c	/^	unsigned char  flag;			\/\/ 目前没有用$/;"	m	struct:wifi_monitor_client_st	file:
+flag	pub/header.h	/^	__u32							flag;				\/\/ 第1位设置为1表示base_info有参数。。。(网络字节序)，在服务端下发时才有用$/;"	m	struct:ac_ap_conf_st
+flow	authenticate/auth_header.h	/^	__u32 flow[2];					\/\/ 流量控制，单位 MB. [0], 表示上行流量;[1], 表示下行流量$/;"	m	struct:user_msg_st
+free_fn	pub/cJSON.h	/^      void (*free_fn)(void *ptr);$/;"	m	struct:cJSON_Hooks
+free_mem	guide/guide_header.h	/^	unsigned int free_mem;					\/\/空闲内存$/;"	m	struct:authenticate_node
+free_mem	guide/guide_header.h	/^	unsigned int free_mem;					\/\/空闲内存$/;"	m	struct:authenticate_stat
+free_mem	pub/header.h	/^	unsigned int free_mem;$/;"	m	struct:ag_msg_stat
+ftime	pub/header.h	/^	__u8  ftime[50];		\/\/ 系统空闲的时间（以秒为单位）$/;"	m	struct:ac_ap_base_conf_st
+fudomain	authenticate/auth_header.h	/^	char				fudomain[ DNS_WHITE_URL_SIZE ];$/;"	m	struct:simple_gg2_node
+fuzeren	pub/header.h	/^		char			fuzeren[32];$/;"	m	struct:bg_shanghu_msg::bg_shanghu_node
+fzr_name	pub/header.h	/^	char	fzr_name[32];$/;"	m	struct:bg_conn_msg
+fzr_tel	pub/header.h	/^	char	fzr_tel[32];$/;"	m	struct:bg_conn_msg
+gateway	pub/header.h	/^	__u32 gateway;			\/\/ AP 网关(网络字节序)$/;"	m	struct:ac_ap_base_conf_st
+get_config	acac/main.c	/^int get_config()$/;"	f
+get_config	authenticate/main.c	/^int get_config()$/;"	f
+get_config	boss/main.c	/^int get_config()$/;"	f
+get_config	gac/main.c	/^int get_config()$/;"	f
+get_config	guide/main.c	/^int get_config()$/;"	f
+get_config	management/main.c	/^int get_config()$/;"	f
+get_config	probe/probe.c	/^int get_config()$/;"	f
+get_config	sauthenticate/main.c	/^int get_config()$/;"	f
+get_config	sguide/main.c	/^int get_config()$/;"	f
+get_config	stmp/main.c	/^int get_config()$/;"	f
+get_config	test/main.c	/^int get_config()$/;"	f
+get_cur_queue_size	pub/pool.c	/^unsigned int inline get_cur_queue_size()$/;"	f
+get_guide_list	sauthenticate/guide_list.c	/^int get_guide_list()$/;"	f
+get_http	stmp/http.c	/^int get_http( char* address, int port, char* path ,char *buf, int buf_len )$/;"	f
+get_ini	pub/ini.c	/^int get_ini(char *buf, const char* key, char* value)$/;"	f
+get_shanghu_flag	boss/boss_header.h	/^	int					get_shanghu_flag;$/;"	m	struct:guide_node
+get_shebei_type_flag	boss/boss_header.h	/^	int					get_shebei_type_flag;$/;"	m	struct:guide_node
+get_ss_thread	boss/time_task.c	/^void* get_ss_thread(void *fd)$/;"	f
+get_stat	authenticate/utils.c	/^void get_stat(ag_msg_stat* stat)$/;"	f
+guide_conn_process	boss/guide.c	/^void* guide_conn_process(void *fd)$/;"	f
+guide_conn_thread	boss/guide.c	/^void* guide_conn_thread(void *fd){$/;"	f
+guide_conn_thread	guide/router_guide.c	/^int guide_conn_thread()$/;"	f
+guide_conn_thread	sguide/router_guide.c	/^int guide_conn_thread()$/;"	f
+guide_epoll_thread	boss/guide.c	/^void* guide_epoll_thread(void *fd)$/;"	f
+guide_flag	pub/header.h	/^	int		guide_flag;			\/\/ -1 不可用 0 老用户 1 新用户$/;"	m	struct:bg_num_msg
+guide_id_call_sockfd	boss/list_guide.c	/^int inline guide_id_call_sockfd(unsigned int userid){$/;"	f
+guide_list_add	sauthenticate/guide_list.c	/^void guide_list_add(unsigned int id, char* url, unsigned int port)$/;"	f
+guide_list_clean	sauthenticate/guide_list.c	/^void guide_list_clean()$/;"	f
+guide_list_err	boss/list_guide.c	/^void inline guide_list_err(int sockfd){$/;"	f
+guide_list_get	sauthenticate/guide_list.c	/^int guide_list_get(unsigned int id, char* url, unsigned int *port)$/;"	f
+guide_mutual_thread	authenticate/server_mutual.c	/^void* guide_mutual_thread(void* fd)$/;"	f
+guide_node	boss/boss_header.h	/^typedef struct guide_node{$/;"	s
+guide_node	boss/boss_header.h	/^}guide_node;$/;"	t	typeref:struct:guide_node
+guide_node	sauthenticate/sauth_header.h	/^typedef struct guide_node{$/;"	s
+guide_node	sauthenticate/sauth_header.h	/^}guide_node;$/;"	t	typeref:struct:guide_node
+guide_packet_process_fun	boss/guide.c	/^void* guide_packet_process_fun( void* fd, wt_sql_handle* handle )$/;"	f
+guide_process	guide/router_guide.c	/^void* guide_process(void *fd){$/;"	f
+guide_process	sguide/router_guide.c	/^void* guide_process(void *fd){$/;"	f
+guide_sockfd_call_all	boss/list_guide.c	/^int inline guide_sockfd_call_all(int sockfd, guide_node* node){$/;"	f
+guide_sockfd_call_id	boss/list_guide.c	/^unsigned int inline guide_sockfd_call_id(int sockfd){$/;"	f
+guide_sockfd_change_id	boss/list_guide.c	/^void inline guide_sockfd_change_id(int sockfd, unsigned int userid)$/;"	f
+gv_auth_code	authenticate/main.c	/^unsigned int		gv_auth_code = 0;$/;"	v
+gv_authenticate_count	guide/main.c	/^unsigned int		gv_authenticate_count = 0;		\/\/ 已启动认证服务器数量$/;"	v
+gv_authenticate_list_head	guide/main.c	/^LIST_HEAD(			gv_authenticate_list_head);		\/\/ 已启动认证服务器链表头$/;"	v
+gv_authenticate_list_lock	guide/main.c	/^pthread_mutex_t		gv_authenticate_list_lock;		\/\/ 已启动认证服务器链表互斥锁$/;"	v
+gv_boss_flag	guide/main.c	/^int					gv_boss_flag = 0;				\/\/ boss控制的是否可以引导的标志$/;"	v
+gv_boss_flag_lock	guide/main.c	/^pthread_mutex_t		gv_boss_flag_lock;$/;"	v
+gv_boss_rt_head	guide/main.c	/^LIST_HEAD(			gv_boss_rt_head);				\/\/ 设备类型链表$/;"	v
+gv_guide_count	boss/main.c	/^unsigned int		gv_guide_count = 0;		\/\/ 已启动认证服务器数量$/;"	v
+gv_guide_flag	authenticate/main.c	/^int					gv_guide_flag = 0;$/;"	v
+gv_guide_flag_lock	authenticate/main.c	/^pthread_mutex_t		gv_guide_flag_lock;$/;"	v
+gv_guide_head	sauthenticate/main.c	/^LIST_HEAD(			gv_guide_head);								\/\/ 引导服务器链表头$/;"	v
+gv_guide_list_head	boss/main.c	/^LIST_HEAD(			gv_guide_list_head);	\/\/ 已启动认证服务器链表头$/;"	v
+gv_guide_list_lock	boss/main.c	/^pthread_mutex_t		gv_guide_list_lock;		\/\/ 已启动认证服务器链表互斥锁$/;"	v
+gv_guide_lock	sauthenticate/main.c	/^pthread_mutex_t		gv_guide_lock;								\/\/ 引导服务器链表互斥锁$/;"	v
+gv_guide_router_count	guide/main.c	/^unsigned int		gv_guide_router_count = 0;		\/\/ 引导过的设备计数器$/;"	v
+gv_guide_router_count	sguide/main.c	/^unsigned int		gv_guide_router_count = 0;		\/\/ 引导过的设备计数器$/;"	v
+gv_heart_interval	guide/main.c	/^int					gv_heart_interval = 300;		\/\/ 心跳时间$/;"	v
+gv_list_lock	acac/main.c	/^pthread_mutex_t		gv_list_lock;					\/\/连接设备链读写锁$/;"	v
+gv_list_lock	authenticate/main.c	/^pthread_mutex_t		gv_list_lock;								\/\/ 连接设备链读写锁$/;"	v
+gv_list_lock	gac/main.c	/^pthread_mutex_t		gv_list_lock;					\/\/连接设备链读写锁$/;"	v
+gv_list_lock	management/main.c	/^pthread_mutex_t		gv_list_lock;					\/\/连接设备链读写锁$/;"	v
+gv_num_falg	guide/main.c	/^int					gv_num_falg = 0;				\/\/ 数量控制falg$/;"	v
+gv_platform_port	authenticate/auth_header.h	/^unsigned int				gv_platform_port;								\/\/ 平台端口,开放给平台的$/;"	v
+gv_platform_port	authenticate/main.c	/^unsigned int		gv_platform_port;								\/\/ 平台端口,开放给平台的$/;"	v
+gv_router_type_num	authenticate/main.c	/^unsigned int		gv_router_type_num = 0;						\/\/ 设备型号数量计数器$/;"	v
+gv_rt_num	guide/main.c	/^int					gv_rt_num = 0;					\/\/ 设备类型数量$/;"	v
+gv_simple_gg2_list_count	authenticate/main.c	/^unsigned int		gv_simple_gg2_list_count;$/;"	v
+gv_simple_gg2_list_lock	authenticate/main.c	/^pthread_mutex_t		gv_simple_gg2_list_lock;$/;"	v
+gv_sock_count	acac/main.c	/^__u32				gv_sock_count = 0;				\/\/连接设备计数器$/;"	v
+gv_sock_count	authenticate/main.c	/^unsigned int		gv_sock_count = 0;							\/\/ 连接设备计数器$/;"	v
+gv_sock_count	gac/main.c	/^__u32				gv_sock_count = 0;				\/\/连接设备计数器$/;"	v
+gv_sock_count	management/main.c	/^__u32				gv_sock_count = 0;				\/\/连接设备计数器$/;"	v
+gv_sock_list_head	acac/main.c	/^LIST_HEAD(			gv_sock_list_head);				\/\/连接设备链表头$/;"	v
+gv_sock_list_head	authenticate/main.c	/^LIST_HEAD(			gv_sock_list_head);							\/\/ 连接设备链表头$/;"	v
+gv_sock_list_head	gac/main.c	/^LIST_HEAD(			gv_sock_list_head);				\/\/连接设备链表头$/;"	v
+gv_sock_list_head	management/main.c	/^LIST_HEAD(			gv_sock_list_head);				\/\/连接设备链表头$/;"	v
+gv_task_lock	guide/main.c	/^pthread_mutex_t		gv_task_lock;					\/\/ 数据库定时任务互斥锁$/;"	v
+gv_third_count	guide/main.c	/^unsigned int		gv_third_count = 0;				\/\/ 第三方监听程序连接计数器$/;"	v
+gv_time_ed_flag	boss/main.c	/^int					gv_time_ed_flag = 0;	\/\/ 定时任务完成标志$/;"	v
+gv_total_num	guide/main.c	/^int					gv_total_num = 0;				\/\/ 设备数量$/;"	v
+gv_up_addr_lock	authenticate/main.c	/^pthread_mutex_t		gv_up_addr_lock;							\/\/ 升级地址互斥锁$/;"	v
+gw	pub/header.h	/^	__u32 gw;				\/\/ 网关(网络字节序)$/;"	m	struct:ac_ap_dhcp_conf_st
+hard_id	pub/header.h	/^	__u32	hard_id;				\/\/ 设备硬件型号$/;"	m	struct:cer_msg_st
+hard_seq	authenticate/auth_header.h	/^	__u8				hard_seq[64];		\/\/ 设备序列号$/;"	m	struct:sock_list
+hard_seq	pub/header.h	/^	__u8	hard_seq[64];			\/\/ 设备序列号$/;"	m	struct:cer_msg_st
+hard_seq	pub/header.h	/^	__u8	hard_seq[64];			\/\/ 设备序列号$/;"	m	struct:msg_head_st
+head	pub/header.h	/^	ag_msg_head	 head;$/;"	m	struct:ag_msg_stat
+head	pub/header.h	/^	ag_msg_head  head;$/;"	m	struct:ag_msg_mac
+head	pub/header.h	/^	ag_msg_head  head;$/;"	m	struct:ag_msg_router
+head	pub/header.h	/^	ag_msg_head head;$/;"	m	struct:ag_msg_conn
+head	pub/header.h	/^	ag_msg_head head;$/;"	m	struct:ag_msg_conn_res
+head	pub/header.h	/^	unsigned char	head;$/;"	m	struct:bg_msg_head
+head	pub/header.h	/^	unsigned char head;				\/\/ 头$/;"	m	struct:ag_msg_head
+heart_count	acac/acac_header.h	/^	__u32				heart_count;$/;"	m	struct:sock_list
+heart_count	authenticate/auth_header.h	/^	__u32				heart_count;		\/\/ 心跳计数器$/;"	m	struct:sock_list
+heart_count	gac/gac_header.h	/^	__u32				heart_count;$/;"	m	struct:sock_list
+heart_count	management/ac_header.h	/^	__u32				heart_count;$/;"	m	struct:sock_list
+heart_interval	pub/header.h	/^	int		heart_interval;		\/\/ 心跳频率$/;"	m	struct:bg_num_msg
+heart_msg_st	authenticate/auth_header.h	/^typedef struct heart_msg_st$/;"	s
+heart_msg_st	authenticate/auth_header.h	/^}heart_msg_st;$/;"	t	typeref:struct:heart_msg_st
+heart_process	boss/guide.c	/^int heart_process(int sockfd, bg_heart_msg *msg, wt_sql_handle* handle)$/;"	f
+hearttime	pub/header.h	/^	__u32   hearttime;					\/\/ 心跳时间单位（范围 5-600 秒） 用于 路由器 多长时间 发送一次 在线的信息，服务器指定。单位秒，默认为60秒$/;"	m	struct:ac_login_st
+hide	authenticate/auth_header.h	/^	unsigned char hide;						\/\/隐藏$/;"	m	struct:wifi_base_list_st
+hide	pub/header.h	/^	__u8 hide;				\/\/ 隐藏$/;"	m	struct:ac_ap_wifi_base_list_st
+host	authenticate/auth_header.h	/^	unsigned char host[32];			\/\/ URL的主机名称		$/;"	m	struct:url_redirect_st
+host_flag	authenticate/auth_header.h	/^	unsigned char host_flag[4];		\/\/ URL 的主机名称选项, 字符串 "0", 相同, "1", 包含$/;"	m	struct:url_redirect_st
+html_data	authenticate/auth_header.h	/^	unsigned char	html_data[0];		\/\/ html 文件内容mac 用%s 代替	$/;"	m	struct:weixin_share_set_st
+html_len	authenticate/auth_header.h	/^	unsigned short  html_len;			\/\/ html 文件长度, 最大不超过7K $/;"	m	struct:weixin_share_set_st
+http_passwd	pub/header.h	/^	__u8 http_passwd[32];	\/\/ WB管理密码$/;"	m	struct:ac_ap_base_conf_st
+http_username	pub/header.h	/^	__u8 http_username[32];	\/\/ WEB管理账号$/;"	m	struct:ac_ap_base_conf_st
+httpd_pwd_st	authenticate/auth_header.h	/^typedef struct httpd_pwd_st$/;"	s
+httpd_pwd_st	authenticate/auth_header.h	/^}httpd_pwd_st;$/;"	t	typeref:struct:httpd_pwd_st
+hycardiswx	authenticate/auth_header.h	/^	__u8				hycardiswx;			\/\/ 会员卡是否启用微信关注$/;"	m	struct:sock_list
+id	authenticate/auth_header.h	/^	int		id;								\/\/ 设备型号id$/;"	m	struct:upgrade_addr
+id	pub/header.h	/^		unsigned int	id;$/;"	m	struct:bg_rts_msg::bg_rt_node
+id	sauthenticate/sauth_header.h	/^	unsigned int		id;								\/\/ 代理商id$/;"	m	struct:guide_node
+init_ini	pub/ini.c	/^int init_ini(char* filename, int *fd, char* buf, int len)$/;"	f
+ios_flag	authenticate/auth_header.h	/^	__u8				ios_flag;			\/\/ 是否开启微信认证或微信分享$/;"	m	struct:sock_list
+ip	guide/guide_header.h	/^	unsigned int ip;						\/\/设备ip$/;"	m	struct:authenticate_stat
+ip_to_str	pub/utils.c	/^void ip_to_str(char* cip, __u32 sip)$/;"	f
+ipaddr	pub/header.h	/^	__u32 ipaddr;			\/\/ AP IP地址(网络字节序)$/;"	m	struct:ac_ap_base_conf_st
+ips	authenticate/auth_header.h	/^	unsigned char ips[64];			\/\/ 主机IP地址范围, 为空表示所有IP	$/;"	m	struct:url_redirect_st
+is_streamline	pub/header.h	/^	int		is_streamline;$/;"	m	struct:bg_conn_msg
+ishaveacserver	authenticate/auth_header.h	/^	int		ishaveacserver;$/;"	m	struct:upgrade_addr
+ishaveacserver	pub/header.h	/^		unsigned int	ishaveacserver;$/;"	m	struct:bg_rts_msg::bg_rt_node
+ishavewifi	authenticate/auth_header.h	/^	int		ishavewifi;						\/\/ 是否有无线功能$/;"	m	struct:upgrade_addr
+ishavewifi	pub/header.h	/^		unsigned int	ishavewifi;$/;"	m	struct:bg_rts_msg::bg_rt_node
+ishycard	authenticate/auth_header.h	/^	__u8				ishycard;			\/\/ 是否启用会员卡$/;"	m	struct:sock_list
+isok	pub/header.h	/^		char			isok;$/;"	m	struct:bg_shanghu_msg::bg_shanghu_node
+isolated	authenticate/auth_header.h	/^	unsigned char isolated;					\/\/隔离$/;"	m	struct:wifi_base_list_st
+isolated	pub/header.h	/^	__u8 isolated;								\/\/ AP 隔离0:禁用,1:启用$/;"	m	struct:ac_ap_wifi_base_conf_st
+isolated	pub/header.h	/^	__u8 isolated;			\/\/ 隔离$/;"	m	struct:ac_ap_wifi_base_list_st
+isreopen	pub/header.h	/^		char			isreopen;$/;"	m	struct:bg_shanghu_msg::bg_shanghu_node
+js_len	authenticate/auth_header.h	/^	__u32 js_len;										\/\/ 传入的JS内容长度 网络序$/;"	m	struct:simple_gg_msg_st
+js_len	authenticate/auth_header.h	/^	unsigned int  js_len;				\/\/ > 0 && < 4090$/;"	m	struct:simple_gg2_st
+key	authenticate/auth_header.h	/^	unsigned char	key[64];$/;"	m	struct:wpa_key_st
+key	authenticate/auth_header.h	/^	}key;$/;"	m	struct:wifi_base_list_st	typeref:union:wifi_base_list_st::__anon1
+key	pub/header.h	/^	__u8 key[65];				\/\/ 密钥$/;"	m	struct:ac_ap_wifi_wds_list_st
+key	pub/header.h	/^	unsigned char	key[64];$/;"	m	struct:ac_wpa_key_st
+key	pub/header.h	/^	}key;$/;"	m	struct:ac_ap_wifi_base_list_st	typeref:union:ac_ap_wifi_base_list_st::__anon2
+key1	authenticate/auth_header.h	/^	unsigned char key1[27];$/;"	m	struct:wep_key_st
+key1	pub/header.h	/^	unsigned char key1[27];$/;"	m	struct:ac_wep_key_st
+key1type	authenticate/auth_header.h	/^	unsigned char key1type; \/*1:ASCII 0:HEX*\/$/;"	m	struct:wep_key_st
+key1type	pub/header.h	/^	unsigned char key1type; \/*1:ASCII 0:HEX*\/$/;"	m	struct:ac_wep_key_st
+key2	authenticate/auth_header.h	/^	unsigned char key2[27];$/;"	m	struct:wep_key_st
+key2	pub/header.h	/^	unsigned char key2[27];$/;"	m	struct:ac_wep_key_st
+key2type	authenticate/auth_header.h	/^	unsigned char key2type; \/*1:ASCII 0:HEX*\/$/;"	m	struct:wep_key_st
+key2type	pub/header.h	/^	unsigned char key2type; \/*1:ASCII 0:HEX*\/$/;"	m	struct:ac_wep_key_st
+key3	authenticate/auth_header.h	/^	unsigned char key3[27];$/;"	m	struct:wep_key_st
+key3	pub/header.h	/^	unsigned char key3[27];$/;"	m	struct:ac_wep_key_st
+key3type	authenticate/auth_header.h	/^	unsigned char key3type; \/*1:ASCII 0:HEX*\/$/;"	m	struct:wep_key_st
+key3type	pub/header.h	/^	unsigned char key3type; \/*1:ASCII 0:HEX*\/$/;"	m	struct:ac_wep_key_st
+key4	authenticate/auth_header.h	/^	unsigned char key4[27];$/;"	m	struct:wep_key_st
+key4	pub/header.h	/^	unsigned char key4[27];$/;"	m	struct:ac_wep_key_st
+key4type	authenticate/auth_header.h	/^	unsigned char key4type; \/*1:ASCII 0:HEX*\/$/;"	m	struct:wep_key_st
+key4type	pub/header.h	/^	unsigned char key4type; \/*1:ASCII 0:HEX*\/$/;"	m	struct:ac_wep_key_st
+keyword_gb2312	authenticate/auth_header.h	/^	unsigned char keyword_gb2312[64];	\/\/ 关键字, GB2312 编码,  如:  你好 gb2312=%C4%E3%BA%C3 $/;"	m	struct:web_keyword_st
+keyword_utf8	authenticate/auth_header.h	/^	unsigned char keyword_utf8[64];		\/\/ 关键字, UTF8 编码,	   如:  你好 utf8=%E4%BD%A0%E5%A5%BD$/;"	m	struct:web_keyword_st
+last_heart_time	acac/acac_header.h	/^	time_t				last_heart_time;			\/\/ 最后心跳时间$/;"	m	struct:sock_list
+last_heart_time	authenticate/auth_header.h	/^	time_t				last_heart_time;	\/\/ 最后一次心跳时间 当一分钟没有收到心跳的时候 判定设备离线$/;"	m	struct:sock_list
+last_heart_time	gac/gac_header.h	/^	time_t				last_heart_time;			\/\/ 最后心跳时间$/;"	m	struct:sock_list
+last_heart_time	management/ac_header.h	/^	time_t				last_heart_time;			\/\/ 最后心跳时间$/;"	m	struct:sock_list
+last_time	boss/boss_header.h	/^	time_t				last_time;$/;"	m	struct:guide_node
+last_time	guide/guide_header.h	/^	time_t		 last_time;					\/\/最后状态报告时间$/;"	m	struct:authenticate_node
+ld_en	authenticate/auth_header.h	/^	unsigned char ld_en[4];			\/\/ 是否将被重定向的URL在末尾	字符串"0" , 不追加, "1" 追加$/;"	m	struct:url_redirect_st
+lease_time	pub/header.h	/^	__u32 lease_time;		\/\/ 租期时间(秒)(网络字节序)$/;"	m	struct:ac_ap_dhcp_conf_st
+len	authenticate/auth_header.h	/^	__u16 len;											\/\/ 回复内容长度$/;"	m	struct:result_msg_st
+len	authenticate/auth_header.h	/^	unsigned short len;									\/\/ 升级地址长度$/;"	m	struct:auto_upgrade_result_st
+len	authenticate/auth_header.h	/^	unsigned short len;									\/\/ 回复内容长度$/;"	m	struct:simple_cache_result_msg_st
+len	authenticate/auth_header.h	/^	unsigned short len;      \/*URL len 网络序*\/$/;"	m	struct:usb_simple_cache_st
+len	probe/probe.c	/^	int	  len;			\/\/ 长度$/;"	m	struct:message	file:
+len	probe/probe.c	/^	unsigned short       len;			\/\/ 总数据长度, 网络序$/;"	m	struct:wifi_monitor_data_head	file:
+len	pub/header.h	/^	__u16	len;					\/\/ 数据包的长度$/;"	m	struct:msg_head_st
+len	pub/header.h	/^	unsigned int	len;$/;"	m	struct:bg_msg_head
+len	pub/header.h	/^	unsigned short len;				\/\/ 报文长度$/;"	m	struct:ag_msg_head
+list	authenticate/auth_header.h	/^	struct wifi_base_list_st list[5];	\/\/SSID个数$/;"	m	struct:wifi_base_conf_msg_st	typeref:struct:wifi_base_conf_msg_st::wifi_base_list_st
+list	pub/header.h	/^	struct ac_ap_wifi_base_list_st list[5];	\/\/ 5个SSID的配置 740字节$/;"	m	struct:ac_ap_wifi_base_conf_st	typeref:struct:ac_ap_wifi_base_conf_st::ac_ap_wifi_base_list_st
+list	pub/header.h	/^	struct ac_ap_wifi_wds_list_st list[4];	\/\/ 支持4个WDS 288字节$/;"	m	struct:ac_ap_wifi_wds_conf_st	typeref:struct:ac_ap_wifi_wds_conf_st::ac_ap_wifi_wds_list_st
+list_add	pub/list.h	/^static inline void list_add(struct list_head *new, struct list_head *head)$/;"	f
+list_add_tail	pub/list.h	/^static inline void list_add_tail(struct list_head *new, struct list_head *head)$/;"	f
+list_del	pub/list.h	/^static inline void list_del(struct list_head *entry)$/;"	f
+list_empty	pub/list.h	/^static inline int list_empty(const struct list_head *head)$/;"	f
+list_for_each	pub/list.h	112;"	d
+list_for_each_prev	pub/list.h	120;"	d
+list_head	pub/list.h	/^struct list_head {$/;"	s
+load_weight	guide/guide_header.h	/^	int			 load_weight;				\/\/负载状态 使用认证服务器发来的状态用算法算出$/;"	m	struct:authenticate_node
+location	authenticate/auth_header.h	/^	int					location;$/;"	m	struct:simple_gg2_node
+lock	boss/boss_header.h	/^	pthread_mutex_t		lock;$/;"	m	struct:guide_node
+lock	guide/guide_header.h	/^	pthread_mutex_t		lock;$/;"	m	struct:authenticate_node
+log	authenticate/auth_header.h	/^	unsigned char log[4];				\/\/ 日志字符串, "0" 关闭, "1" 开启$/;"	m	struct:web_keyword_st
+log	authenticate/auth_header.h	/^	unsigned char log[4];			\/\/ 日志字符串 "0", 关闭, "1", 开启$/;"	m	struct:url_redirect_st
+log	authenticate/auth_header.h	/^	unsigned char log[4];			\/\/ 日志字符串, "1"开启 "0" 关闭$/;"	m	struct:mx_app_filter_st
+log_day	pub/logs.c	/^int				log_day;			\/\/ 当前log文件对应的日期-天$/;"	v
+log_name	pub/logs.c	/^char			log_name[32];		\/\/ log文件前缀名$/;"	v
+log_statiscits	guide/time_task.c	/^int log_statiscits(wt_sql_handle *s1_handle, wt_sql_handle *s2_handle, wt_sql_handle *iud_handle, char *s_yesterday, char *s_delete_log_day)$/;"	f
+log_tongji	guide/time_task.c	/^int log_tongji(wt_sql_handle *s1_handle, wt_sql_handle *s2_handle, wt_sql_handle *iud_handle, char *s_yesterday)$/;"	f
+logs_buf	pub/logs.c	/^static char logs_buf[2048];			\/\/ log内容$/;"	v	file:
+logs_create	pub/logs.c	/^int inline logs_create()$/;"	f
+logs_destroy	pub/logs.c	/^void logs_destroy()$/;"	f
+logs_fd	pub/logs.c	/^int				logs_fd		= 0;	\/\/ 文件描述符$/;"	v
+logs_init	pub/logs.c	/^int logs_init(char* prefix)$/;"	f
+logs_lock	pub/logs.c	/^pthread_mutex_t logs_lock;			\/\/ log写入全局互斥锁$/;"	v
+logs_mytime	pub/logs.c	/^static struct tm *logs_mytime;		\/\/ log时间$/;"	v	typeref:struct:tm	file:
+logs_ret	pub/logs.c	/^static int logs_strlen,logs_ret;	\/\/$/;"	v	file:
+logs_strlen	pub/logs.c	/^static int logs_strlen,logs_ret;	\/\/$/;"	v	file:
+logs_temp	pub/logs.c	/^static char logs_temp[2048];		\/\/ log内容临时存放$/;"	v	file:
+logs_tm	pub/logs.c	/^static time_t logs_tm;				\/\/ log时间$/;"	v	file:
+mac	authenticate/auth_header.h	/^	__u8 mac[8];					\/\/ 用户的mac$/;"	m	struct:user_msg_st
+mac	authenticate/auth_header.h	/^	unsigned char  mac[6];$/;"	m	struct:third_qq_msg_st
+mac	probe/probe.c	/^	unsigned char  mac[6];			\/\/ 客户的mac$/;"	m	struct:wifi_monitor_client_st	file:
+mac	pub/header.h	/^	__u8 mac[6];				\/\/ MAC地址$/;"	m	struct:ac_ap_wifi_wds_list_st
+mac	pub/header.h	/^	char		 mac[16];$/;"	m	struct:ag_msg_mac
+mac_num	pub/header.h	/^		unsigned int	mac_num;$/;"	m	struct:bg_shanghu_msg::bg_shanghu_node
+mac_takeout	authenticate/server_mutual.c	/^void* mac_takeout(void* arg, wt_sql_handle* handle)$/;"	f
+main	acac/main.c	/^int main(int argc, char** argv)$/;"	f
+main	authenticate/main.c	/^int main(int argc, char** argv)$/;"	f
+main	boss/main.c	/^int main(int argc, char** argv)$/;"	f
+main	gac/main.c	/^int main(int argc, char** argv)$/;"	f
+main	guide/main.c	/^int main(int argc, char** argv)$/;"	f
+main	management/main.c	/^int main(int argc, char** argv)$/;"	f
+main	probe/probe.c	/^int main(int argc, char** argv)$/;"	f
+main	sauthenticate/main.c	/^int main(int argc, char** argv)$/;"	f
+main	sguide/main.c	/^int main(int argc, char** argv)$/;"	f
+main	stmp/main.c	/^int main(int argc, char** argv)$/;"	f
+main	test/main.c	/^int main(int argc, char** argv)$/;"	f
+make_email	stmp/main.c	/^int make_email()$/;"	f
+malloc_fn	pub/cJSON.h	/^      void *(*malloc_fn)(size_t sz);$/;"	m	struct:cJSON_Hooks
+mask	pub/header.h	/^	__u32 mask;				\/\/ 掩码(网络字节序)$/;"	m	struct:ac_ap_dhcp_conf_st
+max_num	pub/header.h	/^	__u8 max_num;			\/\/ 最大用户数$/;"	m	struct:ac_ap_base_conf_st
+mem_free	pub/header.h	/^	__u32 mem_free;			\/\/ 剩余内存，单位Byte$/;"	m	struct:ac_ap_base_conf_st
+mem_total	pub/header.h	/^	__u32 mem_total;		\/\/ 总内存，单位Byte$/;"	m	struct:ac_ap_base_conf_st
+message	probe/probe.c	/^struct message{$/;"	s	file:
+mng_srv	pub/header.h	/^	__u8	mng_srv[64];			\/\/ 集中管理服务器,目前暂时保留不用$/;"	m	struct:cer_msg_st
+mobile	pub/header.h	/^		char			mobile[16];$/;"	m	struct:bg_shanghu_msg::bg_shanghu_node
+mode	pub/header.h	/^	__u8	mode;					\/\/ 方向,1: 路由器发往服务器；2: 服务器发往路由器$/;"	m	struct:msg_head_st
+mode	pub/header.h	/^	__u8 mode;									\/\/ 网络模式0:11b\/g 混合,1:仅支持11b,4:仅支持11g,9:11b\/g\/n混合,6:仅支持11n(2.4G)$/;"	m	struct:ac_ap_wifi_base_conf_st
+mode	pub/header.h	/^	unsigned char	mode;			\/\/ 0..客户机->主机，1..主机到客户机	$/;"	m	struct:ac_head_st
+mode_fromsvr	pub/header.h	/^	mode_fromsvr,					\/\/2 服务器发往路由器的数据包$/;"	e	enum:mode_type
+mode_max	pub/header.h	/^	mode_max,$/;"	e	enum:mode_type
+mode_tosvr	pub/header.h	/^	mode_tosvr,						\/\/1 路由器发往服务器的数据包$/;"	e	enum:mode_type
+mode_type	pub/header.h	/^enum mode_type {$/;"	g
+mode_unknown	pub/header.h	/^	mode_unknown = 0, $/;"	e	enum:mode_type
+modidate	pub/header.h	/^		char			modidate[32];$/;"	m	struct:bg_shanghu_msg::bg_shanghu_node
+monitor_data_thread	probe/probe.c	/^void* monitor_data_thread(void* fd)$/;"	f
+monitor_set_st	authenticate/auth_header.h	/^typedef struct monitor_set_st$/;"	s
+monitor_set_st	authenticate/auth_header.h	/^}monitor_set_st;$/;"	t	typeref:struct:monitor_set_st
+msg	pub/header.h	/^	__u8	msg[255];					\/\/ 表示state错误时的信息$/;"	m	struct:ac_login_st
+msg	pub/header.h	/^	__u8    msg[256];					\/\/ 状态说明，服务器下发配置参数时客户端回应$/;"	m	struct:ac_state_st
+msg	pub/header.h	/^	__u8  msg[64];			\/\/ 控制客户端连接控制服务端消息$/;"	m	struct:ac_proxy_st
+msgHeader	probe/probe.c	/^	unsigned short       msgHeader;		\/\/ 报文头，用于识别是否为定位报文, 网络序, 约定(0x2233)$/;"	m	struct:wifi_monitor_data_head	file:
+msg_head_st	pub/header.h	/^typedef struct msg_head_st$/;"	s
+msg_head_st	pub/header.h	/^}msg_head_st;$/;"	t	typeref:struct:msg_head_st
+msg_order_ac_addr_result	pub/header.h	/^	msg_order_ac_addr_result,				\/\/83 集中管理平台地址回复$/;"	e	enum:msg_order_type
+msg_order_ac_addr_set	pub/header.h	/^	msg_order_ac_addr_set = 82,				\/\/82 集中管理平台地址下发$/;"	e	enum:msg_order_type
+msg_order_acac_addr_result	pub/header.h	/^	msg_order_acac_addr_result,				\/\/92 ACAC的地址端口修改回复$/;"	e	enum:msg_order_type
+msg_order_acac_addr_set	pub/header.h	/^	msg_order_acac_addr_set = 91,			\/\/91 ACAC的地址端口修改$/;"	e	enum:msg_order_type
+msg_order_addr	pub/header.h	/^	msg_order_addr,							\/\/02 获取认证、审计服务器地址,对应 struct cer_msg_st;$/;"	e	enum:msg_order_type
+msg_order_auth	pub/header.h	/^	msg_order_auth,							\/\/01 连接认证,对应struct cer_msg_st;$/;"	e	enum:msg_order_type
+msg_order_auto_upgrade	pub/header.h	/^	msg_order_auto_upgrade,					\/\/08 设置路由器自动升级, 对应 struct auto_upgrade_st$/;"	e	enum:msg_order_type
+msg_order_dns_white	pub/header.h	/^	msg_order_dns_white,					\/\/07 路由器修改白名单, 对应 struct dns_white_list_st$/;"	e	enum:msg_order_type
+msg_order_guide_addr_result	pub/header.h	/^	msg_order_guide_addr_result,			\/\/96 引导地址端口修改回复$/;"	e	enum:msg_order_type
+msg_order_guide_addr_set	pub/header.h	/^	msg_order_guide_addr_set = 95,			\/\/95 引导地址端口修改$/;"	e	enum:msg_order_type
+msg_order_heart	pub/header.h	/^	msg_order_heart,						\/\/04 心跳包,对应 struct heart_msg_st;$/;"	e	enum:msg_order_type
+msg_order_httpd_pwd_get	pub/header.h	/^	msg_order_httpd_pwd_get,				\/\/109 获取httpd 登录用户名和密码$/;"	e	enum:msg_order_type
+msg_order_httpd_pwd_result	pub/header.h	/^	msg_order_httpd_pwd_result,				\/\/108 回复$/;"	e	enum:msg_order_type
+msg_order_httpd_pwd_send	pub/header.h	/^	msg_order_httpd_pwd_send,				\/\/110 回复$/;"	e	enum:msg_order_type
+msg_order_httpd_pwd_set	pub/header.h	/^	msg_order_httpd_pwd_set,				\/\/107 设置httpd 登录用户名和密码$/;"	e	enum:msg_order_type
+msg_order_local_php_config	pub/header.h	/^	msg_order_local_php_config,				\/\/13 下发认证页面信息$/;"	e	enum:msg_order_type
+msg_order_local_user_login	pub/header.h	/^	msg_order_local_user_login,				\/\/12 发送用户认证信息$/;"	e	enum:msg_order_type
+msg_order_local_user_login_new	pub/header.h	/^	msg_order_local_user_login_new,			\/\/14 发送用户认证信息$/;"	e	enum:msg_order_type
+msg_order_max	pub/header.h	/^	msg_order_max,$/;"	e	enum:msg_order_type
+msg_order_memory_cache_result	pub/header.h	/^	msg_order_memory_cache_result,			\/\/64 下发缓存到内存回复$/;"	e	enum:msg_order_type
+msg_order_memory_cache_set	pub/header.h	/^	msg_order_memory_cache_set = 63,		\/\/63 下发缓存到内存$/;"	e	enum:msg_order_type
+msg_order_mx_app_filter_result	pub/header.h	/^	msg_order_mx_app_filter_result,			\/\/62 流媒体识别控制回复$/;"	e	enum:msg_order_type
+msg_order_mx_app_filter_set	pub/header.h	/^	msg_order_mx_app_filter_set,			\/\/61 流媒体识别控制$/;"	e	enum:msg_order_type
+msg_order_mx_wireless_config_5g_get	pub/header.h	/^	msg_order_mx_wireless_config_5g_get,	\/\/99 获取5G无线配置99$/;"	e	enum:msg_order_type
+msg_order_mx_wireless_config_5g_result	pub/header.h	/^	msg_order_mx_wireless_config_5g_result,	\/\/98 回复98$/;"	e	enum:msg_order_type
+msg_order_mx_wireless_config_5g_send	pub/header.h	/^	msg_order_mx_wireless_config_5g_send,	\/\/100 回复100$/;"	e	enum:msg_order_type
+msg_order_mx_wireless_config_5g_set	pub/header.h	/^	msg_order_mx_wireless_config_5g_set = 97,\/\/97 下发5G无线信息配置97 , struct wt_wifi_base_conf_so$/;"	e	enum:msg_order_type
+msg_order_mx_wireless_config_get	pub/header.h	/^	msg_order_mx_wireless_config_get,		\/\/70 获取无线配置$/;"	e	enum:msg_order_type
+msg_order_mx_wireless_config_result	pub/header.h	/^	msg_order_mx_wireless_config_result,	\/\/69 回复$/;"	e	enum:msg_order_type
+msg_order_mx_wireless_config_send	pub/header.h	/^	msg_order_mx_wireless_config_send,		\/\/71 回复$/;"	e	enum:msg_order_type
+msg_order_mx_wireless_config_set	pub/header.h	/^	msg_order_mx_wireless_config_set = 68,	\/\/68 下发无线信息配置, struct wt_mx_wifi_base_conf_so$/;"	e	enum:msg_order_type
+msg_order_reboot	pub/header.h	/^	msg_order_reboot,						\/\/22 下发重启操作 后接 reboot_st$/;"	e	enum:msg_order_type
+msg_order_reboot_result	pub/header.h	/^	msg_order_reboot_result,				\/\/23 回复重启操作结果, 需要先回复再重启23$/;"	e	enum:msg_order_type
+msg_order_simple_cache	pub/header.h	/^	msg_order_simple_cache,					\/\/09 用户路由器简单缓存页面, 对应 simple_cache_st$/;"	e	enum:msg_order_type
+msg_order_simple_gg	pub/header.h	/^	msg_order_simple_gg,					\/\/10 简单广告$/;"	e	enum:msg_order_type
+msg_order_simple_gg2_get	pub/header.h	/^	msg_order_simple_gg2_get,				\/\/105 获取简单广告2参数$/;"	e	enum:msg_order_type
+msg_order_simple_gg2_result	pub/header.h	/^	msg_order_simple_gg2_result,			\/\/104 简单广告2 下发回复$/;"	e	enum:msg_order_type
+msg_order_simple_gg2_send	pub/header.h	/^	msg_order_simple_gg2_send,				\/\/106 获取简单广告2参数回复$/;"	e	enum:msg_order_type
+msg_order_simple_gg2_set	pub/header.h	/^	msg_order_simple_gg2_set = 103,			\/\/103 简单广告2 下发$/;"	e	enum:msg_order_type
+msg_order_sj_url	pub/header.h	/^	msg_order_sj_url,						\/\/24 树熊需要的URL 信息$/;"	e	enum:msg_order_type
+msg_order_speed_get	pub/header.h	/^	msg_order_speed_get = 45,				\/\/45 获取实时速度操作$/;"	e	enum:msg_order_type
+msg_order_speed_get_result	pub/header.h	/^	msg_order_speed_get_result,				\/\/46 获取实时速度返回$/;"	e	enum:msg_order_type
+msg_order_third_qq	pub/header.h	/^	msg_order_third_qq,						\/\/11 发送QQ信息$/;"	e	enum:msg_order_type
+msg_order_type	pub/header.h	/^enum msg_order_type {$/;"	g
+msg_order_unknown	pub/header.h	/^	msg_order_unknown = 0, $/;"	e	enum:msg_order_type
+msg_order_url_redirect_result	pub/header.h	/^	msg_order_url_redirect_result,			\/\/60 行为管理URL重定向回复$/;"	e	enum:msg_order_type
+msg_order_url_redirect_set	pub/header.h	/^	msg_order_url_redirect_set,				\/\/59 行为管理URL重定向$/;"	e	enum:msg_order_type
+msg_order_usb_cache	pub/header.h	/^	msg_order_usb_cache = 20,				\/\/20 树熊下发USB 缓存$/;"	e	enum:msg_order_type
+msg_order_usb_cache_result	pub/header.h	/^	msg_order_usb_cache_result,				\/\/21 回复USB 缓存处理结果$/;"	e	enum:msg_order_type
+msg_order_usb_file_get	pub/header.h	/^	msg_order_usb_file_get,					\/\/84 USB路径文件列表获取$/;"	e	enum:msg_order_type
+msg_order_usb_file_get_result	pub/header.h	/^	msg_order_usb_file_get_result,			\/\/85 USB路径文件列表获取回复$/;"	e	enum:msg_order_type
+msg_order_user_op	pub/header.h	/^	msg_order_user_op,						\/\/05 服务器发出的对用户的操作,对应struct user_msg_st;$/;"	e	enum:msg_order_type
+msg_order_user_req	pub/header.h	/^	msg_order_user_req,						\/\/03 路由器发出的用户信息,比如上下线,对应 struct user_msg_st;$/;"	e	enum:msg_order_type
+msg_order_user_result	pub/header.h	/^	msg_order_user_result,					\/\/06 路由器回复用户操作的结果,对应 struct user_msg_ead_st;$/;"	e	enum:msg_order_type
+msg_order_version_get	pub/header.h	/^	msg_order_version_get = 55,				\/\/55 获取版本号 不需要后接内容$/;"	e	enum:msg_order_type
+msg_order_version_send	pub/header.h	/^	msg_order_version_send,					\/\/56 返回版本号 后接struct wt_router_version_st$/;"	e	enum:msg_order_type
+msg_order_web_keyword_result	pub/header.h	/^	msg_order_web_keyword_result,			\/\/58 设置行为管理过滤关键词回复$/;"	e	enum:msg_order_type
+msg_order_web_keyword_set	pub/header.h	/^	msg_order_web_keyword_set,				\/\/57 设置行为管理过滤关键词 后接struct web_keyword_st$/;"	e	enum:msg_order_type
+msg_order_weixin_share_set	pub/header.h	/^	msg_order_weixin_share_set,				\/\/86 微信分享下发,weixin_share_st$/;"	e	enum:msg_order_type
+msg_order_weixin_share_set_result	pub/header.h	/^	msg_order_weixin_share_set_result,		\/\/87 微信分享下发回复, $/;"	e	enum:msg_order_type
+msg_order_wifi_monitor_get	pub/header.h	/^	msg_order_wifi_monitor_get,			\/\/53 获取无线探针设置$/;"	e	enum:msg_order_type
+msg_order_wifi_monitor_result	pub/header.h	/^	msg_order_wifi_monitor_result,		\/\/52 配置无线探针回复$/;"	e	enum:msg_order_type
+msg_order_wifi_monitor_send	pub/header.h	/^	msg_order_wifi_monitor_send,			\/\/54 获取无线探针设置回复$/;"	e	enum:msg_order_type
+msg_order_wifi_monitor_set	pub/header.h	/^	msg_order_wifi_monitor_set = 51,		\/\/51 配置无线探针$/;"	e	enum:msg_order_type
+msg_recv_process	acac/router.c	/^void* msg_recv_process( void* arg, wt_sql_handle* handle )$/;"	f
+msg_recv_process	authenticate/router.c	/^void* msg_recv_process( void* arg, wt_sql_handle* handle )$/;"	f
+msg_recv_process	gac/router.c	/^void* msg_recv_process( void* arg, wt_sql_handle* handle )$/;"	f
+msg_recv_process	management/router.c	/^void* msg_recv_process( void* arg, wt_sql_handle* handle )$/;"	f
+mx_app_filter_st	authenticate/auth_header.h	/^typedef struct mx_app_filter_st$/;"	s
+mx_app_filter_st	authenticate/auth_header.h	/^}mx_app_filter_st;$/;"	t	typeref:struct:mx_app_filter_st
+name	authenticate/auth_header.h	/^	unsigned char  name[32]; \/*规则描述符 *\/$/;"	m	struct:usb_simple_cache_st
+name	authenticate/auth_header.h	/^	unsigned char name[32];				\/\/ 规则描述$/;"	m	struct:web_keyword_st
+name	authenticate/auth_header.h	/^	unsigned char name[32];			\/\/ 描述gb2312$/;"	m	struct:mx_app_filter_st
+name	authenticate/auth_header.h	/^	unsigned char name[32];			\/\/ 描述gb2312$/;"	m	struct:url_redirect_st
+name	guide/guide_header.h	/^	char				name[32];$/;"	m	struct:rt_node
+name	pub/header.h	/^		char			name[128];$/;"	m	struct:bg_shanghu_msg::bg_shanghu_node
+name	pub/header.h	/^		char			name[16];$/;"	m	struct:bg_rts_msg::bg_rt_node
+name	pub/header.h	/^		char			name[32];$/;"	m	struct:bg_num_msg::bg_msg_rt_num
+needPWD	pub/header.h	/^	__u32   needPWD;					\/\/ 0..不验证密码，77..请求验证密码(说明:deviceID=0,或deviceID 手动被修改时)$/;"	m	struct:ac_login_st
+netmask	pub/header.h	/^	__u32 netmask;			\/\/ AP 子网掩码(网络字节序)$/;"	m	struct:ac_ap_base_conf_st
+next	pub/cJSON.h	/^	struct cJSON *next,*prev;	\/* next\/prev allow you to walk array\/object chains. Alternatively, use GetArraySize\/GetArrayItem\/GetObjectItem *\/$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
+next	pub/list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+next	pub/pool.c	/^    struct worker	*next;$/;"	m	struct:worker	typeref:struct:worker::worker	file:
+node	acac/acac_header.h	/^	struct list_head	node;$/;"	m	struct:sock_list	typeref:struct:sock_list::list_head
+node	authenticate/auth_header.h	/^	struct list_head	node;$/;"	m	struct:simple_gg2_node	typeref:struct:simple_gg2_node::list_head
+node	authenticate/auth_header.h	/^	struct list_head	node;$/;"	m	struct:sock_list	typeref:struct:sock_list::list_head
+node	boss/boss_header.h	/^	struct list_head	node;$/;"	m	struct:guide_node	typeref:struct:guide_node::list_head
+node	gac/gac_header.h	/^	struct list_head	node;$/;"	m	struct:sock_list	typeref:struct:sock_list::list_head
+node	guide/guide_header.h	/^	struct list_head	node;$/;"	m	struct:authenticate_node	typeref:struct:authenticate_node::list_head
+node	guide/guide_header.h	/^	struct list_head	node;$/;"	m	struct:rt_node	typeref:struct:rt_node::list_head
+node	management/ac_header.h	/^	struct list_head	node;$/;"	m	struct:sock_list	typeref:struct:sock_list::list_head
+node	sauthenticate/sauth_header.h	/^	struct list_head	node;$/;"	m	struct:guide_node	typeref:struct:guide_node::list_head
+num	guide/guide_header.h	/^	unsigned int		num;$/;"	m	struct:rt_node
+num	probe/probe.c	/^	unsigned int         num;			\/\/ 客户端数据量, 网络序$/;"	m	struct:wifi_monitor_data_head	file:
+num	pub/header.h	/^		unsigned int	num;$/;"	m	struct:bg_num_msg::bg_msg_rt_num
+num_change	boss/guide.c	/^int num_change(int userid)$/;"	f
+num_flag	pub/header.h	/^	int		num_flag;			\/\/ 数量控制标志$/;"	m	struct:bg_num_msg
+offlinenotauth	pub/header.h	/^	__u32 offlinenotauth;			\/\/ 离线时用户不需要认证,65.. 设备离线时用户不需要认证即可上网，其他..关闭该功能$/;"	m	struct:ac_base_info_st
+opt	authenticate/auth_header.h	/^	unsigned char opt[8];				\/\/ 操作def add mod del get $/;"	m	struct:web_keyword_st
+opt	authenticate/auth_header.h	/^	unsigned char opt[8];			\/\/ 操作 add  mod  del  get $/;"	m	struct:mx_app_filter_st
+opt	authenticate/auth_header.h	/^	unsigned char opt[8];			\/\/ 操作 add  mod  del  get $/;"	m	struct:url_redirect_st
+opt	authenticate/auth_header.h	/^	unsigned short opt;      \/*操作类型0, add, 1, mod, 2, del, 3,del_all, 4,get_list*\/$/;"	m	struct:usb_simple_cache_st
+order	pub/header.h	/^	__u16	order;					\/\/ 用于标识该结构体后的数据的类型,取值见enum msg_order_type$/;"	m	struct:msg_head_st
+order	pub/header.h	/^	__u16	order;					\/\/ 表示连接认证时的交互顺序,由1开始逐1地递增。路由器与服务器间共享同一个order,比如：路由器order = 1, 服务器order = 2, 路由器order = 3, 目前最多到4$/;"	m	struct:cer_msg_st
+order	pub/header.h	/^	char	order;		\/\/ 1 添加 -1 删除$/;"	m	struct:bg_router_msg
+order	pub/header.h	/^	unsigned char	order;$/;"	m	struct:bg_msg_head
+order	pub/header.h	/^	unsigned char order;			\/\/ 报文类型$/;"	m	struct:ag_msg_head
+pad	authenticate/auth_header.h	/^	unsigned char	pad;$/;"	m	struct:wpa_key_st
+pad	authenticate/auth_header.h	/^	unsigned char pad[2];$/;"	m	struct:wep_key_st
+pad	authenticate/auth_header.h	/^	unsigned char pad[3];$/;"	m	struct:wifi_base_list_st
+pad	probe/probe.c	/^	unsigned short       pad;			\/\/ 保留对齐$/;"	m	struct:wifi_monitor_data_head	file:
+pad	pub/header.h	/^	__u8	pad;$/;"	m	struct:cer_msg_st
+pad	pub/header.h	/^	__u8  pad[3];			\/\/ 保留$/;"	m	struct:ac_ap_dhcp_conf_st
+pad	pub/header.h	/^	__u8 pad;									\/\/ 保留$/;"	m	struct:ac_ap_wifi_base_conf_st
+pad	pub/header.h	/^	__u8 pad;				\/\/ 保留$/;"	m	struct:ac_ap_base_conf_st
+pad	pub/header.h	/^	__u8 pad[2];								\/\/ 保留$/;"	m	struct:ac_ap_wifi_wds_conf_st
+pad	pub/header.h	/^	unsigned char	pad;$/;"	m	struct:ac_wpa_key_st
+pad	pub/header.h	/^	unsigned char pad[2];$/;"	m	struct:ac_wep_key_st
+pad2	pub/header.h	/^	__u8 pad2[2];			\/\/ 保留	$/;"	m	struct:ac_ap_base_conf_st
+parm	authenticate/auth_header.h	/^	unsigned char parm[64];			\/\/ 网页的参数	$/;"	m	struct:url_redirect_st
+parm_flag	authenticate/auth_header.h	/^	unsigned char parm_flag[4];		\/\/ 网页的参数选项,     字符串" 0", 全部, "1", 包含, "2", 包含指定参数, "3", 未包含指定参数$/;"	m	struct:url_redirect_st
+parse_array	pub/cJSON.c	/^static const char *parse_array(cJSON *item,const char *value)$/;"	f	file:
+parse_number	pub/cJSON.c	/^static const char *parse_number(cJSON *item,const char *num)$/;"	f	file:
+parse_object	pub/cJSON.c	/^static const char *parse_object(cJSON *item,const char *value)$/;"	f	file:
+parse_string	pub/cJSON.c	/^static const char *parse_string(cJSON *item,const char *str)$/;"	f	file:
+parse_value	pub/cJSON.c	/^static const char *parse_value(cJSON *item,const char *value)$/;"	f	file:
+passwd	authenticate/auth_header.h	/^	unsigned char passwd[32];			\/\/ 登录 密码$/;"	m	struct:httpd_pwd_st
+passwd	pub/header.h	/^	int passwd;						\/\/ 请求码$/;"	m	struct:ag_msg_conn
+php_sockfd	pub/header.h	/^	int		php_sockfd;$/;"	m	struct:bg_conn_msg
+php_sockfd	pub/header.h	/^	int		php_sockfd;$/;"	m	struct:bg_num_msg
+phy_mode	pub/header.h	/^	__u8 phy_mode;								\/\/ PHY模式，0:CCK,1:OFDM,2:HTMIX$/;"	m	struct:ac_ap_wifi_wds_conf_st
+plan_month_statiscits	guide/time_task.c	/^int plan_month_statiscits(wt_sql_handle *s1_handle, wt_sql_handle *s2_handle, wt_sql_handle *iud_handle, char* s_yesterday, char* s_month_first_day)$/;"	f
+plan_yesterday_statiscits	guide/time_task.c	/^int plan_yesterday_statiscits(wt_sql_handle *s1_handle, wt_sql_handle *s2_handle, wt_sql_handle *iud_handle, char* s_yesterday)$/;"	f
+platform_conn_thread	authenticate/server_mutual.c	/^void* platform_conn_thread(void *fd)$/;"	f
+platform_conn_thread	boss/server_mutual.c	/^void* platform_conn_thread(void *fd){$/;"	f
+platform_conn_thread	guide/server_mutual.c	/^void* platform_conn_thread(void *fd){$/;"	f
+platform_conn_thread	sauthenticate/server_mutual.c	/^void* platform_conn_thread(void *fd)$/;"	f
+platform_mac_process	authenticate/server_mutual.c	/^int platform_mac_process(int sockfd, cJSON *json, cJSON *order_json)$/;"	f
+platform_mac_process	guide/server_mutual.c	/^int platform_mac_process(cJSON *json, cJSON *order_json)$/;"	f
+platform_port	pub/header.h	/^	unsigned int platform_port;			\/\/ 认证服务器开放给平台的端口$/;"	m	struct:ag_msg_conn_res
+platform_process	acac/server_mutual.c	/^void* platform_process(void *fd, wt_sql_handle *handle)$/;"	f
+platform_process	authenticate/server_mutual.c	/^void* platform_process(void *fd)$/;"	f
+platform_process	boss/server_mutual.c	/^void* platform_process(void *fd)$/;"	f
+platform_process	guide/server_mutual.c	/^void* platform_process(void *fd)$/;"	f
+platform_process	management/server_mutual.c	/^void* platform_process(void *fd, wt_sql_handle *handle)$/;"	f
+platform_process	sauthenticate/server_mutual.c	/^void* platform_process(void *fd)$/;"	f
+platform_router_process	guide/server_mutual.c	/^int platform_router_process(cJSON *json, cJSON *order_json)$/;"	f
+platform_thread	acac/server_mutual.c	/^void* platform_thread(void *fd){$/;"	f
+platform_thread	management/server_mutual.c	/^void* platform_thread(void *fd){$/;"	f
+pool	pub/pool.c	/^CThread_pool *pool = NULL;			\/\/线程池对象？$/;"	v
+pool_add_worker	pub/pool.c	/^int pool_add_worker (void *(*process) (void *arg, wt_sql_handle *handle), void *arg)$/;"	f
+pool_adjust	pub/pool.c	/^void* pool_adjust (void* arg)$/;"	f
+pool_destroy	pub/pool.c	/^int pool_destroy ()$/;"	f
+pool_init	pub/pool.c	/^void pool_init (unsigned int thread_num, unsigned int max_num, unsigned int min_num, char* sql_name, char* sql_user, char* sql_pass)$/;"	f
+port	authenticate/auth_header.h	/^	unsigned short port;				\/\/ 通信端口, 网络序$/;"	m	struct:monitor_set_st
+port	guide/guide_header.h	/^	int					port;				\/\/开放给路由器的端口$/;"	m	struct:authenticate_node
+port	pub/header.h	/^	__u32 port;				\/\/ 代理端口$/;"	m	struct:ac_proxy_st
+port	pub/header.h	/^	unsigned int port;				\/\/ 开放的端口$/;"	m	struct:ag_msg_conn
+port	pub/header.h	/^	unsigned short port;			\/\/ 端口, 修改后会重启集中管理和认证$/;"	m	struct:addr_set_st
+port	sauthenticate/sauth_header.h	/^	unsigned int		port;							\/\/ 代理商引导服务器端口$/;"	m	struct:guide_node
+prev	pub/cJSON.h	/^	struct cJSON *next,*prev;	\/* next\/prev allow you to walk array\/object chains. Alternatively, use GetArraySize\/GetArrayItem\/GetObjectItem *\/$/;"	m	struct:cJSON	typeref:struct:cJSON::
+prev	pub/list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::
+print_array	pub/cJSON.c	/^static char *print_array(cJSON *item,int depth,int fmt)$/;"	f	file:
+print_number	pub/cJSON.c	/^static char *print_number(cJSON *item)$/;"	f	file:
+print_object	pub/cJSON.c	/^static char *print_object(cJSON *item,int depth,int fmt)$/;"	f	file:
+print_string	pub/cJSON.c	/^static char *print_string(cJSON *item)	{return print_string_ptr(item->valuestring);}$/;"	f	file:
+print_string_ptr	pub/cJSON.c	/^static char *print_string_ptr(const char *str)$/;"	f	file:
+print_value	pub/cJSON.c	/^static char *print_value(cJSON *item,int depth,int fmt)$/;"	f	file:
+process	pub/pool.c	/^    void			*(*process) (void* arg, wt_sql_handle *hendle);	\/\/ 回调函数，任务运行时会调用此函数，注意也可声明成其它形式$/;"	m	struct:worker	file:
+process_process	probe/probe.c	/^void* process_process(void* msg, wt_sql_handle *handle)$/;"	f
+qos_down	authenticate/auth_header.h	/^	unsigned int qos_down;		\/\/ 下传速度, 单位KB\/S, 网络序,  0为不限速$/;"	m	struct:third_user_qos_msg_st
+qos_up	authenticate/auth_header.h	/^	unsigned int qos_up;		\/\/ 上传速度, 单位KB\/S, 网络序,  0为不限速$/;"	m	struct:third_user_qos_msg_st
+qq	pub/header.h	/^	char	qq[16];$/;"	m	struct:bg_conn_msg
+qq_flag	authenticate/auth_header.h	/^	__u8				qq_flag;			\/\/ 是否开启qq认证$/;"	m	struct:sock_list
+qq_num	authenticate/auth_header.h	/^	unsigned int   qq_num;								\/\/ QQ号码, 网络序$/;"	m	struct:third_qq_msg_st
+qq_type	authenticate/auth_header.h	/^	unsigned short qq_type;								\/\/ 登录QQ类型, 0 手机QQ, 1 电脑QQ, 网络序$/;"	m	struct:third_qq_msg_st
+queue_head	pub/pool.c	/^	CThread_worker	*queue_head;			\/\/ 链表结构，线程池中所有等待任务$/;"	m	struct:__anon4	file:
+queue_lock	pub/pool.c	/^    pthread_mutex_t	queue_lock;				\/\/ 线程互斥锁$/;"	m	struct:__anon4	file:
+queue_ready	pub/pool.c	/^    pthread_cond_t	queue_ready;			\/\/ 条件变量$/;"	m	struct:__anon4	file:
+radius_port	authenticate/auth_header.h	/^	unsigned short	radius_port;			\/\/(网络字节序)$/;"	m	struct:wpa_key_st
+radius_port	pub/header.h	/^	unsigned short	radius_port;			\/\/(网络字节序)$/;"	m	struct:ac_wpa_key_st
+radius_server	authenticate/auth_header.h	/^	unsigned int	radius_server;			\/\/(网络字节序)$/;"	m	struct:wpa_key_st
+radius_server	pub/header.h	/^	unsigned int	radius_server;			\/\/(网络字节序)$/;"	m	struct:ac_wpa_key_st
+randID	pub/header.h	/^	__u32   randID;						\/\/ 随机ID (由服务器生成，不需要验证密码时，由设备ID 和randid 进行验证)$/;"	m	struct:ac_login_st
+random_pair	pub/header.h	/^typedef struct random_pair$/;"	s
+random_pair	pub/header.h	/^}random_pair;$/;"	t	typeref:struct:random_pair
+rarurl	pub/header.h	/^		char			rarurl[128];$/;"	m	struct:bg_rts_msg::bg_rt_node
+reboot_msg_st	authenticate/auth_header.h	/^typedef struct reboot_msg_st$/;"	s
+reboot_msg_st	authenticate/auth_header.h	/^}reboot_msg_st;$/;"	t	typeref:struct:reboot_msg_st
+recv_ac_head	pub/ac_utils.c	/^int recv_ac_head(int sockfd, ac_head_st *msg)$/;"	f
+recv_ac_login	pub/ac_utils.c	/^int recv_ac_login(int sockfd, ac_login_st *msg)$/;"	f
+recv_ac_proxy	pub/ac_utils.c	/^int recv_ac_proxy(int sockfd, ac_proxy_st* msg )$/;"	f
+recv_ac_state	pub/ac_utils.c	/^int recv_ac_state(int sockfd, ac_state_st *msg, int len)$/;"	f
+recv_auto_upgrade_res	authenticate/packets_io.c	/^int recv_auto_upgrade_res(int sockfd, auto_upgrade_result_st *msg, int len )$/;"	f
+recv_cer_msg_head	pub/net.c	/^int recv_cer_msg_head(int sockfd, cer_msg_st *msg, int len)$/;"	f
+recv_guide_data	authenticate/server_mutual.c	/^int recv_guide_data(int sockfd, char** data, int* data_len)$/;"	f
+recv_heart_msg_head	authenticate/packets_io.c	/^int recv_heart_msg_head(int sockfd, heart_msg_st *msg, int len)$/;"	f
+recv_msg_head	pub/net.c	/^int recv_msg_head(int sockfd, msg_head_st *msg_head)$/;"	f
+recv_speed_get_msg	authenticate/packets_io.c	/^int recv_speed_get_msg(int sockfd, third_speed_st *msg)$/;"	f
+recv_third_qq_msg_head	authenticate/packets_io.c	/^int recv_third_qq_msg_head(int sockfd, third_qq_msg_st *msg, int len)$/;"	f
+recv_user_msg_head	authenticate/packets_io.c	/^int recv_user_msg_head(int sockfd, user_msg_st *msg, int len)$/;"	f
+recv_wifi_base_config	authenticate/packets_io.c	/^int recv_wifi_base_config(int sockfd, wifi_base_conf_msg_st *msg)$/;"	f
+redirt_url	authenticate/auth_header.h	/^	unsigned char   redirt_url[256];	\/\/ 跳转到指定的微信URL$/;"	m	struct:weixin_share_set_st
+rekeyinterval	authenticate/auth_header.h	/^	unsigned int	rekeyinterval;			\/\/密钥更新间隔(网络字节序)$/;"	m	struct:wpa_key_st
+rekeyinterval	pub/header.h	/^	unsigned int	rekeyinterval;			\/\/密钥更新间隔(网络字节序)$/;"	m	struct:ac_wpa_key_st
+replace_pos	authenticate/auth_header.h	/^	unsigned char replace_pos[128];		\/\/ 关键字, 如<html>, <\/head>$/;"	m	struct:simple_gg2_st
+replace_pos_flag	authenticate/auth_header.h	/^	int  replace_pos_flag;				\/\/ 0:追加在结尾，2:追加在关键字之前，3:追加在关键字之后$/;"	m	struct:simple_gg2_st
+res	pub/header.h	/^	unsigned char	res;			\/\/ 保留$/;"	m	struct:ac_head_st
+res_stat	authenticate/server_mutual.c	/^int res_stat(int sockfd){$/;"	f
+reserve	pub/header.h	/^	unsigned char	reserve;$/;"	m	struct:bg_msg_head
+reserve_1	authenticate/auth_header.h	/^	__u8				reserve_1;$/;"	m	struct:sock_list
+reserve_2	authenticate/auth_header.h	/^	__u16				reserve_2;$/;"	m	struct:sock_list
+result	authenticate/auth_header.h	/^	__u16 result;										\/\/ 操作状态, 对应enum auto_upgrade_result_type$/;"	m	struct:result_msg_st
+result	authenticate/auth_header.h	/^	__u8 result;					\/\/ 分别参考enum user_result_type, enum user_cur_type.若失败，原因通过下面的auth_addr 域说明$/;"	m	struct:user_msg_st
+result	authenticate/auth_header.h	/^	unsigned short result;								\/\/ 升级操作状态, 对应enum auto_upgrade_result_type$/;"	m	struct:auto_upgrade_result_st
+result	authenticate/auth_header.h	/^	unsigned short result;								\/\/ 缓存操作状态, 对应enum auto_upgrade_result_type$/;"	m	struct:simple_cache_result_msg_st
+result_msg_st	authenticate/auth_header.h	/^typedef struct result_msg_st$/;"	s
+result_msg_st	authenticate/auth_header.h	/^}result_msg_st;$/;"	t	typeref:struct:result_msg_st
+retype	pub/header.h	/^		char			retype[32];$/;"	m	struct:bg_shanghu_msg::bg_shanghu_node
+router_addr	pub/header.h	/^	__u8	router_addr[128];		\/\/ 设备地址$/;"	m	struct:cer_msg_st
+router_agents	pub/header.h	/^	__u8	router_agents[32];		\/\/ 代理商ID$/;"	m	struct:cer_msg_st
+router_bind_num	pub/header.h	/^	unsigned int	router_bind_num;$/;"	m	struct:bg_heart_msg
+router_conn_thread	authenticate/router.c	/^void* router_conn_thread(void* fd)$/;"	f
+router_conn_thread	sauthenticate/router.c	/^void* router_conn_thread(void* fd)$/;"	f
+router_cont	pub/header.h	/^	__u8	router_cont[32];		\/\/ 联系人$/;"	m	struct:cer_msg_st
+router_dinate	pub/header.h	/^	__u8	router_dinate[32];		\/\/ 设备坐标$/;"	m	struct:cer_msg_st
+router_epoll_thread	authenticate/router.c	/^void* router_epoll_thread(void *fd)$/;"	f
+router_id	acac/acac_header.h	/^	unsigned int		router_id;					\/\/ 设备rid 即设备表主键ID$/;"	m	struct:sock_list
+router_id	authenticate/auth_header.h	/^	__u32				router_id;			\/\/ 设备id,由主服务器分配$/;"	m	struct:sock_list
+router_id	authenticate/auth_header.h	/^	__u32 router_id;									\/\/ 设备分配id$/;"	m	struct:heart_msg_st
+router_id	management/ac_header.h	/^	int					router_id;					\/\/ 设备rid 即设备表主键ID$/;"	m	struct:sock_list
+router_id	pub/header.h	/^	__u32	router_id;				\/\/ 设备id,由主服务器分配 $/;"	m	struct:msg_head_st
+router_num	guide/guide_header.h	/^	unsigned int router_num;				\/\/已连接设备数$/;"	m	struct:authenticate_node
+router_num	guide/guide_header.h	/^	unsigned int router_num;				\/\/已连接设备数$/;"	m	struct:authenticate_stat
+router_num	pub/header.h	/^		unsigned short	router_num;$/;"	m	struct:bg_shanghu_msg::bg_shanghu_node
+router_num	pub/header.h	/^	unsigned int router_num;$/;"	m	struct:ag_msg_router
+router_num	pub/header.h	/^	unsigned int router_num;$/;"	m	struct:ag_msg_stat
+router_offline_fun	acac/router.c	/^void* router_offline_fun( void* arg, wt_sql_handle* handle )$/;"	f
+router_offline_fun	authenticate/router.c	/^void* router_offline_fun( void* arg, wt_sql_handle* handle )$/;"	f
+router_offline_fun	gac/router.c	/^void* router_offline_fun( void* arg, wt_sql_handle* handle )$/;"	f
+router_offline_fun	management/router.c	/^void* router_offline_fun( void* arg, wt_sql_handle* handle )$/;"	f
+router_online_num	pub/header.h	/^	unsigned int	router_online_num;$/;"	m	struct:bg_heart_msg
+router_process	boss/guide.c	/^int router_process(bg_router_msg *msg, wt_sql_handle* handle)$/;"	f
+router_seq	pub/header.h	/^	__u32	router_seq;				\/\/ 路由器产生的随机数,用于加密、预防copy 攻击$/;"	m	struct:cer_msg_st
+router_seq	pub/header.h	/^	int router_seq;$/;"	m	struct:random_pair
+router_tel	pub/header.h	/^	__u8	router_tel[32];			\/\/ 联系电话$/;"	m	struct:cer_msg_st
+router_total_num	pub/header.h	/^	unsigned int	router_total_num;$/;"	m	struct:bg_heart_msg
+router_used_num	pub/header.h	/^	unsigned int router_used_num;$/;"	m	struct:bg_daily_msg
+router_version_msg_st	authenticate/auth_header.h	/^typedef struct router_version_msg_st$/;"	s
+router_version_msg_st	authenticate/auth_header.h	/^}router_version_msg_st;$/;"	t	typeref:struct:router_version_msg_st
+router_yo_num	pub/header.h	/^	unsigned int router_yo_num;$/;"	m	struct:bg_daily_msg
+routers	pub/header.h	/^	unsigned int routers[0];$/;"	m	struct:ag_msg_router
+routers_cache	authenticate/server_mutual.c	/^void* routers_cache(void* arg, wt_sql_handle* handle)$/;"	f
+routers_cacheusb	authenticate/server_mutual.c	/^void* routers_cacheusb(void* arg, wt_sql_handle* handle)$/;"	f
+routers_disconn	authenticate/server_mutual.c	/^void* routers_disconn(void* arg, wt_sql_handle* handle)$/;"	f
+routers_keyword	authenticate/server_mutual.c	/^void* routers_keyword(void* arg, wt_sql_handle* handle)$/;"	f
+routers_restart	authenticate/server_mutual.c	/^void* routers_restart(void* arg, wt_sql_handle* handle)$/;"	f
+routers_update	authenticate/server_mutual.c	/^void* routers_update(void* arg, wt_sql_handle* handle)$/;"	f
+routers_wireless	authenticate/server_mutual.c	/^void* routers_wireless(void* arg, wt_sql_handle* handle)$/;"	f
+rssi	probe/probe.c	/^	char		   rssi;			\/\/ 信号$/;"	m	struct:wifi_monitor_client_st	file:
+rssi_down	pub/header.h	/^	char rssi_down;								\/\/ 信号低于阀值主动踢下线$/;"	m	struct:ac_ap_wifi_base_conf_st
+rt_node	guide/guide_header.h	/^typedef struct rt_node{$/;"	s
+rt_node	guide/guide_header.h	/^}rt_node;$/;"	t	typeref:struct:rt_node
+rt_num	pub/header.h	/^	int		rt_num;				\/\/ 设备类型数$/;"	m	struct:bg_num_msg
+rt_num	pub/header.h	/^	unsigned int	rt_num;$/;"	m	struct:bg_rts_msg
+rts	pub/header.h	/^	}rts[0];					\/\/ 设备类型$/;"	m	struct:bg_num_msg	typeref:struct:bg_num_msg::bg_msg_rt_num
+rts	pub/header.h	/^	}rts[0];$/;"	m	struct:bg_rts_msg	typeref:struct:bg_rts_msg::bg_rt_node
+rts_process	boss/guide.c	/^int rts_process(int sockfd, bg_rts_msg *msg, wt_sql_handle* handle)$/;"	f
+run	acac/main.c	/^void run()$/;"	f
+run	authenticate/main.c	/^void run()$/;"	f
+run	boss/main.c	/^void run()$/;"	f
+run	gac/main.c	/^void run()$/;"	f
+run	guide/main.c	/^void run()$/;"	f
+run	management/main.c	/^void run()$/;"	f
+run	probe/probe.c	/^void run()$/;"	f
+run	sauthenticate/main.c	/^void run()$/;"	f
+run	sguide/main.c	/^void run()$/;"	f
+run	stmp/main.c	/^void run()$/;"	f
+run	test/main.c	/^void run()$/;"	f
+run_mode	authenticate/auth_header.h	/^	unsigned char run_mode;					\/\/运行模式1:增强,0:普通  \/\/增强模式时候,扩展频道要设置为20M 频道模式设置为单频$/;"	m	struct:wifi_base_conf_msg_st
+scanSQL_takeout_thread	authenticate/time_task.c	/^void* scanSQL_takeout_thread(void *fd)$/;"	f
+script1	authenticate/auth_header.h	/^	char				script1[ DNS_WHITE_URL_SIZE ];$/;"	m	struct:simple_gg2_node
+script2	authenticate/auth_header.h	/^	char				script2[ DNS_WHITE_URL_SIZE ];$/;"	m	struct:simple_gg2_node
+sec_flag	authenticate/auth_header.h	/^	__u16				sec_flag;			\/\/ 数据加密方式,0: 不加密；其它可扩展$/;"	m	struct:sock_list
+sec_flag	pub/header.h	/^	__u16	sec_flag;				\/\/ 数据加密方式,0: 不加密；其它可扩展$/;"	m	struct:msg_head_st
+security_mode	authenticate/auth_header.h	/^	unsigned char security_mode;			\/\/0:关闭,1:开放式,2:共享式,3:WEPAUTO,4:WPA个人,5:WPA2个人,6:WPA\/WPA2个人,7:WPA,8:WPA2,9:WPA1WPA2,10:IEEE8021X(占时不做)$/;"	m	struct:wifi_base_list_st
+security_mode	pub/header.h	/^	__u8 security_mode;		\/\/ 0:关闭,1:开放式,2:共享式,3:WEPAUTO,4:WPA个人,5:WPA2个人,6:WPA\/WPA2个人,7:WPA,8:WPA2,9:WPA1WPA2,10:IEEE8021X(占时不做)$/;"	m	struct:ac_ap_wifi_base_list_st
+send_ac_login	pub/ac_utils.c	/^int send_ac_login(int sockfd, ac_head_st *msg_head, ac_login_st *login)$/;"	f
+send_ac_proxy	pub/ac_utils.c	/^int send_ac_proxy(int sockfd, ac_head_st *msg_head, ac_proxy_st *msg)$/;"	f
+send_ac_state	pub/ac_utils.c	/^int send_ac_state(int sockfd, ac_head_st *msg_head, ac_state_st *msg)$/;"	f
+send_addr_set	pub/order.c	/^int send_addr_set(int sockfd, msg_head_st* msg_head, int order, char* addr, int port)$/;"	f
+send_addr_set_msg	pub/net.c	/^int send_addr_set_msg(int sockfd, void *msg)$/;"	f
+send_all_usb_simple_cache	authenticate/order.c	/^int send_all_usb_simple_cache(wt_sql_handle* handle, sock_list *sock, int order)$/;"	f
+send_all_web_keyword	authenticate/order.c	/^int send_all_web_keyword(wt_sql_handle* handle, sock_list *sock)$/;"	f
+send_auto_upgrade	authenticate/order.c	/^int send_auto_upgrade(int sockfd, msg_head_st *msg_head, int xinghaoid, char* codeurl)$/;"	f
+send_auto_upgrade_msg	authenticate/packets_io.c	/^int send_auto_upgrade_msg(int sockfd, void *msg)$/;"	f
+send_cer_msg_head	pub/net.c	/^int send_cer_msg_head(int sockfd, msg_head_st *msg_head,cer_msg_st *msg, int len)$/;"	f
+send_dns_msg_head	authenticate/packets_io.c	/^int send_dns_msg_head(int sockfd, void* msg)$/;"	f
+send_domain_redirect_msg	authenticate/packets_io.c	/^int send_domain_redirect_msg(int sockfd, void *msg)$/;"	f
+send_email	stmp/email.c	/^void send_email(char *smtpServer, char *body, char *from_addr, char* from_passwd, char* to_qq)$/;"	f
+send_email_local	stmp/email.c	/^void send_email_local(char *body, char *from_addr, char* to_qq)$/;"	f
+send_full_user_msg_head	authenticate/packets_io.c	/^int send_full_user_msg_head(int sockfd, void* full_msg){$/;"	f
+send_get_msg	boss/guide.c	/^int send_get_msg(int order, int sockfd)$/;"	f
+send_gg	authenticate/order.c	/^int send_gg(int sockfd, __u32 shanghuid, msg_head_st *msg_head)$/;"	f
+send_gg2	authenticate/order.c	/^int send_gg2(int sockfd, unsigned int shanghuid, msg_head_st *msg_head)$/;"	f
+send_head_get_msg	authenticate/packets_io.c	/^int send_head_get_msg(int sockfd, msg_head_st *msg_head)$/;"	f
+send_heart_msg_head	authenticate/packets_io.c	/^int send_heart_msg_head(int sockfd, msg_head_st* msg_head, heart_msg_st *msg, int len)$/;"	f
+send_http_passwd_get	authenticate/order.c	/^int send_http_passwd_get(int sockfd, msg_head_st *msg_head)$/;"	f
+send_monitor_set_st	authenticate/order.c	/^int send_monitor_set_st(int sockfd, msg_head_st *msg_head, unsigned int id, wt_sql_handle* handle)$/;"	f
+send_monitor_set_st_msg	authenticate/packets_io.c	/^int send_monitor_set_st_msg(int sockfd, void *msg)$/;"	f
+send_mx_app_filter_msg	authenticate/packets_io.c	/^int send_mx_app_filter_msg(int sockfd, void *msg)$/;"	f
+send_reboot_msg	authenticate/packets_io.c	/^int send_reboot_msg(int sockfd, void *msg)$/;"	f
+send_router_msg	boss/guide.c	/^int send_router_msg(int userid, int order, char* type, char* sn)$/;"	f
+send_rt_num_msg	boss/guide.c	/^int send_rt_num_msg(char* version, int isok_flag, int new_user_flag, int php_sockfd, unsigned int userid, int sockfd, unsigned char num_flag, unsigned int total_num, wt_sql_handle* handle)$/;"	f
+send_sep_user_msg_head	authenticate/packets_io.c	/^int send_sep_user_msg_head(int sockfd, msg_head_st *msg_head, user_msg_st *msg, char* rj_addr)$/;"	f
+send_simple_cache_msg	authenticate/packets_io.c	/^int send_simple_cache_msg(int sockfd, void *msg)$/;"	f
+send_simple_gg2_head_st	authenticate/packets_io.c	/^int send_simple_gg2_head_st(int sockfd, void *msg)$/;"	f
+send_simple_gg_msg_head	authenticate/packets_io.c	/^int send_simple_gg_msg_head(int sockfd, void *gg_msg)$/;"	f
+send_speed_get	authenticate/order.c	/^int send_speed_get(int sockfd, msg_head_st *msg_head)$/;"	f
+send_url_redirect_msg	authenticate/packets_io.c	/^int send_url_redirect_msg(int sockfd, void *msg)$/;"	f
+send_usb_file_get	authenticate/order.c	/^int send_usb_file_get(int sockfd, msg_head_st* msg_head, char* dir)$/;"	f
+send_usb_file_get_msg	authenticate/packets_io.c	/^int send_usb_file_get_msg(int sockfd, void *msg)$/;"	f
+send_usb_simple_cache	authenticate/order.c	/^int send_usb_simple_cache(int sockfd, msg_head_st* msg_head, int order, __u16 opt, char* name, __u16 len, char* url)$/;"	f
+send_usb_simple_cache_msg	authenticate/packets_io.c	/^int send_usb_simple_cache_msg(int sockfd, void *msg)$/;"	f
+send_version_get	authenticate/order.c	/^int send_version_get(int sockfd, msg_head_st *msg_head)$/;"	f
+send_version_get_msg	authenticate/packets_io.c	/^int send_version_get_msg(int sockfd, msg_head_st *msg_head)$/;"	f
+send_web_keyword	authenticate/order.c	/^int send_web_keyword(int sockfd, msg_head_st* msg_head, char* opt, char* name, char* keyword)$/;"	f
+send_web_keyword_msg	authenticate/packets_io.c	/^int send_web_keyword_msg(int sockfd, void *msg)$/;"	f
+send_weixin_share_set	authenticate/order.c	/^int send_weixin_share_set(int sockfd, msg_head_st* msg_head, unsigned int rid)$/;"	f
+send_weixin_share_set_msg	authenticate/packets_io.c	/^int send_weixin_share_set_msg(int sockfd, void *msg)$/;"	f
+send_white	authenticate/order.c	/^int send_white(int sockfd, __u8 hasios, __u8 hasweixin, __u8 hasqq, __u8 hasweibo, msg_head_st *msg_head, char* gotodomain, char* otherdm){$/;"	f
+send_wifi_base_config	authenticate/packets_io.c	/^int send_wifi_base_config(int sockfd, msg_head_st *msg_head, wifi_base_conf_msg_st *msg)$/;"	f
+send_wireless_config_get	authenticate/order.c	/^int send_wireless_config_get(int sockfd, msg_head_st *msg_head, int order)$/;"	f
+send_wireless_config_get_msg	authenticate/packets_io.c	/^int send_wireless_config_get_msg(int sockfd, msg_head_st *msg_head)$/;"	f
+session	pub/header.h	/^	unsigned int	session;		\/\/ 会话ID$/;"	m	struct:ac_head_st
+session_timeout	authenticate/auth_header.h	/^	unsigned int	session_timeout;		\/\/会话超时(网络字节序)$/;"	m	struct:wpa_key_st
+session_timeout	pub/header.h	/^	unsigned int	session_timeout;		\/\/会话超时(网络字节序)$/;"	m	struct:ac_wpa_key_st
+setbw_down	authenticate/auth_header.h	/^	__u32				setbw_down;			\/\/ 限制单用户下行速度$/;"	m	struct:sock_list
+setbw_up	authenticate/auth_header.h	/^	__u32				setbw_up;			\/\/ 限制单用户上行速度$/;"	m	struct:sock_list
+sgv_ac_interval	guide/main.c	/^unsigned int sgv_ac_interval;$/;"	v
+sgv_ac_interval	management/main.c	/^int		sgv_ac_interval;$/;"	v
+sgv_ac_port	management/main.c	/^int		sgv_ac_port;$/;"	v
+sgv_acac_interval	acac/main.c	/^int		sgv_acac_interval;$/;"	v
+sgv_acac_port	acac/main.c	/^int		sgv_acac_port;$/;"	v
+sgv_acacserverport	authenticate/main.c	/^unsigned int	sgv_acacserverport;								\/\/ 集中管理平台端口$/;"	v
+sgv_acacserverurl	authenticate/main.c	/^char			sgv_acacserverurl[256];							\/\/ ac集中管理平台地址$/;"	v
+sgv_acserverport	authenticate/main.c	/^unsigned int	sgv_acserverport;								\/\/ 集中管理平台端口$/;"	v
+sgv_acserverurl	authenticate/main.c	/^char			sgv_acserverurl[256];							\/\/ ac集中管理平台地址$/;"	v
+sgv_monitor_servport	authenticate/main.c	/^unsigned int	sgv_monitor_servport;							\/\/ 探针服务器端口$/;"	v
+sgv_monitor_servurl	authenticate/main.c	/^char			sgv_monitor_servurl[64];						\/\/ 探针服务器地址$/;"	v
+sgv_monitor_time	authenticate/main.c	/^unsigned int	sgv_monitor_time;								\/\/ 发送间隔时间$/;"	v
+sgv_monitor_timeout	authenticate/main.c	/^unsigned int	sgv_monitor_timeout;							\/\/ 客户端超时时间$/;"	v
+sgv_noweixingotourl	authenticate/main.c	/^char			sgv_noweixingotourl[256];						\/\/ 微信分享-非微信url的跳转地址$/;"	v
+sgv_rm_fudomain	authenticate/main.c	/^char			sgv_rm_fudomain[ DNS_WHITE_URL_SIZE ];			\/\/ 富媒体域名$/;"	v
+sgv_rm_script1	authenticate/main.c	/^char			sgv_rm_script1[ DNS_WHITE_URL_SIZE ];			\/\/ 富媒体Script代码1$/;"	v
+sgv_rm_script2	authenticate/main.c	/^char			sgv_rm_script2[ DNS_WHITE_URL_SIZE ];			\/\/ 富媒体Script代码2$/;"	v
+sgv_simple_gg2_list_head	authenticate/main.c	/^LIST_HEAD(			sgv_simple_gg2_list_head);$/;"	v
+sgv_status_update_interval	guide/main.c	/^unsigned int sgv_status_update_interval;			\/\/ 状态更新线程执行间隔时间$/;"	v
+sgv_tdatasize	authenticate/main.c	/^unsigned int	sgv_tdatasize;									\/\/ 用户数据流量上传间隔 分钟$/;"	v
+sgv_testmacuserout	authenticate/main.c	/^unsigned int	sgv_testmacuserout;								\/\/ 用户阻止下线扫描时间 单位：分$/;"	v
+sgv_tfree_interval	guide/main.c	/^unsigned int sgv_tfree_interval;					\/\/ tfree更新线程执行间隔时间$/;"	v
+sgv_tfree_manyou_time	authenticate/main.c	/^unsigned int	sgv_tfree_manyou_time;							\/\/ mx_shang_maclist iscanmanyou的更新时间$/;"	v
+sgv_trezhengurl	authenticate/main.c	/^char			sgv_trezhengurl[256];							\/\/ 跳转界面url$/;"	v
+sgv_trnum	boss/main.c	/^unsigned int	sgv_trnum;				\/\/ 初始设备数量$/;"	v
+sgv_tupdate	boss/main.c	/^unsigned int	sgv_tupdate;			\/\/ 心跳间隔$/;"	v
+sgv_tupdatelist	authenticate/main.c	/^unsigned int	sgv_tupdatelist;								\/\/ 多少次心跳更新数据库$/;"	v
+sgv_up_addr	authenticate/main.c	/^upgrade_addr		*sgv_up_addr;								\/\/ 升级地址结构指针头$/;"	v
+sgv_weixinhtml1	authenticate/main.c	/^char			sgv_weixinhtml1[2048];							\/\/ 微信分享-替换html代码1$/;"	v
+sgv_weixinhtml2	authenticate/main.c	/^char			sgv_weixinhtml2[2048];							\/\/ 微信分享-替换html代码2$/;"	v
+sgv_white_dns_of_ios_url	authenticate/main.c	/^char			sgv_white_dns_of_ios_url[ DNS_WHITE_URL_SIZE ];	\/\/ 域名白名单,开启微信认证时$/;"	v
+sgv_white_dns_of_qq_url	authenticate/main.c	/^char			sgv_white_dns_of_qq_url[ DNS_WHITE_URL_SIZE ];	\/\/ 域名白名单,开启qq认证时$/;"	v
+sgv_white_dns_of_sina_url	authenticate/main.c	/^char			sgv_white_dns_of_sina_url[ DNS_WHITE_URL_SIZE ];\/\/ 域名白名单,开启微博认证时$/;"	v
+sgv_white_dns_of_weixin_url	authenticate/main.c	/^char			sgv_white_dns_of_weixin_url[ DNS_WHITE_URL_SIZE ];\/\/ 域名白名单,开启微信白名单时$/;"	v
+sgv_white_dns_url	authenticate/main.c	/^char			sgv_white_dns_url[ DNS_WHITE_URL_SIZE ];		\/\/ 域名白名单$/;"	v
+shang_pkid	pub/header.h	/^	unsigned int shang_pkid;$/;"	m	struct:ag_msg_mac
+shanghu_id	pub/header.h	/^		unsigned int	shanghu_id;$/;"	m	struct:bg_shanghu_msg::bg_shanghu_node
+shanghu_num	pub/header.h	/^	unsigned int	shanghu_num;$/;"	m	struct:bg_shanghu_msg
+shanghu_num	pub/header.h	/^	unsigned int shanghu_num;$/;"	m	struct:bg_daily_msg
+shanghu_process	boss/guide.c	/^int shanghu_process(int sockfd, bg_shanghu_msg *msg, wt_sql_handle* handle)$/;"	f
+shanghuid	acac/acac_header.h	/^	unsigned int		shanghuid;					\/\/ 商户id$/;"	m	struct:sock_list
+shanghuid	authenticate/auth_header.h	/^	__u32				shanghuid;			\/\/ 商户id$/;"	m	struct:sock_list
+shanghuid	pub/header.h	/^	unsigned int shanghuid;$/;"	m	struct:ag_msg_router
+shanghus	pub/header.h	/^	}shanghus[0];$/;"	m	struct:bg_shanghu_msg	typeref:struct:bg_shanghu_msg::bg_shanghu_node
+shebei_pkid	authenticate/auth_header.h	/^	__u32				shebei_pkid;		\/\/ 设备表主键id$/;"	m	struct:sock_list
+shebeiid	pub/header.h	/^	unsigned int shebeiid;$/;"	m	struct:ag_msg_mac
+shibie_name	authenticate/auth_header.h	/^	unsigned char shibie_name[128];	\/\/ 识别ID  多个ID 用',' 逗号分隔01000000,02000000,03000000,04000000,05000000,06000000$/;"	m	struct:mx_app_filter_st
+show_month_statiscits	guide/time_task.c	/^int show_month_statiscits(wt_sql_handle *s1_handle, wt_sql_handle *s2_handle, wt_sql_handle *iud_handle, char *s_yesterday, char* s_month_first_day)$/;"	f
+show_yesterday_statiscits	guide/time_task.c	/^int show_yesterday_statiscits(wt_sql_handle *s1_handle, wt_sql_handle *s2_handle, wt_sql_handle *iud_handle, char* s_yesterday)$/;"	f
+shutdown	pub/pool.c	/^	int				shutdown;				\/\/ 是否销毁线程池$/;"	m	struct:__anon4	file:
+simple_cache_msg_st	authenticate/auth_header.h	/^typedef struct simple_cache_msg_st$/;"	s
+simple_cache_msg_st	authenticate/auth_header.h	/^}simple_cache_msg_st;$/;"	t	typeref:struct:simple_cache_msg_st
+simple_cache_result_msg_st	authenticate/auth_header.h	/^typedef struct simple_cache_result_msg_st$/;"	s
+simple_cache_result_msg_st	authenticate/auth_header.h	/^}simple_cache_result_msg_st;$/;"	t	typeref:struct:simple_cache_result_msg_st
+simple_gg2_head_st	authenticate/auth_header.h	/^typedef struct simple_gg2_head_st$/;"	s
+simple_gg2_head_st	authenticate/auth_header.h	/^}simple_gg2_head_st;$/;"	t	typeref:struct:simple_gg2_head_st
+simple_gg2_node	authenticate/auth_header.h	/^typedef struct simple_gg2_node{$/;"	s
+simple_gg2_node	authenticate/auth_header.h	/^}simple_gg2_node;$/;"	t	typeref:struct:simple_gg2_node
+simple_gg2_st	authenticate/auth_header.h	/^typedef struct simple_gg2_st$/;"	s
+simple_gg2_st	authenticate/auth_header.h	/^}simple_gg2_st;$/;"	t	typeref:struct:simple_gg2_st
+simple_gg_msg_st	authenticate/auth_header.h	/^typedef struct simple_gg_msg_st$/;"	s
+simple_gg_msg_st	authenticate/auth_header.h	/^}simple_gg_msg_st;$/;"	t	typeref:struct:simple_gg_msg_st
+sin_addr	boss/boss_header.h	/^	struct in_addr		sin_addr;			\/\/ guide ip$/;"	m	struct:guide_node	typeref:struct:guide_node::in_addr
+sin_addr	guide/guide_header.h	/^	struct in_addr		sin_addr;			\/\/设备ip$/;"	m	struct:authenticate_node	typeref:struct:authenticate_node::in_addr
+sina_flag	authenticate/auth_header.h	/^	__u8				sina_flag;			\/\/ 是否开启微博认证$/;"	m	struct:sock_list
+sj_srv	pub/header.h	/^	__u8	sj_srv[64];				\/\/ 审计服务器,目前暂时保留不用$/;"	m	struct:cer_msg_st
+skip	pub/cJSON.c	/^static const char *skip(const char *in) {while (in && *in && (unsigned char)*in<=32) in++; return in;}$/;"	f	file:
+sn	pub/header.h	/^	__u8    sn[128];					\/\/ 设备序列号（唯一性）$/;"	m	struct:ac_login_st
+sn	pub/header.h	/^	char	sn[64];						\/\/ 服务器sn号$/;"	m	struct:bg_conn_msg
+sn	pub/header.h	/^	char	sn[64];$/;"	m	struct:bg_router_msg
+sn_add_warehouse_count	boss/server_mutual.c	/^int sn_add_warehouse_count = SN_HOUSE_NUM;$/;"	v
+sn_add_warehouse_thread	boss/server_mutual.c	/^void* sn_add_warehouse_thread(void *fd){$/;"	f
+sn_del_warehouse_count	boss/server_mutual.c	/^int sn_del_warehouse_count = SN_HOUSE_NUM;$/;"	v
+sn_del_warehouse_thread	boss/server_mutual.c	/^void* sn_del_warehouse_thread(void *fd){$/;"	f
+sock_list	acac/acac_header.h	/^typedef struct sock_list {$/;"	s
+sock_list	acac/acac_header.h	/^}sock_list;$/;"	t	typeref:struct:sock_list
+sock_list	authenticate/auth_header.h	/^typedef struct sock_list {$/;"	s
+sock_list	authenticate/auth_header.h	/^}sock_list;$/;"	t	typeref:struct:sock_list
+sock_list	gac/gac_header.h	/^typedef struct sock_list {$/;"	s
+sock_list	gac/gac_header.h	/^}sock_list;$/;"	t	typeref:struct:sock_list
+sock_list	management/ac_header.h	/^typedef struct sock_list {$/;"	s
+sock_list	management/ac_header.h	/^}sock_list;$/;"	t	typeref:struct:sock_list
+socket_php	pub/header.h	/^	__u32 socket_php;		\/\/ PHP socket,请不要改变，原来$/;"	m	struct:ac_proxy_st
+sockfd	acac/acac_header.h	/^	int					sockfd;$/;"	m	struct:sock_list
+sockfd	authenticate/auth_header.h	/^	int					sockfd;				\/\/ socket连接$/;"	m	struct:sock_list
+sockfd	boss/boss_header.h	/^	int					sockfd;$/;"	m	struct:guide_node
+sockfd	gac/gac_header.h	/^	int					sockfd;$/;"	m	struct:sock_list
+sockfd	guide/guide_header.h	/^	int					sockfd;$/;"	m	struct:authenticate_node
+sockfd	management/ac_header.h	/^	int					sockfd;$/;"	m	struct:sock_list
+socklist_id_call_all	authenticate/router.c	/^int inline socklist_id_call_all(__u32 id, sock_list* sock){$/;"	f
+socklist_rid_call_all	acac/router.c	/^int inline socklist_rid_call_all(unsigned int rid, sock_list *sock)$/;"	f
+socklist_rid_call_all	authenticate/router.c	/^int inline socklist_rid_call_all(__u32 rid, sock_list* sock){$/;"	f
+socklist_rid_call_all	management/router.c	/^int inline socklist_rid_call_all(unsigned int rid, sock_list *sock)$/;"	f
+socklist_shebeipkid_err	authenticate/router.c	/^void inline socklist_shebeipkid_err(int shebei_pkid){$/;"	f
+socklist_sid_call_all	authenticate/router.c	/^int inline socklist_sid_call_all(__u32 id, int num, sock_list* sock){$/;"	f
+socklist_sockfd_add	authenticate/router.c	/^void inline socklist_sockfd_add(__u32 rid, time_t last_heart_time, int heart_count){$/;"	f
+socklist_sockfd_err	acac/router.c	/^void inline socklist_sockfd_err(int sockfd)$/;"	f
+socklist_sockfd_err	authenticate/router.c	/^void inline socklist_sockfd_err(int sockfd){$/;"	f
+socklist_sockfd_err	gac/router.c	/^void inline socklist_sockfd_err(int sockfd)$/;"	f
+socklist_sockfd_err	management/router.c	/^void inline socklist_sockfd_err(int sockfd)$/;"	f
+socklist_sockfd_stat_call_all	acac/router.c	/^int inline socklist_sockfd_stat_call_all(int sockfd, sock_list* sock)$/;"	f
+speed	authenticate/auth_header.h	/^	__u32 speed[2];					\/\/ 速度控制， [0], 表示上行速度; [1], 表示下行速度$/;"	m	struct:user_msg_st
+speed_down	authenticate/auth_header.h	/^	unsigned int speed_down;    \/\/ 下传速度, 网络序, 单位KB\/S$/;"	m	struct:third_speed_st
+speed_up	authenticate/auth_header.h	/^	unsigned int speed_up;      \/\/ 上传速度, 网络序, 单位KB\/S$/;"	m	struct:third_speed_st
+sql_err	pub/header.h	/^	SQLLEN		sql_err;$/;"	m	struct:wt_sql_handle
+sql_mlen	pub/header.h	/^	SQLSMALLINT	sql_mlen;$/;"	m	struct:wt_sql_handle
+sql_name	pub/pool.c	/^	char			sql_name[32];			\/\/ 数据库名$/;"	m	struct:__anon4	file:
+sql_pass	pub/pool.c	/^	char			sql_pass[32];			\/\/ 数据库登陆密码$/;"	m	struct:__anon4	file:
+sql_ret	pub/header.h	/^	SQLRETURN	sql_ret;$/;"	m	struct:wt_sql_handle
+sql_stat	pub/header.h	/^	char		sql_stat[12];					\/\/ Status SQL$/;"	m	struct:wt_sql_handle
+sql_str	pub/header.h	/^	char		sql_str[1024];$/;"	m	struct:wt_sql_handle
+sql_user	pub/pool.c	/^	char			sql_user[32];			\/\/ 数据库登陆用户名$/;"	m	struct:__anon4	file:
+sqlstr_handle	pub/header.h	/^	SQLHSTMT	sqlstr_handle;					\/\/ 数据库执行语句句柄$/;"	m	struct:wt_sql_handle
+srv_seq	pub/header.h	/^	__u32	srv_seq;				\/\/ 服务器产生的随机数,用于加密、预防copy 攻击$/;"	m	struct:cer_msg_st
+srv_seq	pub/header.h	/^	int srv_seq;$/;"	m	struct:random_pair
+srv_type	pub/header.h	/^	__u8	srv_type;				\/\/ 连接服务器的类型,1: 引导服务器；2: 认证服务器,可参考enum srv_type$/;"	m	struct:cer_msg_st
+srv_type	pub/header.h	/^enum srv_type {$/;"	g
+srv_type_auth	pub/header.h	/^	srv_type_auth,					\/\/2 认证服务器$/;"	e	enum:srv_type
+srv_type_main	pub/header.h	/^	srv_type_main,					\/\/1 引导服务器$/;"	e	enum:srv_type
+srv_type_max	pub/header.h	/^	srv_type_max,$/;"	e	enum:srv_type
+srv_type_unknown	pub/header.h	/^	srv_type_unknown = 0,$/;"	e	enum:srv_type
+ssid	authenticate/auth_header.h	/^	unsigned char ssid[32];					\/\/SSID, 无论配置为GB2312还是UTF-8, 传入时, 都必须为GB2312$/;"	m	struct:wifi_base_list_st
+ssid	pub/header.h	/^	__u8 ssid[32];			\/\/ SSID$/;"	m	struct:ac_ap_wifi_base_list_st
+ssid_charset	authenticate/auth_header.h	/^	unsigned char ssid_charset;				\/\/SSID编码,0:GB2312,1:UTF-8$/;"	m	struct:wifi_base_list_st
+ssid_charset	pub/header.h	/^	__u8 ssid_charset:4;	\/\/ SSID编码,0:GB2312,1:UTF-8$/;"	m	struct:ac_ap_wifi_base_list_st
+ssid_num	pub/header.h	/^	__u8 ssid_num;								\/\/ SSID数$/;"	m	struct:ac_ap_wifi_base_conf_st
+start_ipaddr	pub/header.h	/^	__u32 start_ipaddr;		\/\/ 开始IP地址(网络字节序)$/;"	m	struct:ac_ap_dhcp_conf_st
+stat	acac/acac_header.h	/^	int					stat;						\/\/ 1 需要添加监听 0 已添加 -1 需要删除$/;"	m	struct:sock_list
+stat	authenticate/auth_header.h	/^	int					stat;				\/\/ 1 需要添加监听 0 已添加 -1 需要删除$/;"	m	struct:sock_list
+stat	boss/boss_header.h	/^	int					stat;				\/\/ 1 需要添加监听 0 已添加 -1 需要删除$/;"	m	struct:guide_node
+stat	gac/gac_header.h	/^	int					stat;						\/\/ 1 需要添加监听 0 已添加 -1 需要删除$/;"	m	struct:sock_list
+stat	guide/guide_header.h	/^	int					stat;				\/\/1 需要添加监听 0 已添加 -1 需要删除$/;"	m	struct:authenticate_node
+stat	management/ac_header.h	/^	int					stat;						\/\/ 1 需要添加监听 0 已添加 -1 需要删除$/;"	m	struct:sock_list
+state	authenticate/auth_header.h	/^	unsigned short state;				\/\/ 功能状态开关, 1,开启, 其它关闭	, 网络序$/;"	m	struct:monitor_set_st
+state	pub/header.h	/^	__u32   state;						\/\/ 状态,2:成功，3为失败，服务器下发配置参数时客户端回应$/;"	m	struct:ac_state_st
+state	pub/header.h	/^	__u8	state;						\/\/ 7..表示成功，其他需要取 msg 看错误信息。$/;"	m	struct:ac_login_st
+stmp_start	stmp/main.c	/^int stmp_start()$/;"	f
+string	pub/cJSON.h	/^	char *string;				\/* The item's name string, if this item is the child of, or is in the list of subitems of an object. *\/$/;"	m	struct:cJSON
+string2x	authenticate/utils.c	/^void string2x(__u8* mac, const char* sql_mac, int size){$/;"	f
+suffix_object	pub/cJSON.c	/^static void suffix_object(cJSON *prev,cJSON *item) {prev->next=item;item->prev=prev;}$/;"	f	file:
+swap	guide/guide_header.h	/^	unsigned int swap;$/;"	m	struct:authenticate_node
+swap	guide/guide_header.h	/^	unsigned int swap;$/;"	m	struct:authenticate_stat
+swap	pub/header.h	/^	unsigned int swap;$/;"	m	struct:ag_msg_stat
+tags	pub/header.h	/^	unsigned char	tags[16];		\/\/ 校验和，全包检验$/;"	m	struct:ac_head_st
+tel	pub/header.h	/^		char			tel[32];$/;"	m	struct:bg_shanghu_msg::bg_shanghu_node
+tel	pub/header.h	/^	__u8  tel[32];					\/\/ 联系电话$/;"	m	struct:ac_base_info_st
+test_process	test/main.c	/^int test_process()$/;"	f
+tfree_thread	boss/time_task.c	/^void* tfree_thread(void *fd)$/;"	f
+tfree_thread	probe/probe.c	/^void* tfree_thread(void *fd)$/;"	f
+third_conn_thread	guide/server_mutual.c	/^void* third_conn_thread(void *fd){$/;"	f
+third_id	pub/header.h	/^	__u8	third_id[64];			\/\/ 保留字段,可根据需要解释其意义,比如用于第三方认证服务器生成的ID$/;"	m	struct:msg_head_st
+third_process	guide/server_mutual.c	/^void* third_process(void* fd)$/;"	f
+third_qq_msg_st	authenticate/auth_header.h	/^typedef struct third_qq_msg_st$/;"	s
+third_qq_msg_st	authenticate/auth_header.h	/^}third_qq_msg_st;$/;"	t	typeref:struct:third_qq_msg_st
+third_speed_st	authenticate/auth_header.h	/^typedef struct third_speed_st$/;"	s
+third_speed_st	authenticate/auth_header.h	/^}third_speed_st;$/;"	t	typeref:struct:third_speed_st
+third_user_qos_msg_st	authenticate/auth_header.h	/^typedef struct third_user_qos_msg_st$/;"	s
+third_user_qos_msg_st	authenticate/auth_header.h	/^}third_user_qos_msg_st;$/;"	t	typeref:struct:third_user_qos_msg_st
+thread_adjust_num	pub/pool.c	/^	int				thread_adjust_num;		\/\/ 线程调整数量$/;"	m	struct:__anon4	file:
+thread_max_num	pub/pool.c	/^	int				thread_max_num;			\/\/ 线程最大数量$/;"	m	struct:__anon4	file:
+thread_min_num	pub/pool.c	/^	int				thread_min_num;			\/\/ 线程最小数量$/;"	m	struct:__anon4	file:
+thread_min_sn	pub/pool.c	/^	int				thread_min_sn;			\/\/ 线程池最小线程编号$/;"	m	struct:__anon4	file:
+thread_num	pub/pool.c	/^	int				thread_num;				\/\/ 当前运行的线程池数量$/;"	m	struct:__anon4	file:
+thread_real_num	pub/pool.c	/^	int				thread_real_num;		\/\/ 实际线程数量$/;"	m	struct:__anon4	file:
+thread_routine	pub/pool.c	/^void * thread_routine (void *arg)$/;"	f
+thread_sleep_num	pub/pool.c	/^	int				thread_sleep_num;		\/\/ 在睡觉的线程数量$/;"	m	struct:__anon4	file:
+time	authenticate/auth_header.h	/^	unsigned char time[64];			\/\/ 基于时间控制, 如果不设置时间默认传"OFF"$/;"	m	struct:mx_app_filter_st
+time	authenticate/auth_header.h	/^	unsigned char time[64];			\/\/ 基于时间控制, 如果不设置时间默认传"OFF"$/;"	m	struct:url_redirect_st
+time	authenticate/auth_header.h	/^	unsigned short time;				\/\/ 发送间隔时间, 网络序$/;"	m	struct:monitor_set_st
+time	probe/probe.c	/^	unsigned short       time;			\/\/ 间隔时间，（ms）暂时不用, 网络序$/;"	m	struct:wifi_monitor_data_head	file:
+time	pub/header.h	/^	__u32	time;					\/\/ 路由器与认证服务器间的心跳时间,单位秒,默认为30秒$/;"	m	struct:cer_msg_st
+timeout	authenticate/auth_header.h	/^	unsigned short timeout;				\/\/ 客户端超时时间, 网络序$/;"	m	struct:monitor_set_st
+timing_restart_thread	authenticate/time_task.c	/^void* timing_restart_thread(void *fd)$/;"	f
+total_mem	guide/guide_header.h	/^	unsigned int total_mem;					\/\/总内存$/;"	m	struct:authenticate_node
+total_mem	guide/guide_header.h	/^	unsigned int total_mem;					\/\/总内存$/;"	m	struct:authenticate_stat
+total_mem	pub/header.h	/^	unsigned int total_mem;$/;"	m	struct:ag_msg_stat
+total_num	pub/header.h	/^	int		total_num;			\/\/ 总数量$/;"	m	struct:bg_num_msg
+type	authenticate/auth_header.h	/^	int type;      \/*1重启, 其它错误, 网络序*\/$/;"	m	struct:reboot_msg_st
+type	probe/probe.c	/^	unsigned char  type;			\/\/ 终端类型，是MU还是AP或其他Tag$/;"	m	struct:wifi_monitor_client_st	file:
+type	pub/cJSON.h	/^	int type;					\/* The type of the item, as above. *\/$/;"	m	struct:cJSON
+type	pub/header.h	/^	__u32 type;						\/\/ 设备类型0.. 网吧,1..企业，2..小区3..KTV ，4..咖啡厅，5..公共场所，6..运营机构，7..酒店，8..连锁,9..酒吧$/;"	m	struct:ac_base_info_st
+type	pub/header.h	/^	char	type[15];$/;"	m	struct:bg_router_msg
+unuse_num	pub/header.h	/^		unsigned short	unuse_num;$/;"	m	struct:bg_shanghu_msg::bg_shanghu_node
+update_aplist	acac/router.c	/^int update_aplist(ac_state_st *msg, sock_list *sock, wt_sql_handle* handle)$/;"	f
+upgrade_addr	authenticate/auth_header.h	/^typedef struct upgrade_addr{$/;"	s
+upgrade_addr	authenticate/auth_header.h	/^}upgrade_addr;$/;"	t	typeref:struct:upgrade_addr
+upurl	pub/header.h	/^		char			upurl[128];$/;"	m	struct:bg_rts_msg::bg_rt_node
+url	authenticate/auth_header.h	/^	unsigned char  url[0];   \/*URL *\/    $/;"	m	struct:usb_simple_cache_st
+url	authenticate/auth_header.h	/^	unsigned char url[64];			\/\/ 目录网页(URL)	$/;"	m	struct:url_redirect_st
+url	sauthenticate/sauth_header.h	/^	char				url[ GUIDE_URL_LEN ];			\/\/ 代理商引导服务器地址$/;"	m	struct:guide_node
+url_data	authenticate/auth_header.h	/^	__u8  url_data[0];								\/\/ 域名白名单，域名间以分号分隔 最长4096， 最多64个$/;"	m	struct:white_dns_msg_st
+url_data	authenticate/auth_header.h	/^	unsigned char  url_data[0];							\/\/ 升级地址$/;"	m	struct:auto_upgrade_msg_st
+url_data	authenticate/auth_header.h	/^	unsigned char  url_data[0];							\/\/ 缓存地址, 格式"http:\/\/www.url.com<http:\/\/www.url.com\/<http:\/\/www.url.com\/xxx.jpg<http:\/\/www.url.com\/123?456<"$/;"	m	struct:simple_cache_msg_st
+url_data	pub/header.h	/^	__u8	url_data[0];			\/\/ 域名白名单,域名间以分号分隔$/;"	m	struct:cer_msg_st
+url_flag	authenticate/auth_header.h	/^	unsigned char url_flag[4];		\/\/ 目录网页(URL)选项,    字符串"0", 全部, "1", 相同, "2", 前相同$/;"	m	struct:url_redirect_st
+url_len	authenticate/auth_header.h	/^	__u16 url_len;										\/\/ 域名白名单长度$/;"	m	struct:white_dns_msg_st
+url_len	authenticate/auth_header.h	/^	unsigned short url_len;								\/\/ 升级地址长度$/;"	m	struct:auto_upgrade_msg_st
+url_len	authenticate/auth_header.h	/^	unsigned short url_len;								\/\/ 缓存地址总长度, 不超过2048$/;"	m	struct:simple_cache_msg_st
+url_len	pub/header.h	/^	__u16	url_len;				\/\/ 域名白名单长度$/;"	m	struct:cer_msg_st
+url_redirect_st	authenticate/auth_header.h	/^typedef struct url_redirect_st$/;"	s
+url_redirect_st	authenticate/auth_header.h	/^}url_redirect_st;$/;"	t	typeref:struct:url_redirect_st
+urlrd	authenticate/auth_header.h	/^	unsigned char urlrd[128];		\/\/ 重写向到	$/;"	m	struct:url_redirect_st
+usb_file_get_st	authenticate/auth_header.h	/^typedef struct usb_file_get_st$/;"	s
+usb_file_get_st	authenticate/auth_header.h	/^}usb_file_get_st;$/;"	t	typeref:struct:usb_file_get_st
+usb_simple_cache_st	authenticate/auth_header.h	/^typedef struct usb_simple_cache_st$/;"	s
+usb_simple_cache_st	authenticate/auth_header.h	/^}usb_simple_cache_st;$/;"	t	typeref:struct:usb_simple_cache_st
+use_num	pub/header.h	/^		unsigned short	use_num;$/;"	m	struct:bg_shanghu_msg::bg_shanghu_node
+used_mem	guide/guide_header.h	/^	unsigned int used_mem;					\/\/已使用内存$/;"	m	struct:authenticate_node
+used_mem	guide/guide_header.h	/^	unsigned int used_mem;					\/\/已使用内存$/;"	m	struct:authenticate_stat
+used_mem	pub/header.h	/^	unsigned int used_mem;$/;"	m	struct:ag_msg_stat
+user	pub/header.h	/^	struct ac_ap_user_st			user; $/;"	m	struct:ac_ap_conf_st	typeref:struct:ac_ap_conf_st::ac_ap_user_st
+userID	pub/header.h	/^	__u32   userID;						\/\/ 用户ID（代理商ID)$/;"	m	struct:ac_login_st
+user_auth	pub/header.h	/^	__u8 user_auth;								\/\/ 用户认证上网0:禁用,1:启用$/;"	m	struct:ac_ap_wifi_base_conf_st
+user_cmd_init_type	authenticate/auth_header.h	/^enum user_cmd_init_type {$/;"	g
+user_cmd_req_flow	authenticate/auth_header.h	/^	user_cmd_req_flow,				\/\/3 用户流量信息改变，服务器应根据流量的改变作出相应的处理$/;"	e	enum:user_cmd_req_type
+user_cmd_req_max	authenticate/auth_header.h	/^	user_cmd_req_max,$/;"	e	enum:user_cmd_req_type
+user_cmd_req_off	authenticate/auth_header.h	/^	user_cmd_req_off,				\/\/2 用户下线$/;"	e	enum:user_cmd_req_type
+user_cmd_req_on	authenticate/auth_header.h	/^	user_cmd_req_on,				\/\/1 用户上线$/;"	e	enum:user_cmd_req_type
+user_cmd_req_type	authenticate/auth_header.h	/^enum user_cmd_req_type {$/;"	g
+user_cmd_req_unknonw	authenticate/auth_header.h	/^	user_cmd_req_unknonw = 0,$/;"	e	enum:user_cmd_req_type
+user_cur_log_in	authenticate/auth_header.h	/^	user_cur_log_in,				\/\/1 用户上线$/;"	e	enum:user_cur_type
+user_cur_log_out	authenticate/auth_header.h	/^	user_cur_log_out,				\/\/2 用户下线$/;"	e	enum:user_cur_type
+user_cur_max	authenticate/auth_header.h	/^	user_cur_max,$/;"	e	enum:user_cur_type
+user_cur_type	authenticate/auth_header.h	/^enum user_cur_type {$/;"	g
+user_cur_unknown	authenticate/auth_header.h	/^	user_cur_unknown = 0,$/;"	e	enum:user_cur_type
+user_id	authenticate/auth_header.h	/^	__u8 user_id[64];				\/\/ 认证服务器回复用户的标识$/;"	m	struct:user_msg_st
+user_id	authenticate/auth_header.h	/^	unsigned char user_id[64];		\/\/ 主机IP地址范围可以为空,为空表示所有IP $/;"	m	struct:mx_app_filter_st
+user_init_max	authenticate/auth_header.h	/^	user_init_max,$/;"	e	enum:user_cmd_init_type
+user_init_pass	authenticate/auth_header.h	/^	user_init_pass,					\/\/1 直接通过$/;"	e	enum:user_cmd_init_type
+user_init_pj	authenticate/auth_header.h	/^	user_init_pj,					\/\/4 通过并跳转$/;"	e	enum:user_cmd_init_type
+user_init_reject	authenticate/auth_header.h	/^	user_init_reject,				\/\/2 阻止上网$/;"	e	enum:user_cmd_init_type
+user_init_rj	authenticate/auth_header.h	/^	user_init_rj,					\/\/3 阻止并跳转$/;"	e	enum:user_cmd_init_type
+user_init_unknown	authenticate/auth_header.h	/^	user_init_unknown = 0,$/;"	e	enum:user_cmd_init_type
+user_ip	authenticate/auth_header.h	/^	__u32 user_ip;					\/\/ 路由器发出的用户的IP$/;"	m	struct:user_msg_st
+user_manyou_time	authenticate/auth_header.h	/^	__u32				user_manyou_time;	\/\/ 用户漫游时间$/;"	m	struct:sock_list
+user_msg_st	authenticate/auth_header.h	/^typedef struct user_msg_st$/;"	s
+user_msg_st	authenticate/auth_header.h	/^}user_msg_st;$/;"	t	typeref:struct:user_msg_st
+user_name	authenticate/auth_header.h	/^	unsigned char user_name[32];		\/\/ 登录 用户名$/;"	m	struct:httpd_pwd_st
+user_num	authenticate/auth_header.h	/^	__u32 user_num;										\/\/ 在线用户数$/;"	m	struct:heart_msg_st
+user_num	pub/header.h	/^	__u32 user_num;				\/\/ (网络字节序) 当前用户数$/;"	m	struct:ac_ap_user_st
+user_result_fail	authenticate/auth_header.h	/^	user_result_fail,				\/\/2 路由器处理失败，失败的原因，需另作说明$/;"	e	enum:user_result_type
+user_result_max	authenticate/auth_header.h	/^	user_result_max,$/;"	e	enum:user_result_type
+user_result_succ	authenticate/auth_header.h	/^	user_result_succ,				\/\/1 路由器处理成功$/;"	e	enum:user_result_type
+user_result_type	authenticate/auth_header.h	/^enum user_result_type {$/;"	g
+user_result_unknown	authenticate/auth_header.h	/^	user_result_unknown = 0, $/;"	e	enum:user_result_type
+user_ssid_num	pub/header.h	/^	__u8  user_ssid_num[8];		\/\/ 每个SSID下的用户数$/;"	m	struct:ac_ap_user_st
+userid	boss/boss_header.h	/^	unsigned int		userid;$/;"	m	struct:guide_node
+valuedouble	pub/cJSON.h	/^	double valuedouble;			\/* The item's number, if type==cJSON_Number *\/$/;"	m	struct:cJSON
+valueint	pub/cJSON.h	/^	int valueint;				\/* The item's number, if type==cJSON_Number *\/$/;"	m	struct:cJSON
+valuestring	pub/cJSON.h	/^	char *valuestring;			\/* The item's string, if type==cJSON_String *\/$/;"	m	struct:cJSON
+ver	acac/acac_header.h	/^	unsigned int		ver;						\/\/ 版本$/;"	m	struct:sock_list
+ver	authenticate/auth_header.h	/^	__u8				ver;				\/\/ 版本,初始为1; 添加 third_id 后改为2, 目前为4 2.3没有设备序列号$/;"	m	struct:sock_list
+ver	management/ac_header.h	/^	unsigned int		ver;						\/\/ 版本$/;"	m	struct:sock_list
+ver	pub/header.h	/^	__u8	ver;					\/\/ 版本,初始为1; 添加 third_id 后改为2, 目前为4 2.3没有设备序列号$/;"	m	struct:msg_head_st
+ver	pub/header.h	/^	unsigned char	ver;			\/\/ 版本号（目前版本号为4）$/;"	m	struct:ac_head_st
+ver	pub/header.h	/^	unsigned char	ver;$/;"	m	struct:bg_msg_head
+version	authenticate/auth_header.h	/^	char	version[32];					\/\/ 最新版本号$/;"	m	struct:upgrade_addr
+version	authenticate/auth_header.h	/^	unsigned char version[32];		\/* 固件版本号:  FBM-220W-1.0.215*\/$/;"	m	struct:router_version_msg_st
+version	probe/probe.c	/^	unsigned char        version;		\/\/ 版本，目前用1$/;"	m	struct:wifi_monitor_data_head	file:
+version	pub/header.h	/^	char	version[16];$/;"	m	struct:bg_msg_head
+vlan_id	pub/header.h	/^	__u16 vlan_id;			\/\/ VLAN ID (网络字节序)$/;"	m	struct:ac_ap_base_conf_st
+vlan_name	pub/header.h	/^	__u8  vlan_name[32];	\/\/ VLAN 名称$/;"	m	struct:ac_ap_base_conf_st
+wds_mode	pub/header.h	/^	__u8 wds_mode;								\/\/ WDS模式，0:关闭,2:桥接模式,3:中继模式,4:自学习模式$/;"	m	struct:ac_ap_wifi_wds_conf_st
+web_keyword_st	authenticate/auth_header.h	/^typedef struct web_keyword_st$/;"	s
+web_keyword_st	authenticate/auth_header.h	/^}web_keyword_st;$/;"	t	typeref:struct:web_keyword_st
+web_port	pub/header.h	/^	__u16 web_port;			\/\/ web端口(网络字节序)$/;"	m	struct:ac_ap_base_conf_st
+week_statiscits	guide/time_task.c	/^int week_statiscits(wt_sql_handle *s1_handle, wt_sql_handle *s2_handle, wt_sql_handle *iud_handle, char* s_yesterday)$/;"	f
+weixin_flag	authenticate/auth_header.h	/^	__u8				weixin_flag;		\/\/ 微信白名单域名$/;"	m	struct:sock_list
+weixin_share_set_st	authenticate/auth_header.h	/^typedef struct weixin_share_set_st$/;"	s
+weixin_share_set_st	authenticate/auth_header.h	/^}weixin_share_set_st;$/;"	t	typeref:struct:weixin_share_set_st
+wep	authenticate/auth_header.h	/^		struct wep_key_st wep;$/;"	m	union:wifi_base_list_st::__anon1	typeref:struct:wifi_base_list_st::__anon1::wep_key_st
+wep	pub/header.h	/^ 		struct ac_wep_key_st wep;		$/;"	m	union:ac_ap_wifi_base_list_st::__anon2	typeref:struct:ac_ap_wifi_base_list_st::__anon2::ac_wep_key_st
+wep_key_st	authenticate/auth_header.h	/^struct wep_key_st$/;"	s
+white_dns_msg_st	authenticate/auth_header.h	/^typedef struct white_dns_msg_st$/;"	s
+white_dns_msg_st	authenticate/auth_header.h	/^}white_dns_msg_st;$/;"	t	typeref:struct:white_dns_msg_st
+wifi_base_conf_msg_st	authenticate/auth_header.h	/^typedef struct wifi_base_conf_msg_st$/;"	s
+wifi_base_conf_msg_st	authenticate/auth_header.h	/^}wifi_base_conf_msg_st;$/;"	t	typeref:struct:wifi_base_conf_msg_st
+wifi_base_info	pub/header.h	/^	struct ac_ap_wifi_base_conf_st	wifi_base_info;		\/\/ AP的无线基本信息$/;"	m	struct:ac_ap_conf_st	typeref:struct:ac_ap_conf_st::ac_ap_wifi_base_conf_st
+wifi_base_list_st	authenticate/auth_header.h	/^struct wifi_base_list_st$/;"	s
+wifi_channel	authenticate/auth_header.h	/^	unsigned char wifi_channel;				\/\/频道$/;"	m	struct:wifi_base_conf_msg_st
+wifi_enable	authenticate/auth_header.h	/^	unsigned char wifi_enable;				\/\/无线开关1:开启,0:关闭$/;"	m	struct:wifi_base_conf_msg_st
+wifi_isolated	authenticate/auth_header.h	/^	unsigned char wifi_isolated;			\/\/AP 隔离0:禁用,1:启用$/;"	m	struct:wifi_base_conf_msg_st
+wifi_mode	authenticate/auth_header.h	/^	unsigned char wifi_mode;				\/\/网络模式0:11b\/g 混合,1:仅支持11b,4:仅支持11g,9:11b\/g\/n混合,6:仅支持11n(2.4G) ,7:11g\/n混合$/;"	m	struct:wifi_base_conf_msg_st
+wifi_monitor_client_st	probe/probe.c	/^typedef struct wifi_monitor_client_st$/;"	s	file:
+wifi_monitor_client_st	probe/probe.c	/^}wifi_monitor_client_st;$/;"	t	typeref:struct:wifi_monitor_client_st	file:
+wifi_monitor_data_head	probe/probe.c	/^typedef struct wifi_monitor_data_head$/;"	s	file:
+wifi_monitor_data_head	probe/probe.c	/^}wifi_monitor_data_head;$/;"	t	typeref:struct:wifi_monitor_data_head	file:
+wifi_pad	authenticate/auth_header.h	/^	unsigned char wifi_pad;					\/\/填充$/;"	m	struct:wifi_base_conf_msg_st
+wifi_rssi_down	authenticate/auth_header.h	/^	char wifi_rssi_down;					\/\/信号低于阀值主动踢下线$/;"	m	struct:wifi_base_conf_msg_st
+wifi_ssid_num	authenticate/auth_header.h	/^	unsigned char wifi_ssid_num;			\/\/SSID数$/;"	m	struct:wifi_base_conf_msg_st
+wifi_txpower	authenticate/auth_header.h	/^	unsigned char wifi_txpower;				\/\/无线发射功率$/;"	m	struct:wifi_base_conf_msg_st
+wifi_wds_info	pub/header.h	/^	struct ac_ap_wifi_wds_conf_st	wifi_wds_info;		\/\/ AP的WDS信息$/;"	m	struct:ac_ap_conf_st	typeref:struct:ac_ap_conf_st::ac_ap_wifi_wds_conf_st
+worker	pub/pool.c	/^typedef struct worker$/;"	s	file:
+wpa	authenticate/auth_header.h	/^		struct wpa_key_st wpa;$/;"	m	union:wifi_base_list_st::__anon1	typeref:struct:wifi_base_list_st::__anon1::wpa_key_st
+wpa	pub/header.h	/^		struct ac_wpa_key_st wpa;$/;"	m	union:ac_ap_wifi_base_list_st::__anon2	typeref:struct:ac_ap_wifi_base_list_st::__anon2::ac_wpa_key_st
+wpa_key_st	authenticate/auth_header.h	/^struct wpa_key_st$/;"	s
+wt_close_sock	pub/net.c	/^void wt_close_sock(int *sock)$/;"	f
+wt_recv_block	pub/net.c	/^int wt_recv_block(int sock, unsigned char *buf, int len\/*, int block_flag*\/)$/;"	f
+wt_send_block	pub/net.c	/^int wt_send_block(int sock, unsigned char *buf, int len)$/;"	f
+wt_setblocking	pub/net.c	/^int inline wt_setblocking(int sockfd)$/;"	f
+wt_setnonblocking	pub/net.c	/^int inline wt_setnonblocking(int sockfd)$/;"	f
+wt_sock_init	pub/net.c	/^int wt_sock_init(int *sockfd, int port, int listen_num)$/;"	f
+wt_sql_destroy	pub/sql.c	/^void wt_sql_destroy(wt_sql_handle *handle)$/;"	f
+wt_sql_exec	pub/sql.c	/^int inline wt_sql_exec(wt_sql_handle *handle)$/;"	f
+wt_sql_get_gg	authenticate/exec_sql.c	/^int wt_sql_get_gg(wt_sql_handle* handle)$/;"	f
+wt_sql_get_gg2	authenticate/exec_sql.c	/^int wt_sql_get_gg2(wt_sql_handle* handle)$/;"	f
+wt_sql_get_other	authenticate/exec_sql.c	/^int wt_sql_get_other(wt_sql_handle* handle)$/;"	f
+wt_sql_get_upurl	authenticate/exec_sql.c	/^int wt_sql_get_upurl(wt_sql_handle* handle)$/;"	f
+wt_sql_get_weixin	authenticate/exec_sql.c	/^int wt_sql_get_weixin(wt_sql_handle* handle)$/;"	f
+wt_sql_get_white	authenticate/exec_sql.c	/^int wt_sql_get_white(wt_sql_handle* handle)$/;"	f
+wt_sql_handle	pub/header.h	/^typedef struct wt_sql_handle{$/;"	s
+wt_sql_handle	pub/header.h	/^}wt_sql_handle;$/;"	t	typeref:struct:wt_sql_handle
+wt_sql_heart	authenticate/exec_sql.c	/^int wt_sql_heart(wt_sql_handle *handle, __u32 shebei_id, __u32 tupdatelist, __u32 user_manyou_time)$/;"	f
+wt_sql_init	pub/sql.c	/^int wt_sql_init(wt_sql_handle *handle, char* sql_name, char* sql_user, char* sql_pass)$/;"	f
+wt_sql_reboot_res_succ	authenticate/exec_sql.c	/^int wt_sql_reboot_res_succ(wt_sql_handle *handle, __u32 shebei_pkid)$/;"	f
+wt_sql_result	authenticate/exec_sql.c	/^int wt_sql_result(wt_sql_handle *handle, msg_head_st *msg_head, user_msg_st *msg)$/;"	f
+wt_sql_speed_insert	authenticate/exec_sql.c	/^int wt_sql_speed_insert(wt_sql_handle *handle, third_speed_st *msg, __u32 shebei_pkid, __u32 shanghu_id)$/;"	f
+wt_sql_third_qq	authenticate/exec_sql.c	/^int wt_sql_third_qq(wt_sql_handle *handle, msg_head_st *msg_head, third_qq_msg_st *msg, __u32 shebei_pkid)$/;"	f
+wt_sql_user_off	authenticate/exec_sql.c	/^int wt_sql_user_off(wt_sql_handle *handle, msg_head_st *msg_head, user_msg_st *msg, __u32 user_manyou_time)$/;"	f
+wt_sql_user_off_process	authenticate/exec_sql.c	/^int wt_sql_user_off_process(wt_sql_handle *handle, unsigned int shang_pkid, int flag, unsigned int user_manyou_time, unsigned int bw_up, unsigned int bw_down)$/;"	f
+wt_sql_user_on_after_half	authenticate/exec_sql.c	/^int wt_sql_user_on_after_half(wt_sql_handle *handle, __u32 shebei_id, __u32 shanghu_id, __u32 user_manyou_time, __u32 shangmac_id, __u32 mac_id, __u32 user_ret)$/;"	f
+wt_sql_user_on_first_half	authenticate/exec_sql.c	/^unsigned int wt_sql_user_on_first_half(wt_sql_handle *handle, msg_head_st *msg_head, user_msg_st *msg,$/;"	f
+wt_sql_version_refresh	authenticate/exec_sql.c	/^int wt_sql_version_refresh(wt_sql_handle *handle, char *version, __u32 shebei_pkid)$/;"	f
+wt_sql_wireless_config	authenticate/exec_sql.c	/^int wt_sql_wireless_config(wt_sql_handle *handle, msg_head_st *msg_head, wifi_base_conf_msg_st *msg, __u32 shebei_pkid, __u32 shanghuid, int flag_of_5g)$/;"	f
+xinghaoid	authenticate/auth_header.h	/^	__u32				xinghaoid;			\/\/ 设备型号$/;"	m	struct:sock_list
+xyprintf	pub/logs.c	/^int xyprintf(int err_no, char* format, ...)$/;"	f
+xyprintf_ac_head	pub/ac_utils.c	/^void xyprintf_ac_head(ac_head_st* msg)$/;"	f
+xyprintf_ac_login	pub/ac_utils.c	/^void xyprintf_ac_login(ac_login_st* msg)$/;"	f
+xyprintf_ac_proxy	pub/ac_utils.c	/^void xyprintf_ac_proxy(ac_proxy_st* msg)$/;"	f
+xyprintf_ac_state	pub/ac_utils.c	/^void xyprintf_ac_state(ac_state_st* msg)$/;"	f
+xyprintf_addr_set	pub/utils.c	/^void xyprintf_addr_set(addr_set_st* msg)$/;"	f
+xyprintf_auto_upgrade	authenticate/utils.c	/^void inline xyprintf_auto_upgrade(auto_upgrade_msg_st *msg)$/;"	f
+xyprintf_auto_upgrade_result	authenticate/utils.c	/^void inline xyprintf_auto_upgrade_result(auto_upgrade_result_st* msg)$/;"	f
+xyprintf_bg_msg_head	pub/utils.c	/^void xyprintf_bg_msg_head(bg_msg_head *msg)$/;"	f
+xyprintf_bg_num_msg	pub/utils.c	/^void xyprintf_bg_num_msg(bg_num_msg *msg)$/;"	f
+xyprintf_bg_router_msg	pub/utils.c	/^void xyprintf_bg_router_msg(bg_router_msg *msg)$/;"	f
+xyprintf_cer_msg_head	pub/utils.c	/^void inline xyprintf_cer_msg_head(cer_msg_st *msg)$/;"	f
+xyprintf_dns_msg_head	authenticate/utils.c	/^void inline xyprintf_dns_msg_head(white_dns_msg_st *msg)$/;"	f
+xyprintf_domain_redirect	authenticate/utils.c	/^void xyprintf_domain_redirect(domain_redirect_st* msg)$/;"	f
+xyprintf_heart_msg_head	authenticate/utils.c	/^void inline xyprintf_heart_msg_head(heart_msg_st *msg)$/;"	f
+xyprintf_http_pw_st	authenticate/utils.c	/^void xyprintf_http_pw_st(httpd_pwd_st* msg)$/;"	f
+xyprintf_monitor_set_st	authenticate/utils.c	/^void xyprintf_monitor_set_st(monitor_set_st* msg)$/;"	f
+xyprintf_msg_head	pub/utils.c	/^void inline xyprintf_msg_head(msg_head_st *msg_head)$/;"	f
+xyprintf_mx_app_filter_st	authenticate/utils.c	/^void xyprintf_mx_app_filter_st(mx_app_filter_st* msg)$/;"	f
+xyprintf_qos_msg_st	authenticate/utils.c	/^void xyprintf_qos_msg_st(third_user_qos_msg_st* msg)$/;"	f
+xyprintf_result	authenticate/utils.c	/^void inline xyprintf_result(result_msg_st *msg)$/;"	f
+xyprintf_simple_cache_msg_st	authenticate/utils.c	/^void xyprintf_simple_cache_msg_st(simple_cache_msg_st* msg)$/;"	f
+xyprintf_simple_gg2_head_st	authenticate/utils.c	/^void xyprintf_simple_gg2_head_st(simple_gg2_head_st* msg)$/;"	f
+xyprintf_simple_gg_head	authenticate/utils.c	/^void inline xyprintf_simple_gg_head(simple_gg_msg_st *msg)$/;"	f
+xyprintf_speed_st	authenticate/utils.c	/^void xyprintf_speed_st(third_speed_st* msg)$/;"	f
+xyprintf_third_qq_head	authenticate/utils.c	/^void inline xyprintf_third_qq_head(third_qq_msg_st *msg)$/;"	f
+xyprintf_url_redirect_st	authenticate/utils.c	/^void xyprintf_url_redirect_st(url_redirect_st* msg)$/;"	f
+xyprintf_usb_file_get	authenticate/utils.c	/^void xyprintf_usb_file_get(usb_file_get_st* msg)$/;"	f
+xyprintf_usb_simple_cache_st	authenticate/utils.c	/^void xyprintf_usb_simple_cache_st(usb_simple_cache_st* msg)$/;"	f
+xyprintf_user_msg_head	authenticate/utils.c	/^void inline xyprintf_user_msg_head(user_msg_st *msg)$/;"	f
+xyprintf_web_keyword_st	authenticate/utils.c	/^void xyprintf_web_keyword_st(web_keyword_st* msg)$/;"	f
+xyprintf_weixin_share_set	authenticate/utils.c	/^void xyprintf_weixin_share_set(weixin_share_set_st* msg)$/;"	f
+xyprintf_wt_wifi_base_conf_so	authenticate/utils.c	/^void xyprintf_wt_wifi_base_conf_so(wifi_base_conf_msg_st* msg)$/;"	f
+yesterday	pub/header.h	/^	char		 yesterday[16];$/;"	m	struct:bg_daily_msg
+zuobiao	pub/header.h	/^		char			zuobiao[32];$/;"	m	struct:bg_shanghu_msg::bg_shanghu_node
